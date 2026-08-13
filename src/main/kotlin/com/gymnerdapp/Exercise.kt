@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Exercise(
     val id: String,
-    val imageId: Int,
+    val imageId: String,
     val name: String,
     val namePT: String,
     val type: ExerciseType,

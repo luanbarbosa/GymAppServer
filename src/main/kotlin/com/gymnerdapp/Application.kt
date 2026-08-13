@@ -25,7 +25,9 @@ private fun sha256Hex(input: String): String {
 fun Application.module() {
     val exercisesJson = File("data/exercises.json").readText()
     val exercises = Json.decodeFromString<List<Exercise>>(exercisesJson)
+    val exerciseResponses = exercises.map { it.toResponse() }
     val catalogEtag = "\"" + sha256Hex(exercisesJson) + "\""
+    val imageStorage: ImageStorage = LocalImageStorage(File("data/images"))
 
     install(ContentNegotiation) {
         json()
@@ -41,7 +43,16 @@ fun Application.module() {
                 call.respond(HttpStatusCode.NotModified)
                 return@get
             }
-            call.respond(exercises)
+            call.respond(exerciseResponses)
+        }
+        get("/images/{imageId}") {
+            val imageId = call.parameters["imageId"]
+            val image = imageId?.let { imageStorage.resolve(it) }
+            if (image == null) {
+                call.respond(HttpStatusCode.NotFound)
+                return@get
+            }
+            call.respondBytes(image.bytes, image.contentType)
         }
     }
 }
