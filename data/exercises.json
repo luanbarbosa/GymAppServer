@@ -5,7 +5,11 @@
     "legacyImageId": 1,
     "name": "Sled 45 degrees",
     "namePT": "Leg press 45 graus",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "8652c815-9e52-4e70-8959-cf35748da65d",
@@ -13,7 +17,11 @@
     "legacyImageId": 2,
     "name": "Lever leg extension",
     "namePT": "Cadeira extensora",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "749732d6-43fc-4ada-a29e-e2c6d3450d38",
@@ -21,7 +29,11 @@
     "legacyImageId": 3,
     "name": "Lever seated calf raise",
     "namePT": "Panturrilha sentada na máquina",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "a4ed6947-3290-4848-b02d-1214d596b7b2",
@@ -29,7 +41,11 @@
     "legacyImageId": 4,
     "name": "Cable donkey kickback",
     "namePT": "Coice de glúteo",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "49cdc1be-e9b1-45c3-8a16-01700bcc6d1e",
@@ -37,7 +53,11 @@
     "legacyImageId": 5,
     "name": "Lunge smith machine",
     "namePT": "Afundo no Smith",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "c95b7085-96d2-434b-beeb-3a8281d03db4",
@@ -45,7 +65,11 @@
     "legacyImageId": 6,
     "name": "Lever seated hip abduction",
     "namePT": "Abdução de quadril na máquina",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "a387014f-0bbc-4786-b0f8-44262e19157d",
@@ -53,7 +77,11 @@
     "legacyImageId": 7,
     "name": "Barbell incline bench press",
     "namePT": "Supino inclinado com barra",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "325eb667-a407-4251-a9e5-da4808090946",
@@ -61,7 +89,11 @@
     "legacyImageId": 8,
     "name": "Dumbbell incline bench press",
     "namePT": "Supino inclinado com halteres",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "72f0e3e9-91bd-4707-aff3-f5d8d5d027cb",
@@ -69,7 +101,11 @@
     "legacyImageId": 9,
     "name": "Barbell bench press",
     "namePT": "Supino reto com barra",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "258d81b9-b46f-4d83-95d1-0474ca8e2995",
@@ -77,7 +113,11 @@
     "legacyImageId": 10,
     "name": "Dumbbell bench press",
     "namePT": "Supino reto com halteres",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "69c5b288-f0b4-4b38-b0f5-b925ea0a5fbb",
@@ -85,7 +125,11 @@
     "legacyImageId": 11,
     "name": "Lever seated fly",
     "namePT": "Crucifixo na máquina",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "05babf40-e2f1-493e-b2a9-0d7de05d7d3e",
@@ -93,7 +137,11 @@
     "legacyImageId": 12,
     "name": "Lever chest press (plate loaded)",
     "namePT": "Supino na máquina com anilhas",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "983c98a6-b5ae-4e49-a352-199910e5eb02",
@@ -101,7 +149,11 @@
     "legacyImageId": 13,
     "name": "Cable low fly",
     "namePT": "Crucifixo no cabo baixo",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "a87d0b21-21cd-492b-b1ab-eec37172e856",
@@ -109,7 +161,11 @@
     "legacyImageId": 14,
     "name": "EZ barbell curl",
     "namePT": "Bíceps barra w",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "82516e26-6a25-4a1d-b2cb-a648ef04ae94",
@@ -117,7 +173,11 @@
     "legacyImageId": 15,
     "name": "Cable overhead triceps extension (rope)",
     "namePT": "Extensão de tríceps acima da cabeça no cabo",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "a6251f77-41a9-4c2c-83ee-984fa68aa3b3",
@@ -125,7 +185,11 @@
     "legacyImageId": 16,
     "name": "Cable triceps pushdown (rope)",
     "namePT": "Tríceps no pulley com corda",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "4b23025e-a66f-4f60-a4d3-ae89a1a5ec98",
@@ -133,7 +197,11 @@
     "legacyImageId": 17,
     "name": "Dumbbell hammer curl",
     "namePT": "Rosca martelo com halteres",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "563061a0-fcf0-4745-bac5-01c021abc416",
@@ -141,7 +209,11 @@
     "legacyImageId": 18,
     "name": "Dumbbell incline hammer curl",
     "namePT": "Rosca martelo inclinada com halteres",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "67465881-f7b5-4173-a1d8-c38469e929fa",
@@ -149,7 +221,11 @@
     "legacyImageId": 19,
     "name": "Lever biceps curl",
     "namePT": "Rosca bíceps na máquina",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "c05a0316-b092-4e60-8e1d-127869778fcc",
@@ -157,7 +233,11 @@
     "legacyImageId": 20,
     "name": "Cable one arms lateral raise",
     "namePT": "Elevação lateral unilateral no cabo",
-    "type": "SHOULDERS"
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "8416b088-ceab-4986-8604-e76b8ed245d2",
@@ -165,7 +245,11 @@
     "legacyImageId": 21,
     "name": "Dumbbell seated shoulder press",
     "namePT": "Desenvolvimento sentado com halteres",
-    "type": "SHOULDERS"
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "7569c167-88bc-48a3-9acb-1541664c4f21",
@@ -173,7 +257,11 @@
     "legacyImageId": 22,
     "name": "Dumbbell seated lateral raise",
     "namePT": "Elevação lateral sentada com halteres",
-    "type": "SHOULDERS"
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "dbc7107c-6226-410f-b824-73d1d787ef3d",
@@ -181,7 +269,11 @@
     "legacyImageId": 23,
     "name": "Lever seated shoulder press",
     "namePT": "Desenvolvimento sentado na máquina",
-    "type": "SHOULDERS"
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "91a4bdbf-896c-4f96-8c8d-42c6f7c0054a",
@@ -189,7 +281,11 @@
     "legacyImageId": 24,
     "name": "Cable bar lateral pulldown",
     "namePT": "Puxada lateral no pulley",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "95b88058-0660-45f1-879a-ca9dd3bb3855",
@@ -197,7 +293,11 @@
     "legacyImageId": 25,
     "name": "Seated row",
     "namePT": "Remada baixa sentada",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "897897c3-4b80-4f53-9d24-e32bdaec605d",
@@ -205,7 +305,11 @@
     "legacyImageId": 26,
     "name": "Lever seated reverse fly",
     "namePT": "Crucifixo inverso na máquina",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "656207b3-f04d-4aa2-aad6-d869388ac2fd",
@@ -213,7 +317,11 @@
     "legacyImageId": 27,
     "name": "Cable straight arms pulldown",
     "namePT": "Pulldown com braços estendidos no cabo",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "01fc250a-5d4f-4dfe-9ec0-62ba3dfd1b21",
@@ -221,7 +329,11 @@
     "legacyImageId": 28,
     "name": "Seated machine row (supported)",
     "namePT": "Remada sentada na máquina com apoio",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "1c95ddda-a81b-47b9-a343-64e7fd5427f3",
@@ -229,7 +341,11 @@
     "legacyImageId": 29,
     "name": "Close grip bar lat pulldown",
     "namePT": "Puxada com triângulo pegada fechada",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "4d6a403a-751e-48be-bc7e-79770e407bc2",
@@ -237,7 +353,11 @@
     "legacyImageId": 30,
     "name": "Assisted pull-up",
     "namePT": "Barra fixa assistida",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "3169f40e-dcae-4e43-8e7e-acddf85ab852",
@@ -245,7 +365,10 @@
     "legacyImageId": 31,
     "name": "Decline crunch",
     "namePT": "Abdominal reto no banco declinado",
-    "type": "CORE"
+    "type": "CORE",
+    "trackedMetrics": [
+      "REPS"
+    ]
   },
   {
     "id": "b7dc7d81-316e-4e09-83ba-3d640e840b2e",
@@ -253,7 +376,11 @@
     "legacyImageId": 32,
     "name": "Alternating dumbbell curl",
     "namePT": "Rosca alternada com halteres",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "b3e1552f-988f-4e86-b317-1835953854e9",
@@ -261,7 +388,11 @@
     "legacyImageId": 33,
     "name": "Concentration curl",
     "namePT": "Rosca concentrada",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "fe2eda48-360d-4bc5-8724-fb63c1ff240b",
@@ -269,7 +400,11 @@
     "legacyImageId": 34,
     "name": "Dumbbell skullcrusher",
     "namePT": "Tríceps testa com halteres",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "a0bcd48c-5407-484a-8fdb-2b33a619d20c",
@@ -277,7 +412,11 @@
     "legacyImageId": 35,
     "name": "Rope triceps pushdown",
     "namePT": "Tríceps no pulley com corda",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "547c27b3-4ab5-4ac3-ad07-e59dfb5d4b73",
@@ -285,7 +424,11 @@
     "legacyImageId": 36,
     "name": "Seated overhead dumbbell triceps extension",
     "namePT": "Tríceps Francês com Halter Sentado",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "dc5d3833-bf6f-4ed5-b2d4-812f5ab082f6",
@@ -293,7 +436,11 @@
     "legacyImageId": 37,
     "name": "Close grip supinated lat pulldown",
     "namePT": "Puxada supinada fechada",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "de762c1d-711c-4a79-87f4-5faedcfdbebf",
@@ -301,7 +448,11 @@
     "legacyImageId": 38,
     "name": "Dumbbell shrug",
     "namePT": "Encolhimento com halteres",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "53390d76-32a5-4076-86d2-8040cd7d40d3",
@@ -309,7 +460,11 @@
     "legacyImageId": 39,
     "name": "Barbell bent over pronated row",
     "namePT": "Remada Curvada Pronada com Barra",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "745610b0-f4ed-41fa-98a5-1557b7df994a",
@@ -317,7 +472,11 @@
     "legacyImageId": 40,
     "name": "Rope pulldown",
     "namePT": "Pulldown com corda",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "b7b9e7f5-8a9c-4436-abfa-a940f6319121",
@@ -325,7 +484,11 @@
     "legacyImageId": 41,
     "name": "Treadmill running",
     "namePT": "Corrida na esteira",
-    "type": "CARDIO"
+    "type": "CARDIO",
+    "trackedMetrics": [
+      "DURATION",
+      "DISTANCE"
+    ]
   },
   {
     "id": "52f80cb0-7e69-4eea-a606-a6c398456869",
@@ -333,7 +496,11 @@
     "legacyImageId": 42,
     "name": "Decline cable fly",
     "namePT": "Crucifixo declinado crossover",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "fc36ab31-fc3d-4cd0-a78a-7743cd359e15",
@@ -341,7 +508,11 @@
     "legacyImageId": 43,
     "name": "Flat dumbbell fly",
     "namePT": "Crucifixo Reto com Halteres",
-    "type": "CHEST"
+    "type": "CHEST",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "ec6b049f-1c6e-4697-8138-2bbcd6601463",
@@ -349,7 +520,11 @@
     "legacyImageId": 44,
     "name": "Barbell hip thrust",
     "namePT": "Elevação pelvica com barra",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "b648bbc6-b92d-46e1-993a-d9ddbc42f525",
@@ -357,7 +532,11 @@
     "legacyImageId": 45,
     "name": "Barbell romanian deadlift",
     "namePT": "Stiff com barra",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "5ee39ef5-cc57-4e5a-8ece-262423775b17",
@@ -365,7 +544,11 @@
     "legacyImageId": 46,
     "name": "Front squat with dumbbells",
     "namePT": "Agachamento frontal com halteres",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "e5cd7995-5ead-4a46-991b-bb62bc79e74d",
@@ -373,7 +556,11 @@
     "legacyImageId": 47,
     "name": "Seated leg curl",
     "namePT": "Cadeira flexora",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "e6461d37-51ee-4b9a-a96c-0b45e1e0e35f",
@@ -381,7 +568,11 @@
     "legacyImageId": 48,
     "name": "Single leg extension",
     "namePT": "Cadeira extensora unilateral",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "0904e1fa-eac1-4916-8d23-9f01c45ae944",
@@ -389,7 +580,11 @@
     "legacyImageId": 49,
     "name": "Smith machine squat",
     "namePT": "Agachamento no smith",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "0ce7bfb6-1a43-4773-b33d-0e3c4e322815",
@@ -397,7 +592,11 @@
     "legacyImageId": 50,
     "name": "Standing calf raise",
     "namePT": "Panturrilha articulada em pé",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "aab5c137-39f7-45ff-a438-a8cef3afaff8",
@@ -405,7 +604,11 @@
     "legacyImageId": 51,
     "name": "Bulgarian split squat",
     "namePT": "Agachamento búlgaro",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "429f0124-edde-421c-a99e-37dec9232afa",
@@ -413,7 +616,11 @@
     "legacyImageId": 52,
     "name": "Barbell back squat",
     "namePT": "Agachamento livre",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "4a387118-9424-4f61-a943-54d494d31662",
@@ -421,7 +628,11 @@
     "legacyImageId": 53,
     "name": "Horizontal leg press",
     "namePT": "Leg horizontal",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "5e5cdae7-df91-4e0b-b529-053ac350c1a6",
@@ -429,7 +640,11 @@
     "legacyImageId": 54,
     "name": "Barbell deadlift",
     "namePT": "Levantamento terra",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "f66c1584-7c0a-4ab0-9733-fdb14f4c4e31",
@@ -437,7 +652,11 @@
     "legacyImageId": 55,
     "name": "Wide grip pronated row",
     "namePT": "Remada aberta pronada",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "70fb0869-9628-4a07-afd9-00503cbcc49e",
@@ -445,7 +664,11 @@
     "legacyImageId": 56,
     "name": "Close grip T-bar row",
     "namePT": "Remada cavalinho fechado",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "6c1d04bd-40f8-4cd7-baf1-085afd20b02a",
@@ -453,7 +676,11 @@
     "legacyImageId": 57,
     "name": "Face pull",
     "namePT": "Face pull",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "41eac65b-28b3-413c-a2b7-b41ea79d4b47",
@@ -461,7 +688,10 @@
     "legacyImageId": 58,
     "name": "Lower abs crunch",
     "namePT": "Abdominal infra",
-    "type": "CORE"
+    "type": "CORE",
+    "trackedMetrics": [
+      "REPS"
+    ]
   },
   {
     "id": "51d57c79-c503-4408-a817-293efdd714b4",
@@ -469,7 +699,10 @@
     "legacyImageId": 59,
     "name": "Plank",
     "namePT": "Prancha",
-    "type": "CORE"
+    "type": "CORE",
+    "trackedMetrics": [
+      "DURATION"
+    ]
   },
   {
     "id": "a4eaeb5a-2cef-477f-b94b-dad94c7664ab",
@@ -477,7 +710,11 @@
     "legacyImageId": 60,
     "name": "Elliptical",
     "namePT": "Elíptico",
-    "type": "CARDIO"
+    "type": "CARDIO",
+    "trackedMetrics": [
+      "DURATION",
+      "DISTANCE"
+    ]
   },
   {
     "id": "7551e773-5301-4ca4-8339-8a23ea57c5b1",
@@ -485,7 +722,10 @@
     "legacyImageId": 61,
     "name": "Hanging leg raise",
     "namePT": "Elevação de pernas suspenso",
-    "type": "CORE"
+    "type": "CORE",
+    "trackedMetrics": [
+      "REPS"
+    ]
   },
   {
     "id": "a9b7cfe5-0482-47d8-8193-09ca5726cac8",
@@ -493,7 +733,11 @@
     "legacyImageId": 62,
     "name": "Dumbbell front raise",
     "namePT": "Elevação frontal com halteres",
-    "type": "SHOULDERS"
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "3f822ab1-6843-406b-9f29-370998e2f408",
@@ -501,7 +745,11 @@
     "legacyImageId": 63,
     "name": "Cable rope hammer curl",
     "namePT": "Rosca martelo com corda na polia",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "ce2a1b9d-db22-4709-a046-4803c75f7e36",
@@ -509,7 +757,11 @@
     "legacyImageId": 64,
     "name": "Cable bar curl",
     "namePT": "Rosca direta na polia",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "fb0c5a6b-3da3-40d2-995c-81102ac5efac",
@@ -517,7 +769,11 @@
     "legacyImageId": 65,
     "name": "Hip adductor machine",
     "namePT": "Cadeira adutora",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "d98322fc-8e16-405f-aadb-4e695115bc8a",
@@ -525,7 +781,11 @@
     "legacyImageId": 66,
     "name": "Bike",
     "namePT": "Bicicleta",
-    "type": "CARDIO"
+    "type": "CARDIO",
+    "trackedMetrics": [
+      "DURATION",
+      "DISTANCE"
+    ]
   },
   {
     "id": "8107d2c5-b9c8-4977-bc29-c8968aad7bda",
@@ -533,7 +793,11 @@
     "legacyImageId": 67,
     "name": "Standing calf raise",
     "namePT": "Elevação de panturrilha em pé",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "c3fcf544-c5f5-4e84-aa55-561774a3451a",
@@ -541,7 +805,11 @@
     "legacyImageId": 68,
     "name": "Sumo squat",
     "namePT": "Agachamento sumô",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "3f2a00b8-d1db-440e-890c-100007f1d548",
@@ -549,7 +817,11 @@
     "legacyImageId": 69,
     "name": "Lying leg curl",
     "namePT": "Flexora deitado",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "4e15ef91-7b44-48b6-92e2-d8cfc5aada14",
@@ -557,7 +829,11 @@
     "legacyImageId": 70,
     "name": "Neutral Grip Lat Pulldown",
     "namePT": "Puxada na barra com pegada neutra",
-    "type": "BACK"
+    "type": "BACK",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "7a7da11b-3ced-4b29-a0a5-a3ec98430304",
@@ -565,7 +841,11 @@
     "legacyImageId": 71,
     "name": "Reverse Grip Barbell Curl",
     "namePT": "Rosca com barra e pegada reversa",
-    "type": "ARMS"
+    "type": "ARMS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "3cb4e98c-92a2-4015-89e8-42e4ce5f0aea",
@@ -573,7 +853,11 @@
     "legacyImageId": 72,
     "name": "Machine Hack Squat",
     "namePT": "Agachamento na máquina hack",
-    "type": "LEGS"
+    "type": "LEGS",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "3029f910-5f93-4b52-9cc8-39bf435eb394",
@@ -581,7 +865,11 @@
     "legacyImageId": 73,
     "name": "Incline Treadmill Walk",
     "namePT": "Caminhada em inclinação na esteira",
-    "type": "CARDIO"
+    "type": "CARDIO",
+    "trackedMetrics": [
+      "DURATION",
+      "DISTANCE"
+    ]
   },
   {
     "id": "46026492-66dd-4d47-b5e1-b75d78388f1d",
@@ -589,7 +877,11 @@
     "legacyImageId": 74,
     "name": "Rowing Machine",
     "namePT": "Máquina de remo",
-    "type": "CARDIO"
+    "type": "CARDIO",
+    "trackedMetrics": [
+      "DURATION",
+      "DISTANCE"
+    ]
   },
   {
     "id": "9b0b0556-ca4c-434c-a5f6-77fffd3133d0",
@@ -597,7 +889,11 @@
     "legacyImageId": 75,
     "name": "Machine Crunch",
     "namePT": "Máquina de abdômen",
-    "type": "CORE"
+    "type": "CORE",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   },
   {
     "id": "58ff544d-4da3-43a8-984f-c974b48f3001",
@@ -605,7 +901,10 @@
     "legacyImageId": 76,
     "name": "Crunch",
     "namePT": "Abdominal",
-    "type": "CORE"
+    "type": "CORE",
+    "trackedMetrics": [
+      "REPS"
+    ]
   },
   {
     "id": "f7fe90d2-1b14-40ea-bfdd-9ac4819e711c",
@@ -613,6 +912,10 @@
     "legacyImageId": 77,
     "name": "Cable Crunch",
     "namePT": "Abdominal na polia",
-    "type": "CORE"
+    "type": "CORE",
+    "trackedMetrics": [
+      "WEIGHT",
+      "REPS"
+    ]
   }
 ]

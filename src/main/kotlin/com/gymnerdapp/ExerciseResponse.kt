@@ -13,6 +13,7 @@ data class ExerciseResponse(
     val name: String,
     val namePT: String,
     val type: ExerciseType,
+    val trackedMetrics: List<SetMetricType>,
 )
 
 fun Exercise.toResponse(): ExerciseResponse = ExerciseResponse(
@@ -22,4 +23,5 @@ fun Exercise.toResponse(): ExerciseResponse = ExerciseResponse(
     name = name,
     namePT = namePT,
     type = type,
+    trackedMetrics = trackedMetrics,
 )

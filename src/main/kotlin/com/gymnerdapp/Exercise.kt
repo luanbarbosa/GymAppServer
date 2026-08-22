@@ -10,4 +10,5 @@ data class Exercise(
     val name: String,
     val namePT: String,
     val type: ExerciseType,
+    val trackedMetrics: List<SetMetricType>,
 )
