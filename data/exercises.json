@@ -7,8 +7,14 @@
     "namePT": "Leg press 45 graus",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -19,8 +25,14 @@
     "namePT": "Cadeira extensora",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -31,8 +43,14 @@
     "namePT": "Panturrilha sentada na máquina",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -43,8 +61,14 @@
     "namePT": "Coice de glúteo",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -55,8 +79,14 @@
     "namePT": "Afundo no Smith",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -67,8 +97,14 @@
     "namePT": "Abdução de quadril na máquina",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -79,8 +115,14 @@
     "namePT": "Supino inclinado com barra",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -91,8 +133,14 @@
     "namePT": "Supino inclinado com halteres",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -103,8 +151,14 @@
     "namePT": "Supino reto com barra",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -115,8 +169,14 @@
     "namePT": "Supino reto com halteres",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -127,8 +187,14 @@
     "namePT": "Crucifixo na máquina",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -139,8 +205,14 @@
     "namePT": "Supino na máquina com anilhas",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -151,8 +223,14 @@
     "namePT": "Crucifixo no cabo baixo",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -163,8 +241,14 @@
     "namePT": "Bíceps barra w",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -175,8 +259,14 @@
     "namePT": "Extensão de tríceps acima da cabeça no cabo",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -187,8 +277,14 @@
     "namePT": "Tríceps no pulley com corda",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -199,8 +295,14 @@
     "namePT": "Rosca martelo com halteres",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -211,8 +313,14 @@
     "namePT": "Rosca martelo inclinada com halteres",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -223,8 +331,14 @@
     "namePT": "Rosca bíceps na máquina",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -235,8 +349,14 @@
     "namePT": "Elevação lateral unilateral no cabo",
     "type": "SHOULDERS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -247,8 +367,14 @@
     "namePT": "Desenvolvimento sentado com halteres",
     "type": "SHOULDERS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -259,8 +385,14 @@
     "namePT": "Elevação lateral sentada com halteres",
     "type": "SHOULDERS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -271,8 +403,14 @@
     "namePT": "Desenvolvimento sentado na máquina",
     "type": "SHOULDERS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -283,8 +421,14 @@
     "namePT": "Puxada lateral no pulley",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -295,8 +439,14 @@
     "namePT": "Remada baixa sentada",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -307,8 +457,14 @@
     "namePT": "Crucifixo inverso na máquina",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -319,8 +475,14 @@
     "namePT": "Pulldown com braços estendidos no cabo",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -331,8 +493,14 @@
     "namePT": "Remada sentada na máquina com apoio",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -343,8 +511,14 @@
     "namePT": "Puxada com triângulo pegada fechada",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -355,8 +529,14 @@
     "namePT": "Barra fixa assistida",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -367,7 +547,10 @@
     "namePT": "Abdominal reto no banco declinado",
     "type": "CORE",
     "trackedMetrics": [
-      "REPS"
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -378,8 +561,14 @@
     "namePT": "Rosca alternada com halteres",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -390,8 +579,14 @@
     "namePT": "Rosca concentrada",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -402,8 +597,14 @@
     "namePT": "Tríceps testa com halteres",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -414,8 +615,14 @@
     "namePT": "Tríceps no pulley com corda",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -426,8 +633,14 @@
     "namePT": "Tríceps Francês com Halter Sentado",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -438,8 +651,14 @@
     "namePT": "Puxada supinada fechada",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -450,8 +669,14 @@
     "namePT": "Encolhimento com halteres",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -462,8 +687,14 @@
     "namePT": "Remada Curvada Pronada com Barra",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -474,8 +705,14 @@
     "namePT": "Pulldown com corda",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -486,8 +723,14 @@
     "namePT": "Corrida na esteira",
     "type": "CARDIO",
     "trackedMetrics": [
-      "DURATION",
-      "DISTANCE"
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
     ]
   },
   {
@@ -498,8 +741,14 @@
     "namePT": "Crucifixo declinado crossover",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -510,8 +759,14 @@
     "namePT": "Crucifixo Reto com Halteres",
     "type": "CHEST",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -522,8 +777,14 @@
     "namePT": "Elevação pelvica com barra",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -534,8 +795,14 @@
     "namePT": "Stiff com barra",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -546,8 +813,14 @@
     "namePT": "Agachamento frontal com halteres",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -558,8 +831,14 @@
     "namePT": "Cadeira flexora",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -570,8 +849,14 @@
     "namePT": "Cadeira extensora unilateral",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -582,8 +867,14 @@
     "namePT": "Agachamento no smith",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -594,8 +885,14 @@
     "namePT": "Panturrilha articulada em pé",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -606,8 +903,14 @@
     "namePT": "Agachamento búlgaro",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -618,8 +921,14 @@
     "namePT": "Agachamento livre",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -630,8 +939,14 @@
     "namePT": "Leg horizontal",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -642,8 +957,14 @@
     "namePT": "Levantamento terra",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -654,8 +975,14 @@
     "namePT": "Remada aberta pronada",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -666,8 +993,14 @@
     "namePT": "Remada cavalinho fechado",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -678,8 +1011,14 @@
     "namePT": "Face pull",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -690,7 +1029,14 @@
     "namePT": "Abdominal infra",
     "type": "CORE",
     "trackedMetrics": [
-      "REPS"
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": true
+      }
     ]
   },
   {
@@ -701,7 +1047,18 @@
     "namePT": "Prancha",
     "type": "CORE",
     "trackedMetrics": [
-      "DURATION"
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
     ]
   },
   {
@@ -712,8 +1069,14 @@
     "namePT": "Elíptico",
     "type": "CARDIO",
     "trackedMetrics": [
-      "DURATION",
-      "DISTANCE"
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
     ]
   },
   {
@@ -724,7 +1087,10 @@
     "namePT": "Elevação de pernas suspenso",
     "type": "CORE",
     "trackedMetrics": [
-      "REPS"
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -735,8 +1101,14 @@
     "namePT": "Elevação frontal com halteres",
     "type": "SHOULDERS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -747,8 +1119,14 @@
     "namePT": "Rosca martelo com corda na polia",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -759,8 +1137,14 @@
     "namePT": "Rosca direta na polia",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -771,8 +1155,14 @@
     "namePT": "Cadeira adutora",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -783,8 +1173,14 @@
     "namePT": "Bicicleta",
     "type": "CARDIO",
     "trackedMetrics": [
-      "DURATION",
-      "DISTANCE"
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
     ]
   },
   {
@@ -795,8 +1191,14 @@
     "namePT": "Elevação de panturrilha em pé",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -807,8 +1209,14 @@
     "namePT": "Agachamento sumô",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -819,8 +1227,14 @@
     "namePT": "Flexora deitado",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -831,8 +1245,14 @@
     "namePT": "Puxada na barra com pegada neutra",
     "type": "BACK",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -843,8 +1263,14 @@
     "namePT": "Rosca com barra e pegada reversa",
     "type": "ARMS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -855,8 +1281,14 @@
     "namePT": "Agachamento na máquina hack",
     "type": "LEGS",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -867,8 +1299,14 @@
     "namePT": "Caminhada em inclinação na esteira",
     "type": "CARDIO",
     "trackedMetrics": [
-      "DURATION",
-      "DISTANCE"
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
     ]
   },
   {
@@ -879,8 +1317,14 @@
     "namePT": "Máquina de remo",
     "type": "CARDIO",
     "trackedMetrics": [
-      "DURATION",
-      "DISTANCE"
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
     ]
   },
   {
@@ -891,8 +1335,14 @@
     "namePT": "Máquina de abdômen",
     "type": "CORE",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -903,7 +1353,10 @@
     "namePT": "Abdominal",
     "type": "CORE",
     "trackedMetrics": [
-      "REPS"
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   },
   {
@@ -914,8 +1367,14 @@
     "namePT": "Abdominal na polia",
     "type": "CORE",
     "trackedMetrics": [
-      "WEIGHT",
-      "REPS"
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
     ]
   }
 ]
