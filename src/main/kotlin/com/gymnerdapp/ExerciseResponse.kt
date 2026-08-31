@@ -12,6 +12,8 @@ data class ExerciseResponse(
     val imageId: Int?,
     val name: String,
     val namePT: String,
+    val searchAlias: List<String>,
+    val searchAliasPT: List<String>,
     val type: ExerciseType,
     val trackedMetrics: List<TrackedMetric>,
 )
@@ -22,6 +24,8 @@ fun Exercise.toResponse(): ExerciseResponse = ExerciseResponse(
     imageId = legacyImageId,
     name = name,
     namePT = namePT,
+    searchAlias = searchAlias,
+    searchAliasPT = searchAliasPT,
     type = type,
     trackedMetrics = trackedMetrics,
 )

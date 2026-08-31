@@ -5,6 +5,16 @@
     "legacyImageId": 1,
     "name": "Sled 45 degrees",
     "namePT": "Leg press 45 graus",
+    "searchAlias": [
+      "45 Degree Leg Press",
+      "Leg Press",
+      "Sled Leg Press"
+    ],
+    "searchAliasPT": [
+      "Leg press 45",
+      "Prensa de pernas 45 graus",
+      "Agachamento no leg press"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -23,6 +33,15 @@
     "legacyImageId": 2,
     "name": "Lever leg extension",
     "namePT": "Cadeira extensora",
+    "searchAlias": [
+      "Leg Extension Machine",
+      "Machine Leg Extension",
+      "Quad Extension"
+    ],
+    "searchAliasPT": [
+      "Extensora",
+      "Mesa extensora"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -41,6 +60,14 @@
     "legacyImageId": 3,
     "name": "Lever seated calf raise",
     "namePT": "Panturrilha sentada na máquina",
+    "searchAlias": [
+      "Seated Calf Raise Machine",
+      "Machine Seated Calf Raise"
+    ],
+    "searchAliasPT": [
+      "Panturrilha sentada",
+      "Panturrilha na máquina sentado"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -59,6 +86,16 @@
     "legacyImageId": 4,
     "name": "Cable donkey kickback",
     "namePT": "Coice de glúteo",
+    "searchAlias": [
+      "Cable Glute Kickback",
+      "Donkey Kick Cable",
+      "Glute Kickback"
+    ],
+    "searchAliasPT": [
+      "Coice no cabo",
+      "Glúteo no cabo",
+      "Coice de glúteo no cross"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -77,6 +114,14 @@
     "legacyImageId": 5,
     "name": "Lunge smith machine",
     "namePT": "Afundo no Smith",
+    "searchAlias": [
+      "Smith Machine Lunge",
+      "Smith Lunge"
+    ],
+    "searchAliasPT": [
+      "Passada no Smith",
+      "Afundo na máquina Smith"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -95,6 +140,15 @@
     "legacyImageId": 6,
     "name": "Lever seated hip abduction",
     "namePT": "Abdução de quadril na máquina",
+    "searchAlias": [
+      "Hip Abduction Machine",
+      "Seated Hip Abductor",
+      "Abductor Machine"
+    ],
+    "searchAliasPT": [
+      "Cadeira abdutora",
+      "Abdutora"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -113,6 +167,13 @@
     "legacyImageId": 7,
     "name": "Barbell incline bench press",
     "namePT": "Supino inclinado com barra",
+    "searchAlias": [
+      "Incline Barbell Bench Press",
+      "Incline Bench Press"
+    ],
+    "searchAliasPT": [
+      "Supino inclinado na barra"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -131,6 +192,14 @@
     "legacyImageId": 8,
     "name": "Dumbbell incline bench press",
     "namePT": "Supino inclinado com halteres",
+    "searchAlias": [
+      "Incline Dumbbell Press",
+      "Incline DB Bench Press"
+    ],
+    "searchAliasPT": [
+      "Supino inclinado com halter",
+      "Supino inclinado halteres"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -149,6 +218,15 @@
     "legacyImageId": 9,
     "name": "Barbell bench press",
     "namePT": "Supino reto com barra",
+    "searchAlias": [
+      "Flat Barbell Bench Press",
+      "Bench Press",
+      "Flat Bench Press"
+    ],
+    "searchAliasPT": [
+      "Supino reto",
+      "Supino com barra"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -167,6 +245,14 @@
     "legacyImageId": 10,
     "name": "Dumbbell bench press",
     "namePT": "Supino reto com halteres",
+    "searchAlias": [
+      "Flat Dumbbell Bench Press",
+      "Dumbbell Flat Press"
+    ],
+    "searchAliasPT": [
+      "Supino reto com halter",
+      "Supino com halteres"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -185,6 +271,16 @@
     "legacyImageId": 11,
     "name": "Lever seated fly",
     "namePT": "Crucifixo na máquina",
+    "searchAlias": [
+      "Machine Chest Fly",
+      "Pec Deck",
+      "Pec Deck Fly"
+    ],
+    "searchAliasPT": [
+      "Peck deck",
+      "Voador",
+      "Crucifixo máquina sentado"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -203,6 +299,14 @@
     "legacyImageId": 12,
     "name": "Lever chest press (plate loaded)",
     "namePT": "Supino na máquina com anilhas",
+    "searchAlias": [
+      "Plate Loaded Chest Press",
+      "Machine Chest Press"
+    ],
+    "searchAliasPT": [
+      "Supino máquina",
+      "Supino na máquina articulada"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -221,6 +325,15 @@
     "legacyImageId": 13,
     "name": "Cable low fly",
     "namePT": "Crucifixo no cabo baixo",
+    "searchAlias": [
+      "Low Cable Fly",
+      "Cable Crossover Low to High",
+      "Low-to-High Cable Fly"
+    ],
+    "searchAliasPT": [
+      "Crucifixo crossover baixo",
+      "Cross over baixo"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -239,6 +352,15 @@
     "legacyImageId": 14,
     "name": "EZ barbell curl",
     "namePT": "Bíceps barra w",
+    "searchAlias": [
+      "EZ Bar Curl",
+      "W Bar Curl",
+      "EZ Bar Biceps Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca direta na barra w",
+      "Rosca com barra w"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -257,6 +379,15 @@
     "legacyImageId": 15,
     "name": "Cable overhead triceps extension (rope)",
     "namePT": "Extensão de tríceps acima da cabeça no cabo",
+    "searchAlias": [
+      "Cable Overhead Triceps Extension",
+      "Rope Overhead Triceps Extension",
+      "Overhead Cable Triceps Extension"
+    ],
+    "searchAliasPT": [
+      "Tríceps francês no cabo",
+      "Extensão de tríceps overhead na polia"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -275,6 +406,15 @@
     "legacyImageId": 16,
     "name": "Cable triceps pushdown (rope)",
     "namePT": "Tríceps no pulley com corda",
+    "searchAlias": [
+      "Rope Triceps Pushdown",
+      "Cable Rope Pushdown",
+      "Triceps Pushdown"
+    ],
+    "searchAliasPT": [
+      "Tríceps corda",
+      "Puxada de tríceps com corda"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -293,6 +433,14 @@
     "legacyImageId": 17,
     "name": "Dumbbell hammer curl",
     "namePT": "Rosca martelo com halteres",
+    "searchAlias": [
+      "Hammer Curl",
+      "DB Hammer Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca martelo",
+      "Rosca martelo com halter"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -311,6 +459,14 @@
     "legacyImageId": 18,
     "name": "Dumbbell incline hammer curl",
     "namePT": "Rosca martelo inclinada com halteres",
+    "searchAlias": [
+      "Incline Hammer Curl",
+      "Incline DB Hammer Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca martelo no banco inclinado",
+      "Martelo inclinado"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -329,6 +485,14 @@
     "legacyImageId": 19,
     "name": "Lever biceps curl",
     "namePT": "Rosca bíceps na máquina",
+    "searchAlias": [
+      "Machine Bicep Curl",
+      "Bicep Curl Machine"
+    ],
+    "searchAliasPT": [
+      "Rosca na máquina",
+      "Rosca bíceps máquina"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -347,6 +511,14 @@
     "legacyImageId": 20,
     "name": "Cable one arms lateral raise",
     "namePT": "Elevação lateral unilateral no cabo",
+    "searchAlias": [
+      "Single Arm Cable Lateral Raise",
+      "Cable Lateral Raise (Unilateral)"
+    ],
+    "searchAliasPT": [
+      "Elevação lateral unilateral na polia",
+      "Elevação lateral no cabo uma mão"
+    ],
     "type": "SHOULDERS",
     "trackedMetrics": [
       {
@@ -365,6 +537,14 @@
     "legacyImageId": 21,
     "name": "Dumbbell seated shoulder press",
     "namePT": "Desenvolvimento sentado com halteres",
+    "searchAlias": [
+      "Seated Dumbbell Shoulder Press",
+      "Seated DB Shoulder Press"
+    ],
+    "searchAliasPT": [
+      "Desenvolvimento com halteres sentado",
+      "Desenvolvimento sentado halteres"
+    ],
     "type": "SHOULDERS",
     "trackedMetrics": [
       {
@@ -383,6 +563,14 @@
     "legacyImageId": 22,
     "name": "Dumbbell seated lateral raise",
     "namePT": "Elevação lateral sentada com halteres",
+    "searchAlias": [
+      "Seated Lateral Raise",
+      "Seated Dumbbell Lateral Raise"
+    ],
+    "searchAliasPT": [
+      "Elevação lateral sentado",
+      "Elevação lateral com halteres sentado"
+    ],
     "type": "SHOULDERS",
     "trackedMetrics": [
       {
@@ -401,6 +589,14 @@
     "legacyImageId": 23,
     "name": "Lever seated shoulder press",
     "namePT": "Desenvolvimento sentado na máquina",
+    "searchAlias": [
+      "Machine Shoulder Press",
+      "Seated Machine Shoulder Press"
+    ],
+    "searchAliasPT": [
+      "Desenvolvimento máquina",
+      "Desenvolvimento de ombro na máquina"
+    ],
     "type": "SHOULDERS",
     "trackedMetrics": [
       {
@@ -419,6 +615,14 @@
     "legacyImageId": 24,
     "name": "Cable bar lateral pulldown",
     "namePT": "Puxada lateral no pulley",
+    "searchAlias": [
+      "Cable Lateral Pulldown",
+      "Bar Lateral Pulldown"
+    ],
+    "searchAliasPT": [
+      "Puxada lateral na polia",
+      "Pulldown lateral"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -437,6 +641,15 @@
     "legacyImageId": 25,
     "name": "Seated row",
     "namePT": "Remada baixa sentada",
+    "searchAlias": [
+      "Cable Seated Row",
+      "Low Cable Row",
+      "Seated Cable Row"
+    ],
+    "searchAliasPT": [
+      "Remada sentada",
+      "Remada baixa no cabo"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -455,6 +668,15 @@
     "legacyImageId": 26,
     "name": "Lever seated reverse fly",
     "namePT": "Crucifixo inverso na máquina",
+    "searchAlias": [
+      "Reverse Pec Deck",
+      "Machine Reverse Fly",
+      "Rear Delt Machine Fly"
+    ],
+    "searchAliasPT": [
+      "Peck deck invertido",
+      "Crucifixo inverso máquina"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -473,6 +695,14 @@
     "legacyImageId": 27,
     "name": "Cable straight arms pulldown",
     "namePT": "Pulldown com braços estendidos no cabo",
+    "searchAlias": [
+      "Straight Arm Pulldown",
+      "Cable Straight Arm Lat Pulldown"
+    ],
+    "searchAliasPT": [
+      "Pulldown braço reto",
+      "Puxador com braços estendidos"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -491,6 +721,14 @@
     "legacyImageId": 28,
     "name": "Seated machine row (supported)",
     "namePT": "Remada sentada na máquina com apoio",
+    "searchAlias": [
+      "Chest Supported Row Machine",
+      "Machine Seated Row"
+    ],
+    "searchAliasPT": [
+      "Remada máquina com apoio no peito",
+      "Remada apoiada na máquina"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -509,6 +747,15 @@
     "legacyImageId": 29,
     "name": "Close grip bar lat pulldown",
     "namePT": "Puxada com triângulo pegada fechada",
+    "searchAlias": [
+      "Close Grip Lat Pulldown",
+      "V-Bar Lat Pulldown",
+      "Triangle Bar Pulldown"
+    ],
+    "searchAliasPT": [
+      "Puxada triângulo",
+      "Puxada fechada no triângulo"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -527,6 +774,14 @@
     "legacyImageId": 30,
     "name": "Assisted pull-up",
     "namePT": "Barra fixa assistida",
+    "searchAlias": [
+      "Assisted Pull-Up Machine",
+      "Machine Assisted Pull-Up"
+    ],
+    "searchAliasPT": [
+      "Barra assistida",
+      "Pull-up assistido na máquina"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -545,6 +800,14 @@
     "legacyImageId": 31,
     "name": "Decline crunch",
     "namePT": "Abdominal reto no banco declinado",
+    "searchAlias": [
+      "Decline Sit-Up",
+      "Decline Bench Crunch"
+    ],
+    "searchAliasPT": [
+      "Abdominal declinado",
+      "Crunch no banco declinado"
+    ],
     "type": "CORE",
     "trackedMetrics": [
       {
@@ -559,6 +822,14 @@
     "legacyImageId": 32,
     "name": "Alternating dumbbell curl",
     "namePT": "Rosca alternada com halteres",
+    "searchAlias": [
+      "Alternating Bicep Curl",
+      "Alternate Dumbbell Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca alternada",
+      "Rosca bíceps alternada com halter"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -577,6 +848,12 @@
     "legacyImageId": 33,
     "name": "Concentration curl",
     "namePT": "Rosca concentrada",
+    "searchAlias": [
+      "Dumbbell Concentration Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca concentrada com halter"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -595,6 +872,14 @@
     "legacyImageId": 34,
     "name": "Dumbbell skullcrusher",
     "namePT": "Tríceps testa com halteres",
+    "searchAlias": [
+      "Dumbbell Lying Triceps Extension",
+      "Skull Crusher"
+    ],
+    "searchAliasPT": [
+      "Tríceps testa",
+      "Extensão de tríceps deitado com halteres"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -613,6 +898,14 @@
     "legacyImageId": 35,
     "name": "Rope triceps pushdown",
     "namePT": "Tríceps no pulley com corda",
+    "searchAlias": [
+      "Cable Rope Triceps Pushdown",
+      "Rope Pushdown"
+    ],
+    "searchAliasPT": [
+      "Tríceps corda pulley",
+      "Puxada tríceps com corda"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -631,6 +924,14 @@
     "legacyImageId": 36,
     "name": "Seated overhead dumbbell triceps extension",
     "namePT": "Tríceps Francês com Halter Sentado",
+    "searchAlias": [
+      "Seated Dumbbell Overhead Triceps Extension",
+      "Seated French Press"
+    ],
+    "searchAliasPT": [
+      "Tríceps francês sentado",
+      "Extensão de tríceps sentado com halter"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -649,6 +950,14 @@
     "legacyImageId": 37,
     "name": "Close grip supinated lat pulldown",
     "namePT": "Puxada supinada fechada",
+    "searchAlias": [
+      "Close Grip Supinated Pulldown",
+      "Underhand Close Grip Lat Pulldown"
+    ],
+    "searchAliasPT": [
+      "Puxada supinada",
+      "Puxada pegada fechada supinada"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -667,6 +976,14 @@
     "legacyImageId": 38,
     "name": "Dumbbell shrug",
     "namePT": "Encolhimento com halteres",
+    "searchAlias": [
+      "DB Shrug",
+      "Shoulder Shrug with Dumbbells"
+    ],
+    "searchAliasPT": [
+      "Encolhimento com halter",
+      "Encolhimento de ombros com halteres"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -685,6 +1002,15 @@
     "legacyImageId": 39,
     "name": "Barbell bent over pronated row",
     "namePT": "Remada Curvada Pronada com Barra",
+    "searchAlias": [
+      "Bent Over Barbell Row",
+      "Pronated Grip Bent Over Row",
+      "Barbell Row"
+    ],
+    "searchAliasPT": [
+      "Remada curvada com barra",
+      "Remada com barra pegada pronada"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -703,6 +1029,14 @@
     "legacyImageId": 40,
     "name": "Rope pulldown",
     "namePT": "Pulldown com corda",
+    "searchAlias": [
+      "Cable Rope Pulldown",
+      "Rope Lat Pulldown"
+    ],
+    "searchAliasPT": [
+      "Puxada com corda",
+      "Pulldown de corda no pulley"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -721,6 +1055,14 @@
     "legacyImageId": 41,
     "name": "Treadmill running",
     "namePT": "Corrida na esteira",
+    "searchAlias": [
+      "Treadmill Run",
+      "Running on Treadmill"
+    ],
+    "searchAliasPT": [
+      "Esteira",
+      "Corrida esteira"
+    ],
     "type": "CARDIO",
     "trackedMetrics": [
       {
@@ -739,6 +1081,14 @@
     "legacyImageId": 42,
     "name": "Decline cable fly",
     "namePT": "Crucifixo declinado crossover",
+    "searchAlias": [
+      "Cable Decline Fly",
+      "Decline Crossover Fly"
+    ],
+    "searchAliasPT": [
+      "Crucifixo declinado no cabo",
+      "Cross over declinado"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -757,6 +1107,14 @@
     "legacyImageId": 43,
     "name": "Flat dumbbell fly",
     "namePT": "Crucifixo Reto com Halteres",
+    "searchAlias": [
+      "Flat Bench Dumbbell Fly",
+      "Dumbbell Chest Fly"
+    ],
+    "searchAliasPT": [
+      "Crucifixo reto",
+      "Crucifixo com halteres no banco reto"
+    ],
     "type": "CHEST",
     "trackedMetrics": [
       {
@@ -775,6 +1133,14 @@
     "legacyImageId": 44,
     "name": "Barbell hip thrust",
     "namePT": "Elevação pelvica com barra",
+    "searchAlias": [
+      "Hip Thrust",
+      "Barbell Glute Bridge"
+    ],
+    "searchAliasPT": [
+      "Hip thrust com barra",
+      "Elevação pélvica"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -793,6 +1159,15 @@
     "legacyImageId": 45,
     "name": "Barbell romanian deadlift",
     "namePT": "Stiff com barra",
+    "searchAlias": [
+      "Romanian Deadlift",
+      "RDL",
+      "Stiff Leg Deadlift"
+    ],
+    "searchAliasPT": [
+      "Levantamento terra romeno",
+      "Stiff"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -811,6 +1186,12 @@
     "legacyImageId": 46,
     "name": "Front squat with dumbbells",
     "namePT": "Agachamento frontal com halteres",
+    "searchAlias": [
+      "Dumbbell Front Squat"
+    ],
+    "searchAliasPT": [
+      "Agachamento frontal com halter"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -829,6 +1210,14 @@
     "legacyImageId": 47,
     "name": "Seated leg curl",
     "namePT": "Cadeira flexora",
+    "searchAlias": [
+      "Seated Hamstring Curl",
+      "Seated Leg Curl Machine"
+    ],
+    "searchAliasPT": [
+      "Flexora sentada",
+      "Mesa flexora sentado"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -847,6 +1236,14 @@
     "legacyImageId": 48,
     "name": "Single leg extension",
     "namePT": "Cadeira extensora unilateral",
+    "searchAlias": [
+      "Unilateral Leg Extension",
+      "One Leg Extension"
+    ],
+    "searchAliasPT": [
+      "Extensora unilateral",
+      "Cadeira extensora uma perna"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -865,6 +1262,14 @@
     "legacyImageId": 49,
     "name": "Smith machine squat",
     "namePT": "Agachamento no smith",
+    "searchAlias": [
+      "Smith Squat",
+      "Squat on Smith Machine"
+    ],
+    "searchAliasPT": [
+      "Agachamento no Smith machine",
+      "Agachamento máquina Smith"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -883,6 +1288,14 @@
     "legacyImageId": 50,
     "name": "Standing calf raise",
     "namePT": "Panturrilha articulada em pé",
+    "searchAlias": [
+      "Standing Calf Raise Machine",
+      "Donkey Calf Raise Machine"
+    ],
+    "searchAliasPT": [
+      "Panturrilha em pé",
+      "Panturrilha na máquina articulada"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -901,6 +1314,15 @@
     "legacyImageId": 51,
     "name": "Bulgarian split squat",
     "namePT": "Agachamento búlgaro",
+    "searchAlias": [
+      "Rear Foot Elevated Split Squat",
+      "RFESS",
+      "Bulgarian Squat"
+    ],
+    "searchAliasPT": [
+      "Afundo búlgaro",
+      "Agachamento búlgaro unilateral"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -919,6 +1341,14 @@
     "legacyImageId": 52,
     "name": "Barbell back squat",
     "namePT": "Agachamento livre",
+    "searchAlias": [
+      "Back Squat",
+      "Barbell Squat"
+    ],
+    "searchAliasPT": [
+      "Agachamento com barra",
+      "Agachamento livre com barra"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -937,6 +1367,14 @@
     "legacyImageId": 53,
     "name": "Horizontal leg press",
     "namePT": "Leg horizontal",
+    "searchAlias": [
+      "Horizontal Leg Press Machine",
+      "Leg Press Horizontal"
+    ],
+    "searchAliasPT": [
+      "Leg press horizontal",
+      "Prensa de pernas horizontal"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -955,6 +1393,14 @@
     "legacyImageId": 54,
     "name": "Barbell deadlift",
     "namePT": "Levantamento terra",
+    "searchAlias": [
+      "Conventional Deadlift",
+      "Deadlift"
+    ],
+    "searchAliasPT": [
+      "Levantamento terra convencional",
+      "Terra com barra"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -973,6 +1419,14 @@
     "legacyImageId": 55,
     "name": "Wide grip pronated row",
     "namePT": "Remada aberta pronada",
+    "searchAlias": [
+      "Wide Grip Barbell Row",
+      "Wide Pronated Row"
+    ],
+    "searchAliasPT": [
+      "Remada pronada aberta",
+      "Remada aberta com barra"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -991,6 +1445,14 @@
     "legacyImageId": 56,
     "name": "Close grip T-bar row",
     "namePT": "Remada cavalinho fechado",
+    "searchAlias": [
+      "T-Bar Row Close Grip",
+      "Close Grip Landmine Row"
+    ],
+    "searchAliasPT": [
+      "Remada cavalinho pegada fechada",
+      "T-bar remada fechada"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -1009,6 +1471,14 @@
     "legacyImageId": 57,
     "name": "Face pull",
     "namePT": "Face pull",
+    "searchAlias": [
+      "Cable Face Pull",
+      "Rope Face Pull"
+    ],
+    "searchAliasPT": [
+      "Puxada facial",
+      "Face pull no cabo"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -1027,6 +1497,14 @@
     "legacyImageId": 58,
     "name": "Lower abs crunch",
     "namePT": "Abdominal infra",
+    "searchAlias": [
+      "Lower Abdominal Crunch",
+      "Lower Abs Exercise"
+    ],
+    "searchAliasPT": [
+      "Abdominal inferior",
+      "Infra abdominal"
+    ],
     "type": "CORE",
     "trackedMetrics": [
       {
@@ -1045,6 +1523,14 @@
     "legacyImageId": 59,
     "name": "Plank",
     "namePT": "Prancha",
+    "searchAlias": [
+      "Forearm Plank",
+      "Front Plank"
+    ],
+    "searchAliasPT": [
+      "Prancha abdominal",
+      "Prancha isométrica"
+    ],
     "type": "CORE",
     "trackedMetrics": [
       {
@@ -1067,6 +1553,14 @@
     "legacyImageId": 60,
     "name": "Elliptical",
     "namePT": "Elíptico",
+    "searchAlias": [
+      "Elliptical Trainer",
+      "Elliptical Machine"
+    ],
+    "searchAliasPT": [
+      "Elíptica",
+      "Máquina elíptica"
+    ],
     "type": "CARDIO",
     "trackedMetrics": [
       {
@@ -1085,6 +1579,14 @@
     "legacyImageId": 61,
     "name": "Hanging leg raise",
     "namePT": "Elevação de pernas suspenso",
+    "searchAlias": [
+      "Hanging Leg Raises",
+      "Vertical Leg Raise"
+    ],
+    "searchAliasPT": [
+      "Elevação de pernas na barra",
+      "Suspenso elevação de pernas"
+    ],
     "type": "CORE",
     "trackedMetrics": [
       {
@@ -1099,6 +1601,14 @@
     "legacyImageId": 62,
     "name": "Dumbbell front raise",
     "namePT": "Elevação frontal com halteres",
+    "searchAlias": [
+      "Front Raise",
+      "DB Front Raise"
+    ],
+    "searchAliasPT": [
+      "Elevação frontal",
+      "Elevação frontal de ombro com halter"
+    ],
     "type": "SHOULDERS",
     "trackedMetrics": [
       {
@@ -1117,6 +1627,14 @@
     "legacyImageId": 63,
     "name": "Cable rope hammer curl",
     "namePT": "Rosca martelo com corda na polia",
+    "searchAlias": [
+      "Rope Hammer Curl",
+      "Cable Hammer Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca martelo na polia",
+      "Rosca martelo cabo com corda"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -1135,6 +1653,14 @@
     "legacyImageId": 64,
     "name": "Cable bar curl",
     "namePT": "Rosca direta na polia",
+    "searchAlias": [
+      "Cable Bar Bicep Curl",
+      "Straight Bar Cable Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca direta no cabo",
+      "Rosca bíceps na polia"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -1153,6 +1679,14 @@
     "legacyImageId": 65,
     "name": "Hip adductor machine",
     "namePT": "Cadeira adutora",
+    "searchAlias": [
+      "Adductor Machine",
+      "Seated Hip Adduction"
+    ],
+    "searchAliasPT": [
+      "Adutora",
+      "Máquina adutora"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -1171,6 +1705,15 @@
     "legacyImageId": 66,
     "name": "Bike",
     "namePT": "Bicicleta",
+    "searchAlias": [
+      "Stationary Bike",
+      "Exercise Bike",
+      "Cycling"
+    ],
+    "searchAliasPT": [
+      "Bike ergométrica",
+      "Bicicleta ergométrica"
+    ],
     "type": "CARDIO",
     "trackedMetrics": [
       {
@@ -1189,6 +1732,14 @@
     "legacyImageId": 67,
     "name": "Standing calf raise",
     "namePT": "Elevação de panturrilha em pé",
+    "searchAlias": [
+      "Standing Calf Raise Machine",
+      "Bodyweight Standing Calf Raise"
+    ],
+    "searchAliasPT": [
+      "Panturrilha em pé",
+      "Elevação de panturrilha de pé"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -1207,6 +1758,14 @@
     "legacyImageId": 68,
     "name": "Sumo squat",
     "namePT": "Agachamento sumô",
+    "searchAlias": [
+      "Sumo Squat Barbell",
+      "Wide Stance Squat"
+    ],
+    "searchAliasPT": [
+      "Agachamento sumo",
+      "Agachamento pernas afastadas"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -1225,6 +1784,14 @@
     "legacyImageId": 69,
     "name": "Lying leg curl",
     "namePT": "Flexora deitado",
+    "searchAlias": [
+      "Prone Leg Curl",
+      "Lying Hamstring Curl"
+    ],
+    "searchAliasPT": [
+      "Mesa flexora deitado",
+      "Flexora de pernas deitado"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -1243,6 +1810,14 @@
     "legacyImageId": 70,
     "name": "Neutral Grip Lat Pulldown",
     "namePT": "Puxada na barra com pegada neutra",
+    "searchAlias": [
+      "Neutral Grip Pulldown",
+      "Close Neutral Grip Lat Pulldown"
+    ],
+    "searchAliasPT": [
+      "Puxada neutra",
+      "Puxada com barra neutra"
+    ],
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -1261,6 +1836,15 @@
     "legacyImageId": 71,
     "name": "Reverse Grip Barbell Curl",
     "namePT": "Rosca com barra e pegada reversa",
+    "searchAlias": [
+      "Reverse Barbell Curl",
+      "Reverse Grip Curl",
+      "Pronated Barbell Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca pronada com barra",
+      "Rosca inversa com barra"
+    ],
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -1279,6 +1863,14 @@
     "legacyImageId": 72,
     "name": "Machine Hack Squat",
     "namePT": "Agachamento na máquina hack",
+    "searchAlias": [
+      "Hack Squat",
+      "Hack Squat Machine"
+    ],
+    "searchAliasPT": [
+      "Hack squat",
+      "Agachamento hack"
+    ],
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -1297,6 +1889,14 @@
     "legacyImageId": 73,
     "name": "Incline Treadmill Walk",
     "namePT": "Caminhada em inclinação na esteira",
+    "searchAlias": [
+      "Treadmill Incline Walk",
+      "Uphill Treadmill Walking"
+    ],
+    "searchAliasPT": [
+      "Caminhada inclinada na esteira",
+      "Esteira inclinada"
+    ],
     "type": "CARDIO",
     "trackedMetrics": [
       {
@@ -1315,6 +1915,15 @@
     "legacyImageId": 74,
     "name": "Rowing Machine",
     "namePT": "Máquina de remo",
+    "searchAlias": [
+      "Rowing Ergometer",
+      "Indoor Rower",
+      "Erg"
+    ],
+    "searchAliasPT": [
+      "Remo ergômetro",
+      "Remo indoor"
+    ],
     "type": "CARDIO",
     "trackedMetrics": [
       {
@@ -1333,6 +1942,14 @@
     "legacyImageId": 75,
     "name": "Machine Crunch",
     "namePT": "Máquina de abdômen",
+    "searchAlias": [
+      "Abdominal Crunch Machine",
+      "Ab Machine Crunch"
+    ],
+    "searchAliasPT": [
+      "Abdominal na máquina",
+      "Máquina abdominal"
+    ],
     "type": "CORE",
     "trackedMetrics": [
       {
@@ -1351,6 +1968,15 @@
     "legacyImageId": 76,
     "name": "Crunch",
     "namePT": "Abdominal",
+    "searchAlias": [
+      "Basic Crunch",
+      "Bodyweight Crunch",
+      "Ab Crunch"
+    ],
+    "searchAliasPT": [
+      "Abdominal tradicional",
+      "Abdominal comum"
+    ],
     "type": "CORE",
     "trackedMetrics": [
       {
@@ -1365,6 +1991,14 @@
     "legacyImageId": 77,
     "name": "Cable Crunch",
     "namePT": "Abdominal na polia",
+    "searchAlias": [
+      "Kneeling Cable Crunch",
+      "Rope Cable Crunch"
+    ],
+    "searchAliasPT": [
+      "Abdominal no cabo",
+      "Abdominal ajoelhado na polia"
+    ],
     "type": "CORE",
     "trackedMetrics": [
       {
