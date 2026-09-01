@@ -4140,5 +4140,259 @@
         "default": false
       }
     ]
+  },
+  {
+    "id": "e9de8b1a-6436-43e3-9e67-b0ead6a9d745",
+    "imageFileId": "2e3d3217-7e85-4450-a603-50f69d4c3122",
+    "legacyImageId": null,
+    "name": "Hip circles",
+    "namePT": "Rotação de quadril",
+    "searchAlias": [
+      "Standing Hip Circles"
+    ],
+    "searchAliasPT": [
+      "Circundução de quadril"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "3e94231a-f327-4d21-b5bb-92373b5d2791",
+    "imageFileId": "49db8087-b4d3-4c77-ad7a-7bd008dfcebd",
+    "legacyImageId": null,
+    "name": "Leg swings",
+    "namePT": "Balanço de perna",
+    "searchAlias": [
+      "Dynamic Leg Swing"
+    ],
+    "searchAliasPT": [
+      "Balanço de pernas"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "0c90a465-7e1b-4d38-a7f0-5d15c25dc0c0",
+    "imageFileId": "4c04258d-b103-4663-af04-fa5518055f09",
+    "legacyImageId": null,
+    "name": "Arm circles",
+    "namePT": "Rotação de braços",
+    "searchAlias": [
+      "Shoulder Arm Circles"
+    ],
+    "searchAliasPT": [
+      "Circundução de braços"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "62e7b0d9-b24b-496c-9e5e-db4a9853d11d",
+    "imageFileId": "5417b634-1182-4d86-bfe6-c0ed608a6d91",
+    "legacyImageId": null,
+    "name": "Cat-cow",
+    "namePT": "Gato-camelo",
+    "searchAlias": [
+      "Cat Cow Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento gato camelo"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "970c9d92-cf3b-4d07-b7e9-bc5e27008e26",
+    "imageFileId": "1540e9ce-853e-489a-9a93-4dd666b91c63",
+    "legacyImageId": null,
+    "name": "World's greatest stretch",
+    "namePT": "Alongamento World's Greatest Stretch",
+    "searchAlias": [
+      "World's Greatest Stretch"
+    ],
+    "searchAliasPT": [
+      "Melhor alongamento do mundo"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "476261dc-0c54-4509-bea6-35d2cf84fe07",
+    "imageFileId": "8698d1f0-7605-4fe7-a385-d893f1f2fd54",
+    "legacyImageId": null,
+    "name": "Thoracic spine rotation",
+    "namePT": "Rotação torácica",
+    "searchAlias": [
+      "Open Book Stretch",
+      "T-Spine Rotation"
+    ],
+    "searchAliasPT": [
+      "Rotação de coluna torácica"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "9df892b2-a4a7-4154-84f5-84e2ab902a66",
+    "imageFileId": "ead32bc3-9e7a-4bb6-9906-f1a573e1e9f6",
+    "legacyImageId": null,
+    "name": "Ankle circles",
+    "namePT": "Rotação de tornozelo",
+    "searchAlias": [
+      "Ankle Mobility Circles"
+    ],
+    "searchAliasPT": [
+      "Circundução de tornozelo"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "7d34be7e-181e-4d0c-9fe6-cec18af246c1",
+    "imageFileId": "95b40b1d-4e52-43ce-8aa4-bb5b5ca1369d",
+    "legacyImageId": null,
+    "name": "Band shoulder dislocate",
+    "namePT": "Dislocação de ombro com elástico",
+    "searchAlias": [
+      "Shoulder Dislocates",
+      "PVC Pass Through"
+    ],
+    "searchAliasPT": [
+      "Passagem de ombro com elástico"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "31ddd1dd-b200-43a0-b968-ec91ccf41f8c",
+    "imageFileId": "3000e344-6150-4e6c-adc9-152cac42a998",
+    "legacyImageId": null,
+    "name": "Walking knee hug",
+    "namePT": "Abraço de joelho andando",
+    "searchAlias": [
+      "Walking Knee to Chest"
+    ],
+    "searchAliasPT": [
+      "Joelho no peito andando"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "45f6a9a5-06ae-4228-aab4-4a9cd8501425",
+    "imageFileId": "1f86f7cf-11d3-4199-b793-a22225c01223",
+    "legacyImageId": null,
+    "name": "Inchworm",
+    "namePT": "Inchworm",
+    "searchAlias": [
+      "Inchworm Walkout"
+    ],
+    "searchAliasPT": [
+      "Lagartinha"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "020d9b11-43a7-4cca-88a9-0bc2b5adde2f",
+    "imageFileId": "e985a659-2914-4b7a-a918-c1789bef08c5",
+    "legacyImageId": null,
+    "name": "Band pull-apart",
+    "namePT": "Pull-apart com elástico",
+    "searchAlias": [
+      "Resistance Band Pull Apart"
+    ],
+    "searchAliasPT": [
+      "Puxada de elástico"
+    ],
+    "type": "MOBILITY",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
   }
 ]
