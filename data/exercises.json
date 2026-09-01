@@ -512,15 +512,17 @@
     "id": "c05a0316-b092-4e60-8e1d-127869778fcc",
     "imageFileId": "dda04a65-34ad-48f3-907c-0ee248fa4ec4",
     "legacyImageId": 20,
-    "name": "Cable one arms lateral raise",
-    "namePT": "Elevação lateral unilateral no cabo",
+    "name": "Lateral raise",
+    "namePT": "Elevação lateral",
     "searchAlias": [
       "Single Arm Cable Lateral Raise",
-      "Cable Lateral Raise (Unilateral)"
+      "Cable Lateral Raise",
+      "Cable one arms lateral raise"
     ],
     "searchAliasPT": [
       "Elevação lateral unilateral na polia",
-      "Elevação lateral no cabo uma mão"
+      "Elevação lateral unilateral no cabo",
+      "Elevação lateral"
     ],
     "type": "SHOULDERS",
     "trackedMetrics": [
@@ -4391,6 +4393,575 @@
     "trackedMetrics": [
       {
         "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "14dba399-6d40-438c-b36e-1f5fe7ac11fa",
+    "imageFileId": "aa6624c0-a9c2-4583-9df7-1119462b4a30",
+    "legacyImageId": null,
+    "name": "Sled push",
+    "namePT": "Empurrar trenó",
+    "searchAlias": [
+      "Prowler Push"
+    ],
+    "searchAliasPT": [
+      "Empurrar sled"
+    ],
+    "type": "OTHER",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "f7899b74-242b-4307-91f4-8bca40161939",
+    "imageFileId": "2f749641-2b24-4ef3-af55-aa42f87741e9",
+    "legacyImageId": null,
+    "name": "Sled pull",
+    "namePT": "Puxar trenó",
+    "searchAlias": [
+      "Sled Drag"
+    ],
+    "searchAliasPT": [
+      "Arrastar sled"
+    ],
+    "type": "OTHER",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "166e5e2e-782d-43a1-92f4-0e2d540fe238",
+    "imageFileId": "a787443d-f30b-4b23-9b68-2cfe69bca250",
+    "legacyImageId": null,
+    "name": "Yoke walk",
+    "namePT": "Caminhada com yoke",
+    "searchAlias": [
+      "Yoke Carry"
+    ],
+    "searchAliasPT": [
+      "Yoke walk"
+    ],
+    "type": "OTHER",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "ef2096a7-cdbc-4057-9b79-f199e3e0e84a",
+    "imageFileId": "1c9aac75-33eb-48d9-80f7-5fec90bf63e1",
+    "legacyImageId": null,
+    "name": "Atlas stone lift",
+    "namePT": "Levantamento de pedra atlas",
+    "searchAlias": [
+      "Stone Lift"
+    ],
+    "searchAliasPT": [
+      "Pedra atlas"
+    ],
+    "type": "OTHER",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "d9483864-6a05-4db7-9024-2d8bcd1cf906",
+    "imageFileId": "762e576b-2996-42f1-8dcf-c7da9c1250b6",
+    "legacyImageId": null,
+    "name": "Tire flip",
+    "namePT": "Virada de pneu",
+    "searchAlias": [
+      "Tyre Flip"
+    ],
+    "searchAliasPT": [
+      "Virar pneu"
+    ],
+    "type": "OTHER",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "7b113b8c-d51f-4a40-988e-9a2114c1fc40",
+    "imageFileId": "62920fbe-9703-45f6-b37f-55f839f48f21",
+    "legacyImageId": null,
+    "name": "Barbell overhead press",
+    "namePT": "Desenvolvimento militar com barra",
+    "searchAlias": [
+      "Military Press",
+      "Standing Barbell Press"
+    ],
+    "searchAliasPT": [
+      "Desenvolvimento com barra em pé"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "742ffc7b-d08c-4c9e-b28b-3c498f2872f9",
+    "imageFileId": "b4d07eb2-ca21-4a39-ae60-98716946bdba",
+    "legacyImageId": null,
+    "name": "Dumbbell standing shoulder press",
+    "namePT": "Desenvolvimento em pé com halteres",
+    "searchAlias": [
+      "Standing Dumbbell Press"
+    ],
+    "searchAliasPT": [
+      "Desenvolvimento halteres em pé"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "c8e255e8-274c-4a53-baf8-2050c48d0a1e",
+    "imageFileId": "07d86278-2010-4cbb-ad37-1ff8d88729fb",
+    "legacyImageId": null,
+    "name": "Arnold press",
+    "namePT": "Desenvolvimento Arnold",
+    "searchAlias": [
+      "Arnold Dumbbell Press"
+    ],
+    "searchAliasPT": [
+      "Arnold press halteres"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "1bd0b565-beec-44da-bea8-2355ba5b3d03",
+    "imageFileId": "df6206af-f770-4472-be2b-09286a160e72",
+    "legacyImageId": null,
+    "name": "Barbell upright row",
+    "namePT": "Remada alta com barra",
+    "searchAlias": [
+      "Upright Row"
+    ],
+    "searchAliasPT": [
+      "Remada alta"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "52c2726f-6a27-49b5-a54d-fbf98a26ffbc",
+    "imageFileId": "b199df57-3aac-4eb8-ad4d-438e59a6953a",
+    "legacyImageId": null,
+    "name": "Cable upright row",
+    "namePT": "Remada alta no cabo",
+    "searchAlias": [
+      "Cable Upright Row"
+    ],
+    "searchAliasPT": [
+      "Remada alta no cross"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "a59a9c9f-a4ac-4def-9c05-2dd4b2b4a499",
+    "imageFileId": "c568602f-430e-47ed-8865-02a508b8493b",
+    "legacyImageId": null,
+    "name": "Plate front raise",
+    "namePT": "Elevação frontal com anilha",
+    "searchAlias": [
+      "Weight Plate Front Raise"
+    ],
+    "searchAliasPT": [
+      "Elevação frontal com disco"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "1bfb2834-1f6e-49d3-aa07-5f68d715d99f",
+    "imageFileId": "3538816c-13d0-4aed-8437-859c84275f73",
+    "legacyImageId": null,
+    "name": "Push press",
+    "namePT": "Push press",
+    "searchAlias": [
+      "Barbell Push Press"
+    ],
+    "searchAliasPT": [
+      "Push press com barra"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "9d1c9293-a24e-47db-8926-cd87bd39fc9a",
+    "imageFileId": "eeab6df0-e087-4ffa-ac63-feec0d33297f",
+    "legacyImageId": null,
+    "name": "Cable rear delt fly",
+    "namePT": "Crucifixo inverso no cabo",
+    "searchAlias": [
+      "Cable Reverse Fly"
+    ],
+    "searchAliasPT": [
+      "Crucifixo invertido no cross"
+    ],
+    "type": "SHOULDERS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "df679345-9f1d-4db1-850d-1f0c3143fa07",
+    "imageFileId": "85d5232d-989a-4a8a-8516-69f7c988f2c9",
+    "legacyImageId": null,
+    "name": "Standing hamstring stretch",
+    "namePT": "Alongamento de posterior em pé",
+    "searchAlias": [
+      "Toe Touch Hamstring Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento de posterior de coxa"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "0d38b4f6-30c3-4810-9fbb-024131786c0c",
+    "imageFileId": "7b1fae89-a073-4020-afca-f0fa8d1c157e",
+    "legacyImageId": null,
+    "name": "Standing quad stretch",
+    "namePT": "Alongamento de quadríceps em pé",
+    "searchAlias": [
+      "Standing Quad Pull"
+    ],
+    "searchAliasPT": [
+      "Alongamento de quadríceps"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "10008705-fd21-496e-b79a-f6b8f715be16",
+    "imageFileId": "a539c9e3-a3c1-475f-af38-8080b885965b",
+    "legacyImageId": null,
+    "name": "Standing calf stretch",
+    "namePT": "Alongamento de panturrilha em pé",
+    "searchAlias": [
+      "Wall Calf Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento de panturrilha na parede"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "5adbaac7-7e3e-40b7-852e-f5ba16bd43b3",
+    "imageFileId": "7b988c1c-ef84-499b-ae78-40a48ad24d93",
+    "legacyImageId": null,
+    "name": "Doorway chest stretch",
+    "namePT": "Alongamento de peito no batente da porta",
+    "searchAlias": [
+      "Chest Doorway Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento peitoral na porta"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "37709ff7-9694-4581-a401-274e84eb7acf",
+    "imageFileId": "5d676eff-9ce3-4c5b-8e40-d601f7405443",
+    "legacyImageId": null,
+    "name": "Cross-body shoulder stretch",
+    "namePT": "Alongamento de ombro cruzado",
+    "searchAlias": [
+      "Cross Arm Shoulder Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento de ombro braço cruzado"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "3166395d-fbba-4229-851f-ae4708f91052",
+    "imageFileId": "8642f190-ef46-418c-978e-6357ab7f6697",
+    "legacyImageId": null,
+    "name": "Overhead triceps stretch",
+    "namePT": "Alongamento de tríceps acima da cabeça",
+    "searchAlias": [
+      "Triceps Overhead Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento de tríceps"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "57e07be8-354f-4e8f-8030-3f3e03ffbb36",
+    "imageFileId": "1be25156-b227-4d40-b0e0-b25a149a6245",
+    "legacyImageId": null,
+    "name": "Kneeling hip flexor stretch",
+    "namePT": "Alongamento de flexor de quadril ajoelhado",
+    "searchAlias": [
+      "Kneeling Lunge Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento de quadril ajoelhado"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "38d765ed-5934-4a50-8f71-941637a5d9ef",
+    "imageFileId": "5dcdf580-83f4-4f0d-89f1-0f6a7a128a2a",
+    "legacyImageId": null,
+    "name": "Butterfly stretch",
+    "namePT": "Alongamento borboleta",
+    "searchAlias": [
+      "Seated Butterfly Stretch"
+    ],
+    "searchAliasPT": [
+      "Borboleta sentado"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "c0ff9aa7-fc99-47eb-9fdc-8b5e44307d6e",
+    "imageFileId": "9c6a4a94-1986-4c5f-aed5-fc17c8f2899b",
+    "legacyImageId": null,
+    "name": "Child's pose",
+    "namePT": "Postura da criança",
+    "searchAlias": [
+      "Child's Pose Stretch"
+    ],
+    "searchAliasPT": [
+      "Postura do bebê"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "8d0f9636-d894-4f73-9d16-f48506fb8fab",
+    "imageFileId": "2eff1155-1530-42d3-9e07-3974ac00886f",
+    "legacyImageId": null,
+    "name": "Cobra stretch",
+    "namePT": "Alongamento cobra",
+    "searchAlias": [
+      "Cobra Pose"
+    ],
+    "searchAliasPT": [
+      "Postura da cobra"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "c3139e14-6367-46ee-8df5-e86ee23d83b8",
+    "imageFileId": "ceb4de29-ca85-40fd-a4ed-30381911ddf1",
+    "legacyImageId": null,
+    "name": "Seated forward fold",
+    "namePT": "Flexão sentada para frente",
+    "searchAlias": [
+      "Seated Forward Bend"
+    ],
+    "searchAliasPT": [
+      "Alongamento sentado para frente"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "92d09eac-0bcb-40cc-80d9-f9a57216bb27",
+    "imageFileId": "b5ca62f9-e43d-44af-8503-afb2b9c2c677",
+    "legacyImageId": null,
+    "name": "Seated piriformis stretch",
+    "namePT": "Alongamento de piriforme sentado",
+    "searchAlias": [
+      "Figure Four Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento glúteo figura quatro"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "e548c4ae-0711-40a8-8a98-123cfd0cf1f5",
+    "imageFileId": "91ceffc0-a9a5-47d3-ba9a-a74068f94c03",
+    "legacyImageId": null,
+    "name": "Standing side bend stretch",
+    "namePT": "Alongamento lateral em pé",
+    "searchAlias": [
+      "Standing Oblique Stretch"
+    ],
+    "searchAliasPT": [
+      "Alongamento de lateral do tronco"
+    ],
+    "type": "STRETCHING",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
         "default": true
       }
     ]
