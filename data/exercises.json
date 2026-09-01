@@ -3153,5 +3153,302 @@
         "default": true
       }
     ]
+  },
+  {
+    "id": "7c9acf3c-e481-4452-b1ea-e7ef969385da",
+    "imageFileId": "b96b6c4a-3194-442a-8fcc-c69731f26510",
+    "legacyImageId": null,
+    "name": "Sit-up",
+    "namePT": "Abdominal supra completo",
+    "searchAlias": [
+      "Bodyweight Sit-up"
+    ],
+    "searchAliasPT": [
+      "Abdominal completo"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "e7aab688-c061-4118-849b-6bbc0bee0025",
+    "imageFileId": "c9f67cb0-25fe-4a27-b4b2-38a20941e86d",
+    "legacyImageId": null,
+    "name": "Russian twist",
+    "namePT": "Abdominal russo",
+    "searchAlias": [
+      "Russian Twist"
+    ],
+    "searchAliasPT": [
+      "Rotação de tronco russa"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "63817b50-5208-45dc-8f8b-82999bf00af1",
+    "imageFileId": "c99e2d20-df4a-4fd3-b493-c18229260967",
+    "legacyImageId": null,
+    "name": "Bicycle crunch",
+    "namePT": "Abdominal bicicleta",
+    "searchAlias": [
+      "Bicycle Crunch"
+    ],
+    "searchAliasPT": [
+      "Bicicleta abdominal"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "23178a35-1379-4a73-a9e5-b6ca6100f4f2",
+    "imageFileId": "831961a3-d00f-40d3-93fc-d269f64a3d40",
+    "legacyImageId": null,
+    "name": "Lying leg raise",
+    "namePT": "Elevação de pernas no chão",
+    "searchAlias": [
+      "Floor Leg Raise"
+    ],
+    "searchAliasPT": [
+      "Elevação de pernas deitado"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "7a7eb769-7ed2-44f5-97ce-9d966981b00a",
+    "imageFileId": "b93c2146-7e95-4be6-ac33-f8385e410c2e",
+    "legacyImageId": null,
+    "name": "Mountain climber",
+    "namePT": "Escalador",
+    "searchAlias": [
+      "Mountain Climbers"
+    ],
+    "searchAliasPT": [
+      "Corredor no chão"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "6a7a2883-2c1c-4be4-ab58-567c1ccd75ac",
+    "imageFileId": "7a4b4af5-d19b-4878-8b21-85a93b53dec7",
+    "legacyImageId": null,
+    "name": "Side plank",
+    "namePT": "Prancha lateral",
+    "searchAlias": [
+      "Side Bridge"
+    ],
+    "searchAliasPT": [
+      "Prancha lateral isométrica"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "e41bdfd9-bacb-42cb-9a89-54681e98e9d6",
+    "imageFileId": "29b01cbc-2619-4ad2-b050-8501d956412f",
+    "legacyImageId": null,
+    "name": "V-up",
+    "namePT": "Abdominal V",
+    "searchAlias": [
+      "V Sit-up"
+    ],
+    "searchAliasPT": [
+      "Abdominal em V"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "79999d86-eaf6-47b2-adc9-102c5f770e8b",
+    "imageFileId": "e8f36dd8-a872-489f-9683-be0b95eec8a5",
+    "legacyImageId": null,
+    "name": "Ab wheel rollout",
+    "namePT": "Rolamento com roda abdominal",
+    "searchAlias": [
+      "Ab Roller",
+      "Wheel Rollout"
+    ],
+    "searchAliasPT": [
+      "Roda abdominal"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "4f15bda1-fa78-4da1-b544-005ecef6817f",
+    "imageFileId": "9cfc113b-47f8-4924-a91f-3a4eae3340c7",
+    "legacyImageId": null,
+    "name": "Cable woodchopper",
+    "namePT": "Lenhador no cabo",
+    "searchAlias": [
+      "Cable Wood Chop"
+    ],
+    "searchAliasPT": [
+      "Woodchopper no cross"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "80554f0f-1548-41b5-aa17-6fe7ce12d1ac",
+    "imageFileId": "e90bb71e-5851-4b5b-83e6-2225c6af32cc",
+    "legacyImageId": null,
+    "name": "Flutter kicks",
+    "namePT": "Tesoura abdominal",
+    "searchAlias": [
+      "Flutter Kick"
+    ],
+    "searchAliasPT": [
+      "Tesourinha"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "cf79bf1b-fd5f-4b88-b835-68628a8e2ee3",
+    "imageFileId": "c17fcce6-df45-46f5-9cc6-e9b4ecc6010c",
+    "legacyImageId": null,
+    "name": "Dragon flag",
+    "namePT": "Dragon flag",
+    "searchAlias": [
+      "Dragon Flag"
+    ],
+    "searchAliasPT": [
+      "Bandeira do dragão"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "560b53c1-1741-44d1-92a9-60f06f84033f",
+    "imageFileId": "b4fea5b8-0428-42aa-98b4-ce6ea1aedac6",
+    "legacyImageId": null,
+    "name": "Reverse crunch",
+    "namePT": "Abdominal infra reverso",
+    "searchAlias": [
+      "Reverse Crunch"
+    ],
+    "searchAliasPT": [
+      "Abdominal invertido"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "9ac1ed0f-c971-4358-b181-264194f6e972",
+    "imageFileId": "216be6e7-4029-4f5a-b6e2-a359e04f8999",
+    "legacyImageId": null,
+    "name": "Dead bug",
+    "namePT": "Dead bug",
+    "searchAlias": [
+      "Dead Bug Exercise"
+    ],
+    "searchAliasPT": [
+      "Inseto morto"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "cd4f6cca-fb37-47f2-afc0-7a18e3911da7",
+    "imageFileId": "332acd4a-184d-4ad6-8424-6e6640454260",
+    "legacyImageId": null,
+    "name": "Toe touches",
+    "namePT": "Abdominal toca ponta do pé",
+    "searchAlias": [
+      "Toe Touch Crunch"
+    ],
+    "searchAliasPT": [
+      "Toca os pés"
+    ],
+    "type": "CORE",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
   }
 ]
