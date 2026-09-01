@@ -2371,5 +2371,371 @@
         "default": true
       }
     ]
+  },
+  {
+    "id": "b430983c-3b28-4af0-aed2-18aec6d36203",
+    "imageFileId": "e835216f-917a-4588-8f94-725dc7f20071",
+    "legacyImageId": null,
+    "name": "Pull-up",
+    "namePT": "Barra fixa pronada",
+    "searchAlias": [
+      "Pullup",
+      "Overhand Pull-up"
+    ],
+    "searchAliasPT": [
+      "Barra fixa",
+      "Puxada na barra pronada"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "4a1c24f1-1b3f-4bc6-b812-55f838514950",
+    "imageFileId": "41ea649c-708b-4fa1-a544-43dccfdf6920",
+    "legacyImageId": null,
+    "name": "Chin-up",
+    "namePT": "Barra fixa supinada",
+    "searchAlias": [
+      "Chinup",
+      "Underhand Pull-up"
+    ],
+    "searchAliasPT": [
+      "Barra fixa supinada"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "8b62e079-5c68-46e3-8096-d78dfe0cde08",
+    "imageFileId": "0d7a2b11-40be-46dc-abeb-c7ecf2d274a1",
+    "legacyImageId": null,
+    "name": "Wide grip pull-up",
+    "namePT": "Barra fixa pegada aberta",
+    "searchAlias": [
+      "Wide Grip Pullup"
+    ],
+    "searchAliasPT": [
+      "Barra fixa aberta"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "39cacb7e-30da-4d4d-b471-d3abcfedf5d6",
+    "imageFileId": "cf3bb924-1c33-421b-beef-ab97e85c3d3e",
+    "legacyImageId": null,
+    "name": "Inverted row",
+    "namePT": "Remada invertida",
+    "searchAlias": [
+      "Bodyweight Row",
+      "Australian Pull-up"
+    ],
+    "searchAliasPT": [
+      "Remada australiana"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "3b189689-dcf9-4a5d-9430-4da9060c45cf",
+    "imageFileId": "17c87201-e83c-4501-bd17-6d088782664d",
+    "legacyImageId": null,
+    "name": "Dumbbell bent over row",
+    "namePT": "Remada curvada com halteres",
+    "searchAlias": [
+      "Bent Over Dumbbell Row"
+    ],
+    "searchAliasPT": [
+      "Remada curvado halteres"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "d3790c4f-9efb-49f7-b272-9359a8a0b8ea",
+    "imageFileId": "17b6169f-4758-42ab-9e6c-dad227e41ca6",
+    "legacyImageId": null,
+    "name": "Single arm dumbbell row",
+    "namePT": "Remada unilateral com halter",
+    "searchAlias": [
+      "One Arm Dumbbell Row",
+      "Kroc Row"
+    ],
+    "searchAliasPT": [
+      "Remada serrote",
+      "Remada unilateral"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "20666e2d-850b-4ec6-96b2-acb879252a1f",
+    "imageFileId": "fcaa84f3-b124-46a5-aa11-ce7b9c30443a",
+    "legacyImageId": null,
+    "name": "Barbell row underhand",
+    "namePT": "Remada curvada supinada",
+    "searchAlias": [
+      "Underhand Barbell Row",
+      "Reverse Grip Bent Over Row"
+    ],
+    "searchAliasPT": [
+      "Remada curvada pegada supinada"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "d0619061-42f1-4f64-b26e-3115d57af3eb",
+    "imageFileId": "42ac25f3-ef69-4aa8-8bbb-a8842eb30df8",
+    "legacyImageId": null,
+    "name": "Chest supported T-bar row",
+    "namePT": "Remada cavalinho apoiado",
+    "searchAlias": [
+      "Chest Supported T-Bar Row"
+    ],
+    "searchAliasPT": [
+      "Remada cavalinho no banco"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "96e23834-8937-4d88-96eb-2c759a539b44",
+    "imageFileId": "4f63f3a4-0333-4652-a134-8303b666bb86",
+    "legacyImageId": null,
+    "name": "Meadows row",
+    "namePT": "Remada Meadows",
+    "searchAlias": [
+      "Landmine Row"
+    ],
+    "searchAliasPT": [
+      "Remada no landmine unilateral"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "46f4425b-c9ec-4197-a19c-51928def45ff",
+    "imageFileId": "f1c4ee9c-2060-43b7-9a40-48cb7fe24f84",
+    "legacyImageId": null,
+    "name": "Barbell shrug",
+    "namePT": "Encolhimento com barra",
+    "searchAlias": [
+      "Barbell Shoulder Shrug"
+    ],
+    "searchAliasPT": [
+      "Encolhimento de ombros com barra"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "4c8828e8-e7a8-45da-bcb0-40691a468cf4",
+    "imageFileId": "d6c9404b-c9e3-465c-ad0c-40f50534d732",
+    "legacyImageId": null,
+    "name": "Cable seated wide grip row",
+    "namePT": "Remada baixa pegada aberta no cabo",
+    "searchAlias": [
+      "Wide Grip Seated Cable Row"
+    ],
+    "searchAliasPT": [
+      "Remada baixa aberta"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "2ecf0b0f-e76c-42cb-9102-17855b4b6f65",
+    "imageFileId": "d90a7bb6-659e-46b5-a076-d2e5a5d3beaf",
+    "legacyImageId": null,
+    "name": "Dumbbell pullover",
+    "namePT": "Pullover com halter",
+    "searchAlias": [
+      "Pullover"
+    ],
+    "searchAliasPT": [
+      "Pullover halteres"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "e5274be9-23dc-4436-8fa0-ee161af07f6d",
+    "imageFileId": "82e35068-1ef6-4357-96d4-ebd73cb9d55c",
+    "legacyImageId": null,
+    "name": "Rack pull",
+    "namePT": "Rack pull",
+    "searchAlias": [
+      "Partial Deadlift",
+      "Block Pull"
+    ],
+    "searchAliasPT": [
+      "Levantamento terra parcial"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "5e9606a7-6c37-422c-a4f4-df2f6cff4168",
+    "imageFileId": "a02cc7a0-d892-4886-beb1-1dcc21f2c3bc",
+    "legacyImageId": null,
+    "name": "Superman",
+    "namePT": "Superman",
+    "searchAlias": [
+      "Superman Back Extension"
+    ],
+    "searchAliasPT": [
+      "Extensão lombar superman"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "f70852a2-7ecc-4a92-9222-44e43985522a",
+    "imageFileId": "98e81bd3-0be1-44d8-9438-fdc12067415f",
+    "legacyImageId": null,
+    "name": "Hyperextension",
+    "namePT": "Extensão lombar no banco romano",
+    "searchAlias": [
+      "Back Extension",
+      "Roman Chair Extension"
+    ],
+    "searchAliasPT": [
+      "Banco romano",
+      "Extensão de lombar"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
   }
 ]
