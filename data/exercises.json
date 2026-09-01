@@ -3686,5 +3686,459 @@
         "default": true
       }
     ]
+  },
+  {
+    "id": "b469c910-ab84-47f4-b720-671e3d30233b",
+    "imageFileId": "ec678036-bdbd-40fd-abc0-07c0b1354f45",
+    "legacyImageId": null,
+    "name": "Goblet squat",
+    "namePT": "Agachamento goblet",
+    "searchAlias": [
+      "Dumbbell Goblet Squat"
+    ],
+    "searchAliasPT": [
+      "Agachamento com halter no peito"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "b94b62fa-3521-481f-bfa5-3f80e982118a",
+    "imageFileId": "164c65de-ec2f-4e8a-ab0d-dad2de8f9514",
+    "legacyImageId": null,
+    "name": "Walking dumbbell lunge",
+    "namePT": "Passada com halteres",
+    "searchAlias": [
+      "Walking Lunge"
+    ],
+    "searchAliasPT": [
+      "Afundo caminhando"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "fe4c9b55-d81f-4d7e-8e04-b26190fb2479",
+    "imageFileId": "43d056eb-1ba0-4911-b280-83da399b3a25",
+    "legacyImageId": null,
+    "name": "Barbell reverse lunge",
+    "namePT": "Afundo reverso com barra",
+    "searchAlias": [
+      "Reverse Lunge"
+    ],
+    "searchAliasPT": [
+      "Passada reversa com barra"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "e6a1ccff-8f51-4f81-90b7-4a72ae881a61",
+    "imageFileId": "f8346042-56dd-4aff-9a59-4a98a4b51d2b",
+    "legacyImageId": null,
+    "name": "Step-up",
+    "namePT": "Subida no step com halteres",
+    "searchAlias": [
+      "Dumbbell Step-up",
+      "Box Step-up"
+    ],
+    "searchAliasPT": [
+      "Step up",
+      "Subida no banco"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "50a8647c-9f09-4d0d-8842-247808bdecf5",
+    "imageFileId": "98350838-53c3-420c-b762-15abf882c325",
+    "legacyImageId": null,
+    "name": "Box jump",
+    "namePT": "Salto na caixa",
+    "searchAlias": [
+      "Plyo Box Jump"
+    ],
+    "searchAliasPT": [
+      "Salto no box"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "b06a7dc3-4fcb-4bfe-b8bb-5f3828e51679",
+    "imageFileId": "d396b7c1-f1b2-419e-adbd-77baa9a8e62e",
+    "legacyImageId": null,
+    "name": "Barbell glute bridge",
+    "namePT": "Elevação pélvica com barra",
+    "searchAlias": [
+      "Glute Bridge"
+    ],
+    "searchAliasPT": [
+      "Ponte de glúteo com barra"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "ba08a3eb-8e6c-4c49-a298-9328522c9203",
+    "imageFileId": "655913ec-5d33-47b8-8552-20f0389a7539",
+    "legacyImageId": null,
+    "name": "Nordic hamstring curl",
+    "namePT": "Mesa flexora nórdica",
+    "searchAlias": [
+      "Nordic Curl"
+    ],
+    "searchAliasPT": [
+      "Flexora nórdica"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "5d61fc54-d4b3-43b9-8d84-9ff2ce3f5139",
+    "imageFileId": "46b19ea9-2311-460b-85a0-f94b77c5ec26",
+    "legacyImageId": null,
+    "name": "Wall sit",
+    "namePT": "Cadeira na parede",
+    "searchAlias": [
+      "Wall Squat Hold"
+    ],
+    "searchAliasPT": [
+      "Cadeirinha na parede"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "10b47db0-f5a9-4f2d-be4a-04f042da9004",
+    "imageFileId": "3c4e4e76-f17e-4e1c-af55-899551528b8c",
+    "legacyImageId": null,
+    "name": "Barbell hack squat",
+    "namePT": "Agachamento hack com barra",
+    "searchAlias": [
+      "Barbell Hack Squat"
+    ],
+    "searchAliasPT": [
+      "Hack com barra"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "50e66007-97b7-4a01-a4d4-85a1e95b5c75",
+    "imageFileId": "ec76d056-9a18-46d0-9c8e-c0d8e492ae1d",
+    "legacyImageId": null,
+    "name": "Zercher squat",
+    "namePT": "Agachamento Zercher",
+    "searchAlias": [
+      "Zercher Squat"
+    ],
+    "searchAliasPT": [
+      "Agachamento Zercher com barra"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "a3c20ac1-9bcb-425e-bbd9-d8f098997456",
+    "imageFileId": "696dc9b4-6116-4ec9-9c5e-8189d4e28b56",
+    "legacyImageId": null,
+    "name": "Pistol squat",
+    "namePT": "Agachamento pistol",
+    "searchAlias": [
+      "Single Leg Squat"
+    ],
+    "searchAliasPT": [
+      "Agachamento unilateral pistol"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "ed369036-2531-4d94-9ba1-973d0b39f0eb",
+    "imageFileId": "d97b460a-0a71-4945-a0c7-09c42357536b",
+    "legacyImageId": null,
+    "name": "Cossack squat",
+    "namePT": "Agachamento cossaco",
+    "searchAlias": [
+      "Cossack Squat"
+    ],
+    "searchAliasPT": [
+      "Agachamento lateral cossaco"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "80631f89-8229-41e8-84f2-79b15d761e05",
+    "imageFileId": "d6378544-0a14-420d-a505-7ed8b728ad9c",
+    "legacyImageId": null,
+    "name": "Donkey calf raise machine",
+    "namePT": "Panturrilha burrinho",
+    "searchAlias": [
+      "Donkey Calf Raise"
+    ],
+    "searchAliasPT": [
+      "Panturrilha no aparelho burrinho"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "fba1bdee-cc35-406a-8775-224344fd3f7e",
+    "imageFileId": "c6a7a585-6e64-4c0a-be1b-105d8cd715d9",
+    "legacyImageId": null,
+    "name": "Dumbbell seated calf raise",
+    "namePT": "Panturrilha sentada com halter",
+    "searchAlias": [
+      "Seated Dumbbell Calf Raise"
+    ],
+    "searchAliasPT": [
+      "Panturrilha sentado com halteres"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "7b94c8cc-5e71-45a8-9ee9-561eb05af433",
+    "imageFileId": "c32c17ce-4a3d-4201-bafe-8edac99754e4",
+    "legacyImageId": null,
+    "name": "Barbell standing calf raise",
+    "namePT": "Panturrilha em pé com barra",
+    "searchAlias": [
+      "Standing Barbell Calf Raise"
+    ],
+    "searchAliasPT": [
+      "Panturrilha em pé barra nas costas"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "1e3011df-6a4b-4db3-8ecb-bfb6e53a5ba0",
+    "imageFileId": "90c1af63-8526-4b36-80f8-f6de996e82e7",
+    "legacyImageId": null,
+    "name": "Single leg dumbbell Romanian deadlift",
+    "namePT": "Levantamento terra romeno unilateral com halteres",
+    "searchAlias": [
+      "Single Leg RDL"
+    ],
+    "searchAliasPT": [
+      "Terra romeno unilateral"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "34094618-9de7-411c-ac4f-085255f543df",
+    "imageFileId": "d58434ab-94a8-45db-ad12-aadb2e7d08a5",
+    "legacyImageId": null,
+    "name": "Trap bar deadlift",
+    "namePT": "Levantamento terra na barra hexagonal",
+    "searchAlias": [
+      "Hex Bar Deadlift"
+    ],
+    "searchAliasPT": [
+      "Terra com barra trap"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "357f60b0-0f31-4ae2-9204-5a703d6985c1",
+    "imageFileId": "c5cc9d55-963a-4663-a8e1-71e5d0b9f495",
+    "legacyImageId": null,
+    "name": "Barbell good morning",
+    "namePT": "Good morning com barra",
+    "searchAlias": [
+      "Good Morning"
+    ],
+    "searchAliasPT": [
+      "Bom dia com barra"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "4fc497bf-0a1c-4894-8739-195f350d6970",
+    "imageFileId": "644a14a7-8d36-40a5-9821-a7ac599d5665",
+    "legacyImageId": null,
+    "name": "Frog pump",
+    "namePT": "Frog pump",
+    "searchAlias": [
+      "Frog Pump Glute Bridge"
+    ],
+    "searchAliasPT": [
+      "Ponte de glúteo sapinho"
+    ],
+    "type": "LEGS",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
   }
 ]
