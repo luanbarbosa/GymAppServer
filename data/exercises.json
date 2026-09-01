@@ -2010,5 +2010,366 @@
         "default": true
       }
     ]
+  },
+  {
+    "id": "958c116d-df8f-42a3-9281-7cc8861c788b",
+    "imageFileId": "69c33515-ccd0-4981-be92-d86adcbca654",
+    "legacyImageId": null,
+    "name": "Barbell curl",
+    "namePT": "Rosca direta com barra reta",
+    "searchAlias": [
+      "Straight Bar Curl",
+      "Standing Barbell Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca direta barra reta"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "4e3467c5-3fe1-4940-adf0-abb4abbfd5e1",
+    "imageFileId": "d48647a1-3756-424f-b713-d2cab8ba1b2c",
+    "legacyImageId": null,
+    "name": "Barbell preacher curl",
+    "namePT": "Rosca Scott com barra",
+    "searchAlias": [
+      "Preacher Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca scott"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "16a7d709-a58e-4215-bb62-14b43633aca3",
+    "imageFileId": "25f91903-b542-4d4d-8af1-7eddc801ebff",
+    "legacyImageId": null,
+    "name": "Dumbbell preacher curl",
+    "namePT": "Rosca Scott com halter",
+    "searchAlias": [
+      "Dumbbell Preacher Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca scott halter"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "6952968a-ccf3-4083-b18f-541542d4adcf",
+    "imageFileId": "f0aaa7ad-2da7-4305-bb04-64f223ae212d",
+    "legacyImageId": null,
+    "name": "Cable bar curl (straight bar)",
+    "namePT": "Rosca no cabo barra reta",
+    "searchAlias": [
+      "Straight Bar Cable Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca no cross barra reta"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "d5869771-690c-4362-88b9-9d5c2618319a",
+    "imageFileId": "0e85fc54-1ec6-4a2b-a3df-90b7de88b5d4",
+    "legacyImageId": null,
+    "name": "Zottman curl",
+    "namePT": "Rosca Zottman",
+    "searchAlias": [
+      "Zottman Dumbbell Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca Zottman halteres"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "0ca9bcc0-0824-461a-aa54-18e0a61e018c",
+    "imageFileId": "4db7855f-cb24-455a-bf54-1fe1911b1958",
+    "legacyImageId": null,
+    "name": "Spider curl",
+    "namePT": "Rosca aranha",
+    "searchAlias": [
+      "Spider Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca aranha no banco"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "07a72560-86a8-44da-bb42-6523a8731b40",
+    "imageFileId": "58849f5c-1688-4f04-8ac6-80136a6e91cd",
+    "legacyImageId": null,
+    "name": "Drag curl",
+    "namePT": "Rosca drag",
+    "searchAlias": [
+      "Barbell Drag Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca arrastada"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "84d026be-4747-44c9-8158-c48eeb2045df",
+    "imageFileId": "1bf246b3-f27c-41f3-805c-d877e5c42997",
+    "legacyImageId": null,
+    "name": "Close grip bench press",
+    "namePT": "Supino fechado",
+    "searchAlias": [
+      "Close Grip Barbell Bench Press"
+    ],
+    "searchAliasPT": [
+      "Supino pegada fechada"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "239c6d33-b9d2-472b-8b37-686aa43ee2e0",
+    "imageFileId": "6c58676c-9075-41eb-b437-1e5622f1a956",
+    "legacyImageId": null,
+    "name": "Bench dip",
+    "namePT": "Mergulho no banco",
+    "searchAlias": [
+      "Triceps Bench Dip"
+    ],
+    "searchAliasPT": [
+      "Tríceps banco mergulho"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "ca23fdb9-206b-4d88-951a-5ae1242c159c",
+    "imageFileId": "d78eeb0f-01a3-4638-98bb-81795bbc59da",
+    "legacyImageId": null,
+    "name": "Single arm overhead dumbbell triceps extension",
+    "namePT": "Tríceps testa unilateral com halter acima da cabeça",
+    "searchAlias": [
+      "One Arm Overhead Triceps Extension"
+    ],
+    "searchAliasPT": [
+      "Tríceps francês unilateral"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "40629de8-d617-4fe6-8535-af864c3cde3c",
+    "imageFileId": "b712b507-b67b-4b27-8927-70ee9ab464d1",
+    "legacyImageId": null,
+    "name": "Cable triceps pushdown (straight bar)",
+    "namePT": "Tríceps pulley barra reta",
+    "searchAlias": [
+      "Straight Bar Triceps Pushdown"
+    ],
+    "searchAliasPT": [
+      "Tríceps no pulley barra reta"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "bf04d221-72de-4e1c-a261-668a4d257a84",
+    "imageFileId": "99593325-f454-4533-b98e-1aad4fdf8c4a",
+    "legacyImageId": null,
+    "name": "Barbell skullcrusher",
+    "namePT": "Tríceps testa com barra",
+    "searchAlias": [
+      "Barbell Lying Triceps Extension"
+    ],
+    "searchAliasPT": [
+      "Tríceps francês com barra"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "77b3b071-72a9-4637-94a3-f37280dbf75d",
+    "imageFileId": "3b533479-6364-4786-82a5-96dd5dc5b237",
+    "legacyImageId": null,
+    "name": "Dumbbell triceps kickback",
+    "namePT": "Tríceps coice com halter",
+    "searchAlias": [
+      "Triceps Kickback"
+    ],
+    "searchAliasPT": [
+      "Coice de tríceps"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "09352769-32a3-4cd2-9565-e869fd7e47fc",
+    "imageFileId": "374ac1c4-85b8-4e42-8b1b-9441eeca3e87",
+    "legacyImageId": null,
+    "name": "Dumbbell wrist curl",
+    "namePT": "Rosca de punho com halteres",
+    "searchAlias": [
+      "Wrist Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca de punho"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "96b7343f-f982-42b3-bb34-8b5b31e529af",
+    "imageFileId": "d7ddc5ec-7c00-4c44-80e7-92f7c31fca67",
+    "legacyImageId": null,
+    "name": "Dumbbell reverse wrist curl",
+    "namePT": "Rosca de punho invertida com halteres",
+    "searchAlias": [
+      "Reverse Wrist Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca de punho pegada pronada"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
   }
 ]
