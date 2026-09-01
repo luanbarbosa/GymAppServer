@@ -3450,5 +3450,241 @@
         "default": true
       }
     ]
+  },
+  {
+    "id": "571ac974-add5-45ae-afc6-65bfd261413f",
+    "imageFileId": "6f16540f-f2ee-4cba-8626-4fe48bb50ff0",
+    "legacyImageId": null,
+    "name": "Burpee",
+    "namePT": "Burpee",
+    "searchAlias": [
+      "Burpees"
+    ],
+    "searchAliasPT": [
+      "Burpee"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "05794734-4a6b-4b89-8cdd-dae6ca9d3874",
+    "imageFileId": "2ad63cc5-b6c0-4dfb-b9db-53d91f602d2e",
+    "legacyImageId": null,
+    "name": "Kettlebell swing",
+    "namePT": "Balanço com kettlebell",
+    "searchAlias": [
+      "Kettlebell Swing"
+    ],
+    "searchAliasPT": [
+      "Swing com kettlebell"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "e81ff52c-3248-4aa5-88ae-06d9675f8c94",
+    "imageFileId": "a8a133ef-bfb9-4ebc-89a1-48ee9b820a71",
+    "legacyImageId": null,
+    "name": "Barbell clean and press",
+    "namePT": "Clean and press com barra",
+    "searchAlias": [
+      "Clean and Press"
+    ],
+    "searchAliasPT": [
+      "Arranco e desenvolvimento"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "a19965dc-ff31-4fe3-97dc-e90a4c8c48c4",
+    "imageFileId": "a56560e0-97ea-42f8-8553-462bcd644c78",
+    "legacyImageId": null,
+    "name": "Barbell thruster",
+    "namePT": "Thruster com barra",
+    "searchAlias": [
+      "Thruster"
+    ],
+    "searchAliasPT": [
+      "Agachamento com desenvolvimento"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "202d0a17-578f-4230-8083-d49297e1f2b4",
+    "imageFileId": "ea88d5d5-5179-49c8-89dc-ccda932e8adb",
+    "legacyImageId": null,
+    "name": "Turkish get-up",
+    "namePT": "Turkish get-up",
+    "searchAlias": [
+      "Kettlebell Turkish Get-up"
+    ],
+    "searchAliasPT": [
+      "Levantar-se turco"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "3d511816-c075-4582-8248-4c89e291fd03",
+    "imageFileId": "87da923d-7f3d-4fb3-98a5-4e15e1ecdb93",
+    "legacyImageId": null,
+    "name": "Farmer's walk",
+    "namePT": "Caminhada do fazendeiro",
+    "searchAlias": [
+      "Farmers Carry"
+    ],
+    "searchAliasPT": [
+      "Farmer's walk"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "610ecd4d-261a-44c1-9bba-c7217fa9cd80",
+    "imageFileId": "c482b61f-c9f3-47d1-bf0f-1f9fc4e877d7",
+    "legacyImageId": null,
+    "name": "Bear crawl",
+    "namePT": "Caminhada do urso",
+    "searchAlias": [
+      "Bear Crawl"
+    ],
+    "searchAliasPT": [
+      "Rastejar do urso"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "fcd42f10-1c3d-4240-a6f0-220724d73a82",
+    "imageFileId": "360dec8c-897e-45d0-9d07-5dac8ff44abe",
+    "legacyImageId": null,
+    "name": "Wall ball shot",
+    "namePT": "Arremesso de wall ball",
+    "searchAlias": [
+      "Wall Ball"
+    ],
+    "searchAliasPT": [
+      "Wall ball"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "36811a7e-b09d-42cf-8091-7bd3b846b628",
+    "imageFileId": "604402a9-9ed8-4afd-90ab-1114018297a0",
+    "legacyImageId": null,
+    "name": "Devil press",
+    "namePT": "Devil press",
+    "searchAlias": [
+      "Dumbbell Devil Press"
+    ],
+    "searchAliasPT": [
+      "Devil press halteres"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "abae2293-c078-482c-8813-d066c952e0c8",
+    "imageFileId": "deffcca2-bc39-40e7-a5a3-b9ba29c8523b",
+    "legacyImageId": null,
+    "name": "Sandbag carry",
+    "namePT": "Carregamento de saco de areia",
+    "searchAlias": [
+      "Sandbag Carry"
+    ],
+    "searchAliasPT": [
+      "Caminhada com saco de areia"
+    ],
+    "type": "FULL_BODY",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
   }
 ]
