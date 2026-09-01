@@ -2737,5 +2737,170 @@
         "default": false
       }
     ]
+  },
+  {
+    "id": "201d2868-9dff-4139-b66a-a6f907d4d115",
+    "imageFileId": "197c99dc-b2cb-4124-a6a2-57fe8f4868e6",
+    "legacyImageId": null,
+    "name": "Stair climber",
+    "namePT": "Escada rolante (StairMaster)",
+    "searchAlias": [
+      "StairMaster",
+      "Stair Machine"
+    ],
+    "searchAliasPT": [
+      "Simulador de escada"
+    ],
+    "type": "CARDIO",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "e358a0f6-d14c-442a-a9fe-5e7f4b663d9f",
+    "imageFileId": "35d28db9-f125-46b0-ba89-2de0978b288a",
+    "legacyImageId": null,
+    "name": "Jump rope",
+    "namePT": "Pular corda",
+    "searchAlias": [
+      "Jumping Rope",
+      "Skipping Rope"
+    ],
+    "searchAliasPT": [
+      "Corda"
+    ],
+    "type": "CARDIO",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "0249e732-9332-4b76-89ca-7fc34a5e8b4f",
+    "imageFileId": "1748725e-141e-4097-a759-9f49a83f972c",
+    "legacyImageId": null,
+    "name": "Outdoor running",
+    "namePT": "Corrida ao ar livre",
+    "searchAlias": [
+      "Running Outside",
+      "Road Run"
+    ],
+    "searchAliasPT": [
+      "Corrida na rua"
+    ],
+    "type": "CARDIO",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "b79a6ec9-8d77-4b3c-a112-61d0461675c2",
+    "imageFileId": "12a78a63-58e2-40ae-b514-993260d9d5b8",
+    "legacyImageId": null,
+    "name": "Outdoor cycling",
+    "namePT": "Ciclismo ao ar livre",
+    "searchAlias": [
+      "Road Cycling",
+      "Bike Ride Outside"
+    ],
+    "searchAliasPT": [
+      "Bicicleta na rua"
+    ],
+    "type": "CARDIO",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "01806272-e4a4-4c12-9182-b5eee600121c",
+    "imageFileId": "041e280f-a276-4fae-8991-f1d2930464c9",
+    "legacyImageId": null,
+    "name": "Swimming",
+    "namePT": "Natação",
+    "searchAlias": [
+      "Swim"
+    ],
+    "searchAliasPT": [
+      "Nadar"
+    ],
+    "type": "CARDIO",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "520ded27-bece-42e7-95b2-46c705e77948",
+    "imageFileId": "cf3f88bd-16b0-4176-94b3-02b42dcebfac",
+    "legacyImageId": null,
+    "name": "Battle ropes",
+    "namePT": "Corda naval",
+    "searchAlias": [
+      "Battle Rope Waves"
+    ],
+    "searchAliasPT": [
+      "Corda ondulatória"
+    ],
+    "type": "CARDIO",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "ba0de757-5123-49fc-9c95-b235a9934953",
+    "imageFileId": "be780e5a-3577-46d1-83ae-8c0429224586",
+    "legacyImageId": null,
+    "name": "Air bike",
+    "namePT": "Bicicleta aeróbica (air bike)",
+    "searchAlias": [
+      "Assault Bike",
+      "Fan Bike"
+    ],
+    "searchAliasPT": [
+      "Bike de ar"
+    ],
+    "type": "CARDIO",
+    "trackedMetrics": [
+      {
+        "type": "DURATION",
+        "default": true
+      },
+      {
+        "type": "DISTANCE",
+        "default": true
+      }
+    ]
   }
 ]
