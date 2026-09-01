@@ -328,11 +328,14 @@
     "searchAlias": [
       "Low Cable Fly",
       "Cable Crossover Low to High",
-      "Low-to-High Cable Fly"
+      "Low-to-High Cable Fly",
+      "Low to high cable fly"
     ],
     "searchAliasPT": [
       "Crucifixo crossover baixo",
-      "Cross over baixo"
+      "Cross over baixo",
+      "Cross over baixo para cima",
+      "Crucifixo no cross over baixo para alto"
     ],
     "type": "CHEST",
     "trackedMetrics": [
@@ -2899,6 +2902,254 @@
       },
       {
         "type": "DISTANCE",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "00fc07b4-6099-4b45-b8e0-e797fc369f65",
+    "imageFileId": "70fba009-fc1e-4b7c-a460-22affb3a838f",
+    "legacyImageId": null,
+    "name": "Push-up",
+    "namePT": "Flexão de braço",
+    "searchAlias": [
+      "Bodyweight Push-up",
+      "Press-up"
+    ],
+    "searchAliasPT": [
+      "Flexão",
+      "Flexão de braço no chão"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "f7329b41-6dbb-4fbf-a99a-d3e080ad12a1",
+    "imageFileId": "b390db67-c625-488d-9445-5685914f161b",
+    "legacyImageId": null,
+    "name": "Incline push-up",
+    "namePT": "Flexão inclinada",
+    "searchAlias": [
+      "Incline Press-up"
+    ],
+    "searchAliasPT": [
+      "Flexão inclinada nas mãos elevadas"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "14775506-2ab3-423d-ae6a-139710642b2a",
+    "imageFileId": "82fc2997-83bf-46be-8aa5-2ab303e3cbec",
+    "legacyImageId": null,
+    "name": "Decline push-up",
+    "namePT": "Flexão declinada",
+    "searchAlias": [
+      "Decline Press-up",
+      "Feet Elevated Push-up"
+    ],
+    "searchAliasPT": [
+      "Flexão com pés elevados"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "668c96db-d437-4b7c-be5c-27a42ef48a07",
+    "imageFileId": "3b141e81-6758-4216-9f84-a26c83436f13",
+    "legacyImageId": null,
+    "name": "Diamond push-up",
+    "namePT": "Flexão diamante",
+    "searchAlias": [
+      "Triangle Push-up",
+      "Close Grip Push-up"
+    ],
+    "searchAliasPT": [
+      "Flexão fechada",
+      "Flexão triângulo"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "5f94250c-5f07-4a02-ac6f-cc76d7d82f30",
+    "imageFileId": "762ec327-9b27-4f18-b898-efa5347059f8",
+    "legacyImageId": null,
+    "name": "Chest dip",
+    "namePT": "Paralelas para peito",
+    "searchAlias": [
+      "Parallel Bar Chest Dip"
+    ],
+    "searchAliasPT": [
+      "Mergulho para peitoral",
+      "Paralelas inclinado"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "5186cea4-e0ff-434e-a743-1769c3eb3b4e",
+    "imageFileId": "1ddc110a-398e-4089-a183-8a80401831c8",
+    "legacyImageId": null,
+    "name": "Barbell decline bench press",
+    "namePT": "Supino declinado com barra",
+    "searchAlias": [
+      "Decline Barbell Bench Press"
+    ],
+    "searchAliasPT": [
+      "Supino reto declinado"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "5727cb65-c229-46bf-beb4-1c7319f4f380",
+    "imageFileId": "d6208c99-1904-4dcf-bd17-01619fc696a4",
+    "legacyImageId": null,
+    "name": "Dumbbell decline bench press",
+    "namePT": "Supino declinado com halteres",
+    "searchAlias": [
+      "Decline Dumbbell Press"
+    ],
+    "searchAliasPT": [
+      "Supino declinado halteres"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "de831b4a-607a-490c-b1b6-2848900dbf83",
+    "imageFileId": "c05fc0e7-508a-4baf-9b97-4b23a0b38b3d",
+    "legacyImageId": null,
+    "name": "Cable crossover (mid)",
+    "namePT": "Crucifixo no cross over",
+    "searchAlias": [
+      "Standing Cable Fly",
+      "Cable Crossover"
+    ],
+    "searchAliasPT": [
+      "Cross over",
+      "Crucifixo no cabo"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "f46f28c3-55db-48ef-9aa9-2d2a47cc1dc2",
+    "imageFileId": "a7f20408-664e-46b2-801a-b0da8c01c4b6",
+    "legacyImageId": null,
+    "name": "Svend press",
+    "namePT": "Svend press",
+    "searchAlias": [
+      "Plate Squeeze Press"
+    ],
+    "searchAliasPT": [
+      "Press com anilha"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "24602585-b6d8-429c-8e03-acb1004f8397",
+    "imageFileId": "b8848b7d-a8c3-457c-9ff4-259ab563e386",
+    "legacyImageId": null,
+    "name": "Landmine chest press",
+    "namePT": "Press de peito no landmine",
+    "searchAlias": [
+      "Landmine Press (Chest)"
+    ],
+    "searchAliasPT": [
+      "Supino no landmine"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
         "default": true
       }
     ]
