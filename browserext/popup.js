@@ -1,5 +1,6 @@
 const fileInput = document.getElementById("filePicker");
 const statusEl = document.getElementById("status");
+const prevBtn = document.getElementById("prevBtn");
 const skipBtn = document.getElementById("skipBtn");
 const resetBtn = document.getElementById("resetBtn");
 const cancelBtn = document.getElementById("cancelBtn");
@@ -35,6 +36,12 @@ fileInput.addEventListener("change", async (e) => {
   } catch (err) {
     statusEl.textContent = `Error: ${err.message}`;
   }
+});
+
+prevBtn.addEventListener("click", async () => {
+  const { pointer = 0 } = await chrome.storage.local.get("pointer");
+  await chrome.storage.local.set({ pointer: Math.max(0, pointer - 1) });
+  await render();
 });
 
 skipBtn.addEventListener("click", async () => {
