@@ -18,9 +18,9 @@ data class ExerciseResponse(
     val trackedMetrics: List<TrackedMetric>,
 )
 
-fun Exercise.toResponse(): ExerciseResponse = ExerciseResponse(
+fun Exercise.toResponse(imageUrl: String): ExerciseResponse = ExerciseResponse(
     id = id,
-    imageUrl = "/images/$imageFileId",
+    imageUrl = imageUrl,
     imageId = legacyImageId,
     name = name,
     namePT = namePT,

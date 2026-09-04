@@ -22,12 +22,18 @@ private fun sha256Hex(input: String): String {
     return digest.joinToString("") { "%02x".format(it) }
 }
 
+private const val IMAGE_BASE_URL = "https://raw.githubusercontent.com/luanbarbosa/GymNerdAppImages/main"
+
 fun Application.module() {
     val exercisesJson = File("data/exercises.json").readText()
     val exercises = Json.decodeFromString<List<Exercise>>(exercisesJson)
-    val exerciseResponses = exercises.map { it.toResponse() }
+    val imageFileNamesById: Map<String, String> =
+        Json.decodeFromString<Map<String, String>>(File("data/image-manifest.json").readText())
+    val exerciseResponses = exercises.map { exercise ->
+        val fileName = imageFileNamesById[exercise.imageFileId]
+        exercise.toResponse(imageUrl = "$IMAGE_BASE_URL/$fileName")
+    }
     val catalogEtag = "\"" + sha256Hex(exercisesJson) + "\""
-    val imageStorage: ImageStorage = LocalImageStorage(File("data/images"))
 
     install(ContentNegotiation) {
         json()
@@ -44,15 +50,6 @@ fun Application.module() {
                 return@get
             }
             call.respond(exerciseResponses)
-        }
-        get("/images/{imageId}") {
-            val imageId = call.parameters["imageId"]
-            val image = imageId?.let { imageStorage.resolve(it) }
-            if (image == null) {
-                call.respond(HttpStatusCode.NotFound)
-                return@get
-            }
-            call.respondBytes(image.bytes, image.contentType)
         }
     }
 }
