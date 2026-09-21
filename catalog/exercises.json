@@ -3011,7 +3011,7 @@
   },
   {
     "id": "5f94250c-5f07-4a02-ac6f-cc76d7d82f30",
-    "imageFileId": "762ec327-9b27-4f18-b898-efa5347059f8",
+    "imageFileId": "56d7a8c4-f1b7-4657-80a6-80d08ea3946f",
     "legacyImageId": null,
     "name": "Chest dip",
     "namePT": "Paralelas para peito",
@@ -3021,6 +3021,31 @@
     "searchAliasPT": [
       "Mergulho para peitoral",
       "Paralelas inclinado"
+    ],
+    "type": "CHEST",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "310d6959-068f-4075-a487-cf4e67830577",
+    "imageFileId": "762ec327-9b27-4f18-b898-efa5347059f8",
+    "legacyImageId": null,
+    "name": "Assisted chest dip",
+    "namePT": "Paralelas assistida para peito",
+    "searchAlias": [
+      "Assisted Parallel Bar Chest Dip"
+    ],
+    "searchAliasPT": [
+      "Mergulho assistido para peitoral",
+      "Paralelas inclinado assistido"
     ],
     "type": "CHEST",
     "trackedMetrics": [
