@@ -14109,29 +14109,6 @@
     "imageFileId": "9b4a71d5-4a2a-424b-85a3-fe2e65a490b9"
   },
   {
-    "id": "4f59be7a-c3e7-46d8-a982-6ce7637d2fd9",
-    "name": "Sternum Pullup Gironda",
-    "namePT": "Sternum barra fixa gironda",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Sternum Pull-Up Gironda"
-    ],
-    "searchAliasPT": [
-      "Sternum barra fixa girondas"
-    ],
-    "imageFileId": "0ff3a311-8344-4a1b-ac38-2a73684501b4"
-  },
-  {
     "id": "4cd0d62e-cf96-4f09-bf1f-46a5394a5e2e",
     "name": "Sumo Deadlift High Pull",
     "namePT": "Levantamento terra sumô alto pull",
