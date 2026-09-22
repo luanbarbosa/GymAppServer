@@ -10734,30 +10734,6 @@
     "imageFileId": "3db22b2f-b0e8-4c74-b0e2-0f59a1b825d3"
   },
   {
-    "id": "bf25c4bc-f283-4bfe-938c-fa86fa96f74c",
-    "name": "Kettlebell Single Arm Clean",
-    "namePT": "Unilateral braço clean com kettlebell",
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Single Arm Clean"
-    ],
-    "searchAliasPT": [
-      "Unilateral braço clean",
-      "Braço clean com kettlebell"
-    ],
-    "imageFileId": "1d851f9c-0ea3-4c68-85b5-e3108251d4f4"
-  },
-  {
     "id": "44b40790-433c-4463-a38a-5ba29d085754",
     "name": "Kettlebell Single Arm Shoulder Press",
     "namePT": "Unilateral braço desenvolvimento com kettlebell",
@@ -10797,10 +10773,15 @@
       }
     ],
     "searchAlias": [
-      "Snatch"
+      "Snatch",
+      "Kettlebell Single Arm Clean",
+      "Single Arm Clean"
     ],
     "searchAliasPT": [
-      "Snatch"
+      "Snatch",
+      "Unilateral braço clean com kettlebell",
+      "Unilateral braço clean",
+      "Braço clean com kettlebell"
     ],
     "imageFileId": "1ce40389-cccf-4d37-ab16-d72fe958d9f3"
   },
