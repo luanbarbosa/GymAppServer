@@ -517,12 +517,16 @@
     "searchAlias": [
       "Single Arm Cable Lateral Raise",
       "Cable Lateral Raise",
-      "Cable one arms lateral raise"
+      "Cable one arms lateral raise",
+      "Cable One Arm Lateral Raise",
+      "One Arm Lateral Raise"
     ],
     "searchAliasPT": [
       "Elevação lateral unilateral na polia",
       "Elevação lateral unilateral no cabo",
-      "Elevação lateral"
+      "Elevação lateral",
+      "Um braço elevação lateral com cabo",
+      "Um braço elevação lateral"
     ],
     "type": "SHOULDERS",
     "trackedMetrics": [
@@ -7307,29 +7311,6 @@
       "Um braço pulldown"
     ],
     "imageFileId": "1bbb83b2-d057-464e-9063-0afc576bb5a6"
-  },
-  {
-    "id": "a172596a-a83b-4dec-9030-01d8f29ef43f",
-    "name": "Cable One Arm Lateral Raise",
-    "namePT": "Um braço elevação lateral com cabo",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "One Arm Lateral Raise"
-    ],
-    "searchAliasPT": [
-      "Um braço elevação lateral"
-    ],
-    "imageFileId": "1ecb8b41-b042-47f6-9549-848e1a4a5005"
   },
   {
     "id": "305b82a0-4aab-4542-967b-a4a35a60132c",
