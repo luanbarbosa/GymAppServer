@@ -5629,54 +5629,6 @@
     "imageFileId": "cb25bdb9-0670-44bf-9220-1b3f3d67e570"
   },
   {
-    "id": "b9bd3f3a-355b-4dd8-84ed-3690cd59cc51",
-    "name": "Barbell Full Squat",
-    "namePT": "Completo agachamento com barra",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Full Squat"
-    ],
-    "searchAliasPT": [
-      "Completo agachamento",
-      "Agachamento com barra"
-    ],
-    "imageFileId": "70ba1a85-4e0f-42f7-bac1-18222634ee9f"
-  },
-  {
-    "id": "c801c7ea-d924-4a06-8299-e04de69d977c",
-    "name": "Barbell Full Squat Side POV",
-    "namePT": "Completo agachamento lateral POV com barra",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Full Squat Side POV"
-    ],
-    "searchAliasPT": [
-      "Completo agachamento lateral POV",
-      "Agachamento lateral POV com barra"
-    ],
-    "imageFileId": "64535d30-168a-4219-a4a1-ce7c28c390e6"
-  },
-  {
     "id": "fc2a572b-b049-4615-bc7f-e7a964bb1852",
     "name": "Barbell Full Zercher Squat",
     "namePT": "Completo zercher agachamento com barra",
@@ -13961,10 +13913,15 @@
       }
     ],
     "searchAlias": [
-      "Squats"
+      "Squats",
+      "Barbell Full Squat",
+      "Full Squat"
     ],
     "searchAliasPT": [
-      "Agachamentos"
+      "Agachamentos",
+      "Completo agachamento com barra",
+      "Completo agachamento",
+      "Agachamento com barra"
     ],
     "imageFileId": "0b902acf-377a-48c9-a0df-af07c0fe24e8"
   },
