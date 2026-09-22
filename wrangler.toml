@@ -1,0 +1,3 @@
+name = "gymnerd-catalog"
+pages_build_output_dir = "catalog"
+compatibility_date = "2026-09-22"

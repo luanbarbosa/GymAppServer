@@ -1,0 +1,8 @@
+/manifest.json
+  Cache-Control: public, max-age=60, must-revalidate
+
+/exercises.json
+  Cache-Control: public, max-age=300, must-revalidate
+
+/images/*
+  Cache-Control: public, max-age=86400

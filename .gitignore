@@ -3,3 +3,4 @@
 temp/
 .gradle/
 scripts/uppscaling/bin/
+catalog/manifest.json
