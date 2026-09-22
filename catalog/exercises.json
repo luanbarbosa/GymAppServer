@@ -4409,7 +4409,7 @@
     "searchAliasPT": [
       "Empurrar sled"
     ],
-    "type": "OTHER",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -4433,7 +4433,7 @@
     "searchAliasPT": [
       "Arrastar sled"
     ],
-    "type": "OTHER",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -4457,7 +4457,7 @@
     "searchAliasPT": [
       "Yoke walk"
     ],
-    "type": "OTHER",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -4481,7 +4481,7 @@
     "searchAliasPT": [
       "Pedra atlas"
     ],
-    "type": "OTHER",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -4505,7 +4505,7 @@
     "searchAliasPT": [
       "Virar pneu"
     ],
-    "type": "OTHER",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -5035,7 +5035,7 @@
     "id": "d86b1867-9249-49f3-a9ff-4260be1ec353",
     "name": "Assisted Chinup",
     "namePT": "Assistido barra supinada",
-    "type": "OTHER",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -5799,7 +5799,7 @@
     "id": "a5e1b6d5-e1f3-40ce-b910-3b3d5cee9c6f",
     "name": "Barbell Incline Shoulders Press Inside Squat Cage",
     "namePT": "Inclinado ombro press dentro agachamento gaiola com barra",
-    "type": "OTHER",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -6106,7 +6106,7 @@
     "id": "13fe4a99-fba4-420a-a834-05b382ac20e1",
     "name": "Barbell Rack Pull",
     "namePT": "Suporte pull com barra",
-    "type": "LEGS",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -6588,7 +6588,7 @@
     "id": "cf79256a-8c1d-48e3-92ce-1c49eacb14e5",
     "name": "Battling Ropes",
     "namePT": "Corda naval",
-    "type": "OTHER",
+    "type": "CARDIO",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -6741,7 +6741,7 @@
     "id": "570b3adf-6ca5-4445-beb5-4a1a598f274d",
     "name": "Birddog",
     "namePT": "Bird dog",
-    "type": "BACK",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -6884,7 +6884,7 @@
     "id": "d0f7d9d1-7153-48cd-af83-da0d811e251b",
     "name": "Burpee Long Jump With Pushup",
     "namePT": "Burpee long salto com flexão de braço",
-    "type": "CARDIO",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "DISTANCE",
@@ -6953,7 +6953,7 @@
     "id": "00b64932-4b97-4dbe-8d06-67d554d5e079",
     "name": "Butterfly Yoga Flaps",
     "namePT": "Butterfly yoga flaps",
-    "type": "LEGS",
+    "type": "MOBILITY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -7701,7 +7701,7 @@
     "id": "b87997d1-4c91-454d-8597-e797e8760a50",
     "name": "Cable Single Arm Triceps Pushdown Rope Attachment",
     "namePT": "Unilateral braço tríceps na polia corda acessório com cabo",
-    "type": "OTHER",
+    "type": "ARMS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -7752,7 +7752,7 @@
     "id": "54b98f72-c081-49af-89cd-8c65cc53b7aa",
     "name": "Cable Squat Row With Rope Attachment",
     "namePT": "Agachamento remada com corda acessório com cabo",
-    "type": "LEGS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -8161,7 +8161,7 @@
     "id": "cbe37fd7-3910-4d91-b3f5-81c51fb51f0b",
     "name": "Captains Chair Leg Raise",
     "namePT": "Cadeira do capitão elevação de pernas",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -8367,7 +8367,7 @@
     "id": "7b289587-9d5f-4441-8436-22ae482fd511",
     "name": "Downward Facing Dog Adho Mukha Svanasana",
     "namePT": "Downward facing dog adho mukha svanasana",
-    "type": "OTHER",
+    "type": "STRETCHING",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -8792,7 +8792,7 @@
     "id": "a2af1fdf-477d-4268-9813-6ba6c90c7edf",
     "name": "Dumbbell Ipsilateral Single Leg Stiff Leg Deadlift",
     "namePT": "Ipsilateral unilateral perna levantamento terra pernas rígidas com halteres",
-    "type": "OTHER",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -8884,7 +8884,7 @@
     "id": "efb964c0-4176-4e01-8a7f-290fc41e3480",
     "name": "Dumbbell Lying Neutral Grip Row On Rack",
     "namePT": "Deitado neutro pegada remada em suporte com halteres",
-    "type": "OTHER",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -8956,7 +8956,7 @@
     "id": "01faef38-111f-4f6a-afa7-db3f58438928",
     "name": "Dumbbell One Arm Bent Over Row",
     "namePT": "Um braço remada curvada com halteres",
-    "type": "SHOULDERS",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9438,7 +9438,7 @@
     "id": "4dc7629f-cac8-4370-b909-7e1b20a76c0e",
     "name": "Dumbbell Single Leg Romanian Deadlift Leg Raise",
     "namePT": "Unilateral perna levantamento terra romeno elevação de pernas com halteres",
-    "type": "OTHER",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9686,7 +9686,7 @@
     "id": "6c3b5f9c-3e00-4789-af70-6d1a19587417",
     "name": "Dumbbell Straight Arm Pullover Version 2",
     "namePT": "Reta braço pullover versão 2 com halteres",
-    "type": "OTHER",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9711,7 +9711,7 @@
     "id": "957c3206-2f92-441d-b7a8-2c0246322fbc",
     "name": "Dumbbell Suitcase Carry",
     "namePT": "Suitcase carry com halteres",
-    "type": "LEGS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9876,7 +9876,7 @@
     "id": "432db451-3a71-4053-9b71-926635c91cbf",
     "name": "Elbow Up And Down Dynamic Plank",
     "namePT": "Cotovelo para cima e para baixo dynamic prancha",
-    "type": "OTHER",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9944,7 +9944,7 @@
     "id": "04054439-dc9c-4fd2-9ddb-ccfbebaeeca1",
     "name": "Ez barbell Standing Wide Grip Biceps Curl",
     "namePT": "Em pé aberto pegada rosca bíceps com barra EZ",
-    "type": "OTHER",
+    "type": "ARMS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9970,7 +9970,7 @@
     "id": "a981cf97-0a93-452e-9f75-b6cd838c9473",
     "name": "Flutter Kicks Version 3",
     "namePT": "Flutter kicks versão 3",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9993,7 +9993,7 @@
     "id": "fd85b726-18f6-4620-883d-d464de3a754d",
     "name": "Frog Jump",
     "namePT": "Frog salto",
-    "type": "FULL_BODY",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10132,7 +10132,7 @@
     "id": "0a4ff1b0-5e03-4fbf-9662-08ae29934e5f",
     "name": "Handstand",
     "namePT": "Handstand",
-    "type": "ARMS",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10286,7 +10286,7 @@
     "id": "560e3965-4945-4007-b2df-cf993b564657",
     "name": "Hanging Straight Leg Raise",
     "namePT": "Suspenso reta elevação de pernas",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10374,7 +10374,7 @@
     "id": "afe76018-0c54-463d-a06c-08813789f55b",
     "name": "Hyperextension Version 2",
     "namePT": "Hiperextensão versão 2",
-    "type": "LEGS",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10397,7 +10397,7 @@
     "id": "ae991be4-fdc3-4975-8eb3-250c0f3bb1f9",
     "name": "Incline Push Press",
     "namePT": "Inclinado push press",
-    "type": "OTHER",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10416,7 +10416,7 @@
     "id": "23930cd5-ebb3-4641-ac8c-421dfb7f665b",
     "name": "Incline Push-Up On Box",
     "namePT": "Inclinado push-up em caixote",
-    "type": "OTHER",
+    "type": "CHEST",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10437,7 +10437,7 @@
     "id": "f3a671a2-bf7e-4250-a299-0734f137437a",
     "name": "Inline Skating",
     "namePT": "Inline skating",
-    "type": "FULL_BODY",
+    "type": "CARDIO",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10479,7 +10479,7 @@
     "id": "4634d786-c1c1-4797-a1d6-589369273c61",
     "name": "Jump Box",
     "namePT": "Salto caixote",
-    "type": "FULL_BODY",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10502,7 +10502,7 @@
     "id": "eaddd17e-005a-4518-b238-93275d9e512d",
     "name": "Jump Shrug",
     "namePT": "Salto encolhimento",
-    "type": "LEGS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10525,7 +10525,7 @@
     "id": "3d1cb996-889c-4a82-a8a2-38f7e99c24e8",
     "name": "Jump Split",
     "namePT": "Salto dividido",
-    "type": "FULL_BODY",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10690,7 +10690,7 @@
     "id": "9397ea39-9496-4a57-b630-a0dea1a41845",
     "name": "Kettlebell Hang Clean",
     "namePT": "Suspenso clean com kettlebell",
-    "type": "LEGS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10714,7 +10714,7 @@
     "id": "7984bbaa-a3b4-4d25-8981-72d1ea4f5fa8",
     "name": "Kettlebell One Arm Snatch",
     "namePT": "Um braço snatch com kettlebell",
-    "type": "SHOULDERS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10838,7 +10838,7 @@
     "id": "90a40412-49c4-41d2-9342-8e21f00e8891",
     "name": "Kettlebell Sumo High Pull",
     "namePT": "Sumô alto pull com kettlebell",
-    "type": "BACK",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10885,7 +10885,7 @@
     "id": "049a98da-c441-40da-b8f3-ab6d446642b3",
     "name": "Kettlebell Thruster",
     "namePT": "Thruster com kettlebell",
-    "type": "SHOULDERS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10908,7 +10908,7 @@
     "id": "6918fa1e-567b-4f03-8979-2ab98b8ad116",
     "name": "Kettlebell Turkish Getup Squat Style",
     "namePT": "Turkish getup agachamento style com kettlebell",
-    "type": "LEGS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10931,7 +10931,7 @@
     "id": "6683693e-b9c0-4320-b70e-e073db0a1615",
     "name": "Kneeling Pushup",
     "namePT": "Ajoelhado flexão de braço",
-    "type": "OTHER",
+    "type": "CHEST",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -11035,7 +11035,7 @@
     "id": "c8aef3a8-f1f0-413f-a56b-df74d8e4d13a",
     "name": "Landmine Squat And Press",
     "namePT": "Agachamento e press com landmine",
-    "type": "SHOULDERS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -11058,7 +11058,7 @@
     "id": "ad84d3cf-3fc4-4357-b328-8659ecacebff",
     "name": "Lateral Box Jump",
     "namePT": "Lateral salto no caixote",
-    "type": "FULL_BODY",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -11129,7 +11129,7 @@
     "id": "abf4e0a2-5a47-4346-a24a-a68be57dd4fe",
     "name": "Lever Back Extension",
     "namePT": "Costas extensão com alavanca",
-    "type": "CORE",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12360,7 +12360,7 @@
     "id": "6ae3f753-e9ab-4012-a664-62d92e7a793c",
     "name": "Lying Hip Leg Raise On Floor",
     "namePT": "Deitado quadril elevação de pernas em no chão",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12440,7 +12440,7 @@
     "id": "17126bc5-d99a-451e-be6c-f96e09608af4",
     "name": "Lying Scissors Cross",
     "namePT": "Deitado scissors cruzado",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12501,7 +12501,7 @@
     "id": "c1775a6c-23fa-4035-b77c-986a69d87dc1",
     "name": "Medicine Ball Throw Squat With Wall",
     "namePT": "Medicinal bola throw agachamento com parede",
-    "type": "SHOULDERS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12567,7 +12567,7 @@
     "id": "7b922cc5-f3e7-47ba-bdc1-6dfa8508a43a",
     "name": "Pike Pushup",
     "namePT": "Pike flexão de braço",
-    "type": "CHEST",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12609,7 +12609,7 @@
     "id": "9f0fd66b-a9c1-4be4-8c81-6144bfeaa348",
     "name": "Power Clean",
     "namePT": "Potência clean",
-    "type": "LEGS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12632,7 +12632,7 @@
     "id": "a6c71303-5236-4835-ba58-0fb10a0a8bb3",
     "name": "Power Sled Pull",
     "namePT": "Potência pull com trenó",
-    "type": "BACK",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12655,7 +12655,7 @@
     "id": "e4f53e65-0bff-4c81-b662-08eba6cbb74b",
     "name": "Power Sled Push",
     "namePT": "Potência push com trenó",
-    "type": "LEGS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12836,7 +12836,7 @@
     "id": "23ee9786-a494-46c9-8c46-493feb851102",
     "name": "Reverse Plank",
     "namePT": "Invertido prancha",
-    "type": "BACK",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13062,7 +13062,7 @@
     "id": "34849d63-2cb3-4e62-98a3-fbecbfe5ef8d",
     "name": "Seated Single Leg Hamstring Stretch",
     "namePT": "Sentado unilateral perna hamstring stretch",
-    "type": "LEGS",
+    "type": "STRETCHING",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13108,7 +13108,7 @@
     "id": "de3fa43f-8d5d-439b-bbab-aafa5e3dfd27",
     "name": "Shoulder Tap Pushup",
     "namePT": "Ombro tap flexão de braço",
-    "type": "FULL_BODY",
+    "type": "CHEST",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13215,7 +13215,7 @@
     "id": "b258418a-c9f7-46ae-b59d-813800075102",
     "name": "Sidestep Deep Squat",
     "namePT": "Sidestep deep agachamento",
-    "type": "FULL_BODY",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13285,7 +13285,7 @@
     "id": "5084910f-9048-40a6-8d02-795c36135345",
     "name": "Single Leg Bridge Without Stretched Leg Left Ma",
     "namePT": "Unilateral perna ponte sem stretched perna esquerda ma",
-    "type": "OTHER",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13421,7 +13421,7 @@
     "id": "9506e4d2-c7e2-4953-98b6-a7b4010c905a",
     "name": "Single Straight Leg Glute Bridge Hold Left",
     "namePT": "Unilateral reta perna ponte de glúteo isometria esquerda",
-    "type": "OTHER",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13884,7 +13884,7 @@
     "id": "eba0eb58-bfd2-4e85-aa34-da57c2cbb114",
     "name": "Spider Plank",
     "namePT": "Spider prancha",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13996,7 +13996,7 @@
     "id": "dcd19324-9b1d-4d20-a8b2-0cff2f56decc",
     "name": "Standing Alternating Arms Swing",
     "namePT": "Em pé alternado arms swing",
-    "type": "STRETCHING",
+    "type": "MOBILITY",
     "trackedMetrics": [
       {
         "type": "DURATION",
@@ -14043,7 +14043,7 @@
     "id": "f91f3036-0d67-4563-9653-00e0ac07201f",
     "name": "Standing Single Side Leg Raise Chair Supported",
     "namePT": "Em pé unilateral lateral elevação de pernas cadeira supported",
-    "type": "OTHER",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -14109,7 +14109,7 @@
     "id": "33283e40-9be4-483e-a5fb-bdba285c2009",
     "name": "Step Side Jump Overstep Box",
     "namePT": "Passo lateral salto overstep caixote",
-    "type": "FULL_BODY",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -14178,7 +14178,7 @@
     "id": "4cd0d62e-cf96-4f09-bf1f-46a5394a5e2e",
     "name": "Sumo Deadlift High Pull",
     "namePT": "Levantamento terra sumô alto pull",
-    "type": "SHOULDERS",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -14201,7 +14201,7 @@
     "id": "b2248545-53e0-45da-9fbb-65490424c199",
     "name": "Superman Hold",
     "namePT": "Superman isometria",
-    "type": "CORE",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -14455,7 +14455,7 @@
     "id": "44f3623c-b44e-4ddb-b3af-ad924ee6cd88",
     "name": "Swimming Crawl Style",
     "namePT": "Swimming crawl style",
-    "type": "FULL_BODY",
+    "type": "CARDIO",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -14525,7 +14525,7 @@
     "id": "3a0a800d-2993-493b-8791-313771284aa8",
     "name": "Vertical Leg Raise On Parallel Bars Female Version 2",
     "namePT": "Vertical elevação de pernas em parallel bars versão 2",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -14706,7 +14706,7 @@
     "id": "e49ab376-54d8-4964-8279-88c0a324dd28",
     "name": "Weighted Hyperextension",
     "namePT": "Com peso hiperextensão",
-    "type": "LEGS",
+    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "REPS",
