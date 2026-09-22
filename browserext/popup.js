@@ -4,6 +4,8 @@ const prevBtn = document.getElementById("prevBtn");
 const skipBtn = document.getElementById("skipBtn");
 const resetBtn = document.getElementById("resetBtn");
 const cancelBtn = document.getElementById("cancelBtn");
+const jsonInput = document.getElementById("jsonInput");
+const pasteBtn = document.getElementById("pasteBtn");
 
 async function render() {
   const { catalog = [], pointer = 0 } = await chrome.storage.local.get(["catalog", "pointer"]);
@@ -21,21 +23,30 @@ async function render() {
   statusEl.textContent = `${pointer + 1}/${catalog.length}\n${ex.name}\nimageFileId: ${ex.imageFileId}`;
 }
 
-fileInput.addEventListener("change", async (e) => {
-  const file = e.target.files[0];
-  if (!file) return;
-
+async function loadCatalog(text) {
   try {
-    const text = await file.text();
-    const catalog = JSON.parse(text);
-    if (!Array.isArray(catalog) || !catalog.every((ex) => ex.imageFileId)) {
-      throw new Error("JSON must be an array of exercises with an imageFileId field.");
+    const parsed = JSON.parse(text);
+    const catalog = Array.isArray(parsed) ? parsed : [parsed];
+    if (!catalog.every((ex) => ex?.imageFileId)) {
+      throw new Error("JSON must be an exercise or array of exercises with an imageFileId field.");
     }
     await chrome.storage.local.set({ catalog, pointer: 0 });
     await render();
   } catch (err) {
     statusEl.textContent = `Error: ${err.message}`;
   }
+}
+
+fileInput.addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  await loadCatalog(await file.text());
+});
+
+pasteBtn.addEventListener("click", async () => {
+  const text = jsonInput.value.trim();
+  if (!text) return;
+  await loadCatalog(text);
 });
 
 prevBtn.addEventListener("click", async () => {
@@ -58,6 +69,7 @@ resetBtn.addEventListener("click", async () => {
 cancelBtn.addEventListener("click", async () => {
   await chrome.storage.local.remove(["catalog", "pointer"]);
   fileInput.value = "";
+  jsonInput.value = "";
   await render();
 });
 
