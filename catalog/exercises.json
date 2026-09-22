@@ -702,7 +702,8 @@
     "namePT": "Pulldown com braços estendidos no cabo",
     "searchAlias": [
       "Straight Arm Pulldown",
-      "Cable Straight Arm Lat Pulldown"
+      "Cable Straight Arm Lat Pulldown",
+      "Cable Straight Arm Pulldown II"
     ],
     "searchAliasPT": [
       "Pulldown braço reto",
@@ -1727,32 +1728,6 @@
       },
       {
         "type": "DISTANCE",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "8107d2c5-b9c8-4977-bc29-c8968aad7bda",
-    "imageFileId": "4feda674-0f65-4b31-aa7c-332ff17f38fb",
-    "legacyImageId": 67,
-    "name": "Standing calf raise",
-    "namePT": "Elevação de panturrilha em pé",
-    "searchAlias": [
-      "Standing Calf Raise Machine",
-      "Bodyweight Standing Calf Raise"
-    ],
-    "searchAliasPT": [
-      "Panturrilha em pé",
-      "Elevação de panturrilha de pé"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
         "default": true
       }
     ]
@@ -5334,7 +5309,8 @@
       }
     ],
     "searchAlias": [
-      "Kneeling Pulldown"
+      "Kneeling Pulldown",
+      "Band Knelling Lat Pulldown"
     ],
     "searchAliasPT": [
       "Ajoelhado puxada",
@@ -5343,32 +5319,6 @@
       "Ajoelhado pulldown"
     ],
     "imageFileId": "2580f2a8-a88e-4b0d-9e42-13bd1286e767"
-  },
-  {
-    "id": "4cfc23a1-c8c2-43ba-ad42-7762c8a40fc9",
-    "name": "Band Knelling Lat Pulldown",
-    "namePT": "Ajoelhado puxada com elástico",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Knelling Lat Pulldown"
-    ],
-    "searchAliasPT": [
-      "Ajoelhado puxada",
-      "Puxada com elástico",
-      "Ajoelhado pulldown com elástico",
-      "Ajoelhado pulldown"
-    ],
-    "imageFileId": "19aaa1f3-cf3d-4b67-878a-814d683bd67d"
   },
   {
     "id": "b1ee62f2-2d7f-4e38-9fd4-f9537e39e85b",
@@ -5392,30 +5342,6 @@
       "Elevação lateral"
     ],
     "imageFileId": "b111c4b2-dee3-4ac9-becd-6bb4ed829229"
-  },
-  {
-    "id": "79a856ab-03aa-4b2e-8676-4bad70e5a7ea",
-    "name": "Band Lateral Raise Version 2",
-    "namePT": "Elevação lateral versão 2 com elástico",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Lateral Raise Version 2",
-      "Band Lateral Raise"
-    ],
-    "searchAliasPT": [
-      "Elevação lateral versão 2"
-    ],
-    "imageFileId": "493c5e6d-5cb6-4456-af10-7f15a8a812dd"
   },
   {
     "id": "8a4d7142-ca94-429b-92f3-d198026757eb",
@@ -6271,30 +6197,6 @@
     "imageFileId": "7ffabe9e-cd04-4b4e-9766-226872879dd8"
   },
   {
-    "id": "8afdec5b-9d2e-4338-baab-173ed88208cd",
-    "name": "Barbell Reverse Wrist Curl II",
-    "namePT": "Invertido rosca de punho ii com barra",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Reverse Wrist Curl II"
-    ],
-    "searchAliasPT": [
-      "Invertido rosca de punho ii",
-      "Rosca de punho ii com barra"
-    ],
-    "imageFileId": "d864061f-9778-445b-b52a-4a9d6d25f2b4"
-  },
-  {
     "id": "1ce761ed-36b8-469f-8ea9-338b22dabd97",
     "name": "Barbell Seated Overhead Triceps Extension",
     "namePT": "Sentado overhead extensão de tríceps com barra",
@@ -6859,29 +6761,6 @@
     "imageFileId": "1e8af283-7bb6-4d72-acbf-5527ab509668"
   },
   {
-    "id": "d10a7daa-9638-4ef8-b4c8-9e0ef79449e4",
-    "name": "Birddog Version 2",
-    "namePT": "Bird dog versão 2",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Birddog"
-    ],
-    "searchAliasPT": [
-      "Bird dog"
-    ],
-    "imageFileId": "ad9cea2e-855d-44d6-a5f9-a2d4aec8d9c9"
-  },
-  {
     "id": "ad84f90e-b217-4f2a-93fb-0b8bdf2b939a",
     "name": "Bodyweight Box Squat",
     "namePT": "Agachamento no caixote com peso corporal",
@@ -7420,7 +7299,8 @@
     "searchAlias": [
       "Low Seated Row With V-Bar",
       "Cable Low Seated Row With V Bar",
-      "Low Seated Row With V Bar"
+      "Low Seated Row With V Bar",
+      "Cable Seated Row With V-Bar"
     ],
     "searchAliasPT": [
       "Baixo remada sentada com v-bar",
@@ -7795,31 +7675,6 @@
     "imageFileId": "ed625347-b01c-4e13-bd49-bf8bbb49a431"
   },
   {
-    "id": "4db3a230-5a7f-4c8f-9c17-8f0ee0fffb42",
-    "name": "Cable Seated Row With V-Bar",
-    "namePT": "Remada sentada com v-bar com cabo",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Seated Row With V-Bar",
-      "Cable Seated Row With V Bar",
-      "Seated Row With V Bar"
-    ],
-    "searchAliasPT": [
-      "Remada sentada com v-bar"
-    ],
-    "imageFileId": "22e5a957-3af5-44e2-82f1-70ab2daa282e"
-  },
-  {
     "id": "a079b4cd-39b0-4c74-b2bc-f89f9614fc8b",
     "name": "Cable Shrug",
     "namePT": "Encolhimento com cabo",
@@ -7968,33 +7823,6 @@
       "De pé quadril abdução versão 3"
     ],
     "imageFileId": "5850162b-4b31-44c6-9944-bac8a13f52f4"
-  },
-  {
-    "id": "f8ee49db-31df-477e-a197-197c2d9aab66",
-    "name": "Cable Standing Hip Adduction Version 3",
-    "namePT": "Em pé quadril adução versão 3 com cabo",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Standing Hip Adduction Version 3",
-      "Cable Standing Hip Adduction"
-    ],
-    "searchAliasPT": [
-      "Em pé quadril adução versão 3",
-      "Quadril adução versão 3 com cabo",
-      "De pé quadril adução versão 3 com cabo",
-      "De pé quadril adução versão 3"
-    ],
-    "imageFileId": "5d198f2c-4213-4778-a211-4a7431c9b762"
   },
   {
     "id": "18866809-b671-4fe8-a31a-0a6305304b72",
@@ -8152,32 +7980,6 @@
       "De pé y elevação versão 2"
     ],
     "imageFileId": "663cbc80-83c2-4ddf-b6af-4cda3585ff74"
-  },
-  {
-    "id": "fb872e89-7b24-4129-8f02-282ce799db70",
-    "name": "Cable Straight Arm Pulldown II",
-    "namePT": "Reta braço puxada ii com cabo",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Straight Arm Pulldown II"
-    ],
-    "searchAliasPT": [
-      "Reta braço puxada ii",
-      "Braço puxada ii com cabo",
-      "Reta braço pulldown ii com cabo",
-      "Reta braço pulldown ii"
-    ],
-    "imageFileId": "5bf61d1c-616f-4a04-8c3d-60f41a340a95"
   },
   {
     "id": "5eaaa7a0-32c9-429a-a3e8-2c0b4a00fb6d",
@@ -8723,30 +8525,6 @@
     "imageFileId": "bbe2006b-3319-4ef5-a1d0-13c979bdb4af"
   },
   {
-    "id": "e9523138-196f-4082-a22b-c8ee348732d3",
-    "name": "Dumbbell Crossbody Hammer Curl Version 2",
-    "namePT": "Crossbody rosca martelo versão 2 com halteres",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Crossbody Hammer Curl Version 2",
-      "Dumbbell Crossbody Hammer Curl"
-    ],
-    "searchAliasPT": [
-      "Crossbody rosca martelo versão 2"
-    ],
-    "imageFileId": "5cba961f-5999-4641-976c-56e12e270747"
-  },
-  {
     "id": "b41edcce-eb11-4e2f-a329-929b87e66fc4",
     "name": "Dumbbell Curtsey Lunge",
     "namePT": "Curtsey afundo com halteres",
@@ -8861,30 +8639,6 @@
       "Frog elevação de quadril"
     ],
     "imageFileId": "d3d5eeae-b0e3-47c0-babe-207ed1ecd5c4"
-  },
-  {
-    "id": "217b32dd-32b6-43a5-a9a0-69b8ad966af4",
-    "name": "Dumbbell Hammer Curl Version 2",
-    "namePT": "Rosca martelo versão 2 com halteres",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Hammer Curl Version 2",
-      "Dumbbell Hammer Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca martelo versão 2"
-    ],
-    "imageFileId": "e827361e-6b7a-4365-8955-8b90daf9ca9d"
   },
   {
     "id": "f312802c-45ab-4229-97ef-0d17c74b7a9b",
@@ -11981,33 +11735,6 @@
     "imageFileId": "9995b2a1-eca9-4f93-9c56-247e6c65a981"
   },
   {
-    "id": "ee09ef98-950d-4488-9075-816961054c82",
-    "name": "Lever Preacher Curl Version 2",
-    "namePT": "Rosca scott versão 2 com alavanca",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Preacher Curl Version 2",
-      "Machine Preacher Curl Version 2",
-      "Leverage Preacher Curl Version 2",
-      "Lever Preacher Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca scott versão 2",
-      "Rosca scott versão 2 com máquina"
-    ],
-    "imageFileId": "0e916466-4f4a-4ba5-9f02-ab77295369d8"
-  },
-  {
     "id": "e82691fa-0a51-461c-8d85-2564bf6f3e9c",
     "name": "Lever Pullover Plate Loaded",
     "namePT": "Pullover carregado com alavanca",
@@ -12197,33 +11924,6 @@
     "imageFileId": "b2e7bb00-ad5e-454a-87a3-f69352522738"
   },
   {
-    "id": "d18fc971-175d-4d59-963e-9067b80cc030",
-    "name": "Lever Seated Hip Adduction",
-    "namePT": "Sentado quadril adução com alavanca",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Seated Hip Adduction",
-      "Machine Seated Hip Adduction",
-      "Leverage Seated Hip Adduction"
-    ],
-    "searchAliasPT": [
-      "Sentado quadril adução",
-      "Quadril adução com alavanca",
-      "Sentado quadril adução com máquina"
-    ],
-    "imageFileId": "d8fcf40f-cea9-446f-b1e3-6f8eca8301c5"
-  },
-  {
     "id": "c97e7442-ba65-4973-90bb-a06ae6a9bba5",
     "name": "Lever Seated Leg Curl",
     "namePT": "Sentado perna rosca com alavanca",
@@ -12330,33 +12030,6 @@
       "Remada sentada com máquina"
     ],
     "imageFileId": "f53c6c5b-b8fd-45f1-a96f-21f100835a5b"
-  },
-  {
-    "id": "3823dae1-1686-4700-8ecf-9ce0751577d2",
-    "name": "Lever Seated Row Version 2",
-    "namePT": "Remada sentada versão 2 com alavanca",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Seated Row Version 2",
-      "Machine Seated Row Version 2",
-      "Leverage Seated Row Version 2",
-      "Lever Seated Row"
-    ],
-    "searchAliasPT": [
-      "Remada sentada versão 2",
-      "Remada sentada versão 2 com máquina"
-    ],
-    "imageFileId": "664ee458-f2d9-43aa-86c1-34247e4ef50f"
   },
   {
     "id": "8df4544e-d684-42fe-a1f5-8329d41f66db",
@@ -13533,25 +13206,6 @@
       "Lateral afundos"
     ],
     "imageFileId": "d27ee79c-48a5-443a-8bf8-eed23faf2906"
-  },
-  {
-    "id": "9b3f1483-3104-46e8-9d06-b9da07c7e804",
-    "name": "Side Plank Version 2",
-    "namePT": "Prancha lateral versão 2",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Side Plank"
-    ],
-    "searchAliasPT": [
-      "Prancha lateral"
-    ],
-    "imageFileId": "821f0299-63b8-4bea-b5dc-eb4d1b8144e8"
   },
   {
     "id": "483e40b2-3601-4fea-87c0-b9594ccee9fd",
@@ -14817,30 +14471,6 @@
     "imageFileId": "83996645-1c69-4a7c-ab52-b082cdf0b384"
   },
   {
-    "id": "601526dd-72e1-4c30-a6be-02f6f942776f",
-    "name": "Suspension Triceps Extension",
-    "namePT": "Suspensão extensão de tríceps",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Suspension Tricep Extension",
-      "TRX Triceps Extension"
-    ],
-    "searchAliasPT": [
-      "Suspensão extensão de triceps"
-    ],
-    "imageFileId": "34f46d3c-2616-42e2-81ab-2c53190804f9"
-  },
-  {
     "id": "44f3623c-b44e-4ddb-b3af-ad924ee6cd88",
     "name": "Swimming Crawl Style",
     "namePT": "Swimming crawl style",
@@ -14902,35 +14532,13 @@
       }
     ],
     "searchAlias": [
-      "Tricep Dip Floor"
+      "Tricep Dip Floor",
+      "Triceps Dips Floor"
     ],
     "searchAliasPT": [
       "Triceps mergulho no chãos"
     ],
     "imageFileId": "3357dbfb-2f48-4db1-b695-463db20f295e"
-  },
-  {
-    "id": "1de16bff-ce81-42e5-889e-545ca8ddc8f8",
-    "name": "Triceps Dips Floor",
-    "namePT": "Triceps mergulho no chão",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Tricep Dips Floor"
-    ],
-    "searchAliasPT": [
-      "Triceps mergulho no chãos"
-    ],
-    "imageFileId": "b56cb7c9-0157-49a2-af80-e5ca1b894196"
   },
   {
     "id": "3a0a800d-2993-493b-8791-313771284aa8",
@@ -15294,27 +14902,6 @@
       "Torção russa"
     ],
     "imageFileId": "35324517-1122-48e2-9dae-861800000b9b"
-  },
-  {
-    "id": "09f53c43-d905-4518-9ce8-6c38f0cce34d",
-    "name": "Weighted Russian Twist Version 2",
-    "namePT": "Com peso torção russa versão 2",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Weighted Russian Twist",
-      "Russian Twist Version 2"
-    ],
-    "searchAliasPT": [
-      "Com peso torção russa",
-      "Torção russa versão 2"
-    ],
-    "imageFileId": "2b644073-27c0-4ec1-9b05-ad5022e889a3"
   },
   {
     "id": "4fa6d0de-9811-41ad-aeb5-3ff0e13c81df",
