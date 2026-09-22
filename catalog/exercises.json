@@ -6625,29 +6625,6 @@
     "imageFileId": "0d493424-015b-40fb-bd79-60de6773bf4d"
   },
   {
-    "id": "5b6f1b2c-2921-4f10-a405-6d5419c06a02",
-    "name": "Bent Leg Sidekick Kneeling",
-    "namePT": "Curvado perna sidekick ajoelhado",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Leg Sidekick Kneeling"
-    ],
-    "searchAliasPT": [
-      "Perna sidekick ajoelhado"
-    ],
-    "imageFileId": "01e7c8b1-e6bd-4d7c-95d9-3fb2ad9d6c63"
-  },
-  {
     "id": "e94e2163-f323-4ef3-8e96-9df2d2cf3030",
     "name": "Bicycle Recline Walk",
     "namePT": "Bicycle reclinada caminhada",
