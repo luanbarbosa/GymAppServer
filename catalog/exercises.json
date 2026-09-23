@@ -3798,10 +3798,14 @@
     "name": "Box jump",
     "namePT": "Salto na caixa",
     "searchAlias": [
-      "Plyo Box Jump"
+      "Plyo Box Jump",
+      "Lateral Box Jump",
+      "Lateral Box Jumps"
     ],
     "searchAliasPT": [
-      "Salto no box"
+      "Salto no box",
+      "Lateral salto no caixote",
+      "Lateral salto no caixotes"
     ],
     "type": "LEGS",
     "trackedMetrics": [
@@ -10963,29 +10967,6 @@
       "Agachamento e press"
     ],
     "imageFileId": "b3f85e04-d979-41b7-8ec4-a619de8ffdba"
-  },
-  {
-    "id": "ad84d3cf-3fc4-4357-b328-8659ecacebff",
-    "name": "Lateral Box Jump",
-    "namePT": "Lateral salto no caixote",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Lateral Box Jumps"
-    ],
-    "searchAliasPT": [
-      "Lateral salto no caixotes"
-    ],
-    "imageFileId": "a5f65453-65c5-47e9-92c1-b9e6ce47c10a"
   },
   {
     "id": "1149530e-ae49-44b7-bc94-3754086dea43",
