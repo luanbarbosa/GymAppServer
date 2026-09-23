@@ -6,6 +6,11 @@ const resetBtn = document.getElementById("resetBtn");
 const cancelBtn = document.getElementById("cancelBtn");
 const jsonInput = document.getElementById("jsonInput");
 const pasteBtn = document.getElementById("pasteBtn");
+const openViewerBtn = document.getElementById("openViewerBtn");
+
+openViewerBtn.addEventListener("click", () => {
+  chrome.tabs.create({ url: chrome.runtime.getURL("viewer.html") });
+});
 
 async function render() {
   const { catalog = [], pointer = 0 } = await chrome.storage.local.get(["catalog", "pointer"]);
