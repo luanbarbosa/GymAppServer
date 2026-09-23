@@ -14758,29 +14758,6 @@
     "imageFileId": "a14e364d-5979-4401-b75c-a730e7c7d25f"
   },
   {
-    "id": "3842ec3a-603a-4c74-83c3-f924a372df13",
-    "name": "Weighted Sissy Squat",
-    "namePT": "Com peso sissy agachamento",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Sissy Squat"
-    ],
-    "searchAliasPT": [
-      "Sissy agachamento"
-    ],
-    "imageFileId": "2d80016a-b806-404d-8b90-c31b18fdb107"
-  },
-  {
     "id": "95029d56-95b8-4f07-b5c4-7a3ceab916fc",
     "name": "Weighted Svend Press",
     "namePT": "Com peso svend press",
