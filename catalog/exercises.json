@@ -14591,31 +14591,6 @@
     "imageFileId": "98a2d9d1-fbd3-4ba2-849b-564da203c395"
   },
   {
-    "id": "e3bebb60-7fbd-4433-b89b-c57d1b5e17a8",
-    "name": "Weighted Plate Lu Raise",
-    "namePT": "Com peso lu elevação com anilha",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Weighted Lu Raise",
-      "Plate Lu Raise"
-    ],
-    "searchAliasPT": [
-      "Com peso lu elevação",
-      "Lu elevação com anilha"
-    ],
-    "imageFileId": "5b0a2149-035c-41fe-a001-53fe0cdad051"
-  },
-  {
     "id": "5f679518-dc69-4dae-88e6-70032fffd29b",
     "name": "Weighted Plate Lying Crunch",
     "namePT": "Com peso deitado abdominal com anilha",
