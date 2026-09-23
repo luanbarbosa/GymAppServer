@@ -13150,29 +13150,6 @@
     "imageFileId": "107e3b50-32e2-4856-be3d-49e5fb9706a6"
   },
   {
-    "id": "9cb56f9c-9979-4643-ad72-59609c3ae8fa",
-    "name": "Single Leg",
-    "namePT": "Unilateral perna",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Single Legs"
-    ],
-    "searchAliasPT": [
-      "Unilateral pernas"
-    ],
-    "imageFileId": "2c9f0d90-fde1-4eee-aa79-e02405600a64"
-  },
-  {
     "id": "5084910f-9048-40a6-8d02-795c36135345",
     "name": "Single Leg Bridge Without Stretched Leg Left Ma",
     "namePT": "Unilateral perna ponte sem stretched perna esquerda ma",
