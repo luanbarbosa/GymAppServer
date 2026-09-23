@@ -62,11 +62,20 @@
     "namePT": "Panturrilha sentada na máquina",
     "searchAlias": [
       "Seated Calf Raise Machine",
-      "Machine Seated Calf Raise"
+      "Machine Seated Calf Raise",
+      "Lever Seated Calf Raise Plate Loaded",
+      "Lever Seated Calf Raise Loaded",
+      "Machine Seated Calf Raise Plate Loaded",
+      "Machine Seated Calf Raise Loaded",
+      "Leverage Seated Calf Raise Plate Loaded"
     ],
     "searchAliasPT": [
       "Panturrilha sentada",
-      "Panturrilha na máquina sentado"
+      "Panturrilha na máquina sentado",
+      "Sentado elevação de panturrilha carregado com alavanca",
+      "Sentado elevação de panturrilha carregado",
+      "Elevação de panturrilha carregado com alavanca",
+      "Sentado elevação de panturrilha carregado com máquina"
     ],
     "type": "LEGS",
     "trackedMetrics": [
@@ -11689,34 +11698,6 @@
       "Rotary panturrilha com máquina"
     ],
     "imageFileId": "70d7183d-2678-4f78-b5ba-3812154ac7ab"
-  },
-  {
-    "id": "36d0f4e6-44e5-488d-8c84-18fd9a47ba28",
-    "name": "Lever Seated Calf Raise Plate Loaded",
-    "namePT": "Sentado elevação de panturrilha carregado com alavanca",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Lever Seated Calf Raise Loaded",
-      "Machine Seated Calf Raise Plate Loaded",
-      "Machine Seated Calf Raise Loaded",
-      "Leverage Seated Calf Raise Plate Loaded"
-    ],
-    "searchAliasPT": [
-      "Sentado elevação de panturrilha carregado",
-      "Elevação de panturrilha carregado com alavanca",
-      "Sentado elevação de panturrilha carregado com máquina"
-    ],
-    "imageFileId": "6a9fd108-98fc-467e-917a-5c84f3855112"
   },
   {
     "id": "1b291393-be70-4674-81d7-184db07ee5b9",
