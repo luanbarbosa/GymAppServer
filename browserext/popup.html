@@ -15,6 +15,12 @@
   <input type="file" id="filePicker" accept=".json,application/json">
   <textarea id="jsonInput" placeholder="...or paste exercise JSON here"></textarea>
   <button id="pasteBtn">Load pasted JSON</button>
+  <h3 style="margin-top:12px">Lookup by imageFileId</h3>
+  <input type="text" id="imageIdInput" placeholder="imageFileId(s), comma/space separated" style="width:100%;box-sizing:border-box">
+  <button id="lookupBtn">Find &amp; load</button>
+  <div style="font-size:11px;margin-top:6px">Source exercises.json (optional, kept for this browser session):</div>
+  <input type="file" id="sourcePicker" accept=".json,application/json">
+  <div id="sourceStatus" style="font-size:11px;color:#666"></div>
   <div id="status">No catalog loaded.</div>
   <button id="prevBtn">Go to previous</button>
   <button id="skipBtn">Skip current</button>

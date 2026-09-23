@@ -49,6 +49,56 @@ pasteBtn.addEventListener("click", async () => {
   await loadCatalog(text);
 });
 
+const REMOTE_CATALOG_URL = "https://gymnerd-catalog.pages.dev/exercises.json";
+const imageIdInput = document.getElementById("imageIdInput");
+const lookupBtn = document.getElementById("lookupBtn");
+const sourcePicker = document.getElementById("sourcePicker");
+const sourceStatusEl = document.getElementById("sourceStatus");
+
+// Uploaded exercises.json wins over the deployed one, since local edits may not be deployed yet.
+async function getSourceCatalog() {
+  const { sourceCatalog } = await chrome.storage.session.get("sourceCatalog");
+  if (sourceCatalog) return sourceCatalog;
+
+  const response = await fetch(REMOTE_CATALOG_URL, { cache: "no-store" });
+  if (!response.ok) throw new Error(`fetch ${REMOTE_CATALOG_URL} failed: ${response.status}. Upload exercises.json instead.`);
+  return response.json();
+}
+
+async function renderSourceStatus() {
+  const { sourceCatalog, sourceName } = await chrome.storage.session.get(["sourceCatalog", "sourceName"]);
+  sourceStatusEl.textContent = sourceCatalog
+    ? `Using uploaded ${sourceName} (${sourceCatalog.length} exercises)`
+    : `Using ${REMOTE_CATALOG_URL}`;
+}
+
+sourcePicker.addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  try {
+    const parsed = JSON.parse(await file.text());
+    if (!Array.isArray(parsed)) throw new Error("exercises.json must be an array.");
+    await chrome.storage.session.set({ sourceCatalog: parsed, sourceName: file.name });
+    await renderSourceStatus();
+  } catch (err) {
+    sourceStatusEl.textContent = `Error: ${err.message}`;
+  }
+});
+
+lookupBtn.addEventListener("click", async () => {
+  const ids = imageIdInput.value.split(/[\s,]+/).filter(Boolean);
+  if (!ids.length) return;
+  try {
+    const source = await getSourceCatalog();
+    const byImageId = new Map(source.map((ex) => [ex.imageFileId, ex]));
+    const missing = ids.filter((id) => !byImageId.has(id));
+    if (missing.length) throw new Error(`Not found: ${missing.join(", ")}`);
+    await loadCatalog(JSON.stringify(ids.map((id) => byImageId.get(id))));
+  } catch (err) {
+    statusEl.textContent = `Error: ${err.message}`;
+  }
+});
+
 prevBtn.addEventListener("click", async () => {
   const { pointer = 0 } = await chrome.storage.local.get("pointer");
   await chrome.storage.local.set({ pointer: Math.max(0, pointer - 1) });
@@ -74,3 +124,4 @@ cancelBtn.addEventListener("click", async () => {
 });
 
 render();
+renderSourceStatus();
