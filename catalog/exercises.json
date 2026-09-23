@@ -10436,29 +10436,6 @@
     "imageFileId": "95b26bd0-a2f2-4621-a859-c85b17907e7a"
   },
   {
-    "id": "3d1cb996-889c-4a82-a8a2-38f7e99c24e8",
-    "name": "Jump Split",
-    "namePT": "Salto dividido",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Jump Splits"
-    ],
-    "searchAliasPT": [
-      "Salto divididos"
-    ],
-    "imageFileId": "2ec6b773-86ca-4667-ac63-a08b452ed201"
-  },
-  {
     "id": "67d15637-d926-4255-86e8-f093267f65ff",
     "name": "Jump Squat",
     "namePT": "Agachamento com salto",
