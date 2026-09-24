@@ -9190,7 +9190,7 @@
   },
   {
     "id": "8245de82-74f0-4495-8a45-dd5f06a29398",
-    "name": "Dumbbell Single Leg Calf Raise Female Version 2",
+    "name": "Dumbbell Single Leg Calf Raise Version 2",
     "namePT": "Unilateral perna elevação de panturrilha versão 2 com halteres",
     "type": "LEGS",
     "trackedMetrics": [
@@ -9204,8 +9204,8 @@
       }
     ],
     "searchAlias": [
-      "Single Leg Calf Raise Female Version 2",
-      "Dumbbell Single Leg Calf Raise Female"
+      "Single Leg Calf Raise Version 2",
+      "Dumbbell Single Leg Calf Raise"
     ],
     "searchAliasPT": [
       "Unilateral perna elevação de panturrilha versão 2",
@@ -12966,29 +12966,6 @@
       "Sentar paredes"
     ],
     "imageFileId": "142fa1bc-72b4-4b41-8d87-5a3151ae48f0"
-  },
-  {
-    "id": "27741636-fff6-44be-bf74-6c6a1ded5b1f",
-    "name": "Ski Runners",
-    "namePT": "Ski runners",
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Ski Runner"
-    ],
-    "searchAliasPT": [
-      "Ski runner"
-    ],
-    "imageFileId": "a2f8f27f-88ce-402c-84ff-0ea8fa750f63"
   },
   {
     "id": "a3a09624-495e-473e-8e3f-1c8aeb98b499",
