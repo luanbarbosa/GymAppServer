@@ -8,6 +8,17 @@ try {
 
 let exercises = [];
 let offset = 0;
+// Bumped by "Refresh" so every image URL changes and the browser refetches it instead of using its cache.
+// Persisted so a later page load keeps using the fresh copies rather than older cached ones.
+const IMAGE_VERSION_KEY = "gymnerd.imageVersion";
+let imageVersion = "";
+try {
+  imageVersion = localStorage.getItem(IMAGE_VERSION_KEY) || "";
+} catch {}
+
+function imageUrl(imageFileId) {
+  return `${CATALOG_URL}/images/${imageFileId}.webp${imageVersion ? `?v=${imageVersion}` : ""}`;
+}
 
 const grid = document.getElementById("grid");
 const status = document.getElementById("status");
@@ -160,7 +171,7 @@ function openDuplicatePicker(exercise) {
   pickerTitle.textContent = `"${exercise.name}" is a duplicate of…`;
   const index = exercises.indexOf(exercise);
   const sourceImg = document.getElementById("picker-source-img");
-  sourceImg.src = exercise.imageFileId ? `${CATALOG_URL}/images/${exercise.imageFileId}.webp` : "";
+  sourceImg.src = exercise.imageFileId ? imageUrl(exercise.imageFileId) : "";
   sourceImg.alt = exercise.name;
   document.getElementById("picker-source-name").textContent = `${index + 1}. ${exercise.name}`;
   document.getElementById("picker-source-id").textContent = exercise.id;
@@ -190,7 +201,7 @@ function renderPicker() {
     const img = document.createElement("img");
     img.loading = "lazy";
     img.alt = exercise.name;
-    if (exercise.imageFileId) img.src = `${CATALOG_URL}/images/${exercise.imageFileId}.webp`;
+    if (exercise.imageFileId) img.src = imageUrl(exercise.imageFileId);
     const label = document.createElement("span");
     label.textContent = `${index + 1}. ${exercise.name}`;
     option.append(img, label);
@@ -211,7 +222,7 @@ function render() {
     imgWrap.className = "img-wrap";
     if (exercise.imageFileId) {
       const img = document.createElement("img");
-      img.src = `${CATALOG_URL}/images/${exercise.imageFileId}.webp`;
+      img.src = imageUrl(exercise.imageFileId);
       img.alt = exercise.name;
       img.onerror = () => { imgWrap.innerHTML = '<span class="missing">Image failed to load</span>'; };
       imgWrap.appendChild(img);
@@ -304,7 +315,8 @@ document.getElementById("show-problems").onclick = () => {
 document.getElementById("close-problems").onclick = () => problemsDialog.close();
 problemsDialog.onclick = (e) => { if (e.target === problemsDialog) problemsDialog.close(); };
 document.getElementById("copy-all").onclick = () => {
-  if (problems.length) copy(problems.join(","), `${problems.length} ids`);
+  const imageIds = problems.map((id) => exercises.find((e) => e.id === id)?.imageFileId).filter(Boolean);
+  if (imageIds.length) copy(imageIds.join(","), `${imageIds.length} image ids`);
 };
 pickerSearch.oninput = renderPicker;
 document.getElementById("close-picker").onclick = () => pickerDialog.close();
@@ -370,11 +382,36 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "ArrowLeft") { e.preventDefault(); if (!prevBtn.disabled) prevBtn.click(); }
 });
 
-fetch(`${CATALOG_URL}/exercises.json`, { cache: "no-store" })
-  .then((res) => {
+function loadExercises() {
+  return fetch(`${CATALOG_URL}/exercises.json`, { cache: "no-store" }).then((res) => {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return res.json();
-  })
+  });
+}
+
+// Reloads exercises.json and every image from scratch and clears all problem and duplicate markings.
+document.getElementById("refresh").onclick = async () => {
+  const markings = problems.length + Object.keys(duplicates).length;
+  if (markings && !window.confirm(`Refresh the catalog? This clears ${problems.length} problems and ${Object.keys(duplicates).length} duplicates.`)) return;
+  problems = [];
+  duplicates = {};
+  saveProblems();
+  saveDuplicates();
+  imageVersion = String(Date.now());
+  try {
+    localStorage.setItem(IMAGE_VERSION_KEY, imageVersion);
+  } catch {}
+  status.textContent = "Refreshing…";
+  try {
+    exercises = await loadExercises();
+    goTo(offset);
+    showToast(`Reloaded ${exercises.length} exercises`);
+  } catch (err) {
+    status.textContent = `Failed to load exercises: ${err.message}`;
+  }
+};
+
+loadExercises()
   .then((data) => {
     exercises = data;
     // URL hash wins so links to a specific exercise still work; otherwise resume the last position.

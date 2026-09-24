@@ -107,7 +107,7 @@ function toDataUrl(bytes, mimeType) {
 }
 
 async function openSearchTab(name) {
-  const url = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(name)}`;
+  const url = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${name} draw`)}`;
   const { searchTabId } = await chrome.storage.local.get("searchTabId");
 
   if (searchTabId !== undefined) {

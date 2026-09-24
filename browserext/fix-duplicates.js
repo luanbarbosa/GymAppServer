@@ -64,7 +64,7 @@ function renderFixGroups() {
       const img = document.createElement("img");
       img.loading = "lazy";
       img.alt = exercise?.name || id;
-      if (exercise?.imageFileId) img.src = `${CATALOG_URL}/images/${exercise.imageFileId}.webp`;
+      if (exercise?.imageFileId) img.src = imageUrl(exercise.imageFileId);
       const label = document.createElement("span");
       label.textContent = exercise ? `${index + 1}. ${exercise.name}` : `Unknown exercise ${id}`;
       option.append(img, label);
