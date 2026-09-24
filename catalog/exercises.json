@@ -13925,7 +13925,7 @@
   },
   {
     "id": "3a0a800d-2993-493b-8791-313771284aa8",
-    "name": "Vertical Leg Raise On Parallel Bars Female Version 2",
+    "name": "Vertical Leg Raise On Parallel BarsVersion 2",
     "namePT": "Vertical elevação de pernas em parallel bars versão 2",
     "type": "CORE",
     "trackedMetrics": [
@@ -13939,7 +13939,7 @@
       }
     ],
     "searchAlias": [
-      "Vertical Leg Raise On Parallel Bars Female"
+      "Vertical Leg Raise On Parallel Bars"
     ],
     "searchAliasPT": [
       "Vertical elevação de pernas em parallel bars"
