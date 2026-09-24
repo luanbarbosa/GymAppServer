@@ -7896,8 +7896,8 @@
   },
   {
     "id": "91bcac49-27bc-443b-acc8-9d39c7448da7",
-    "name": "Cable Sz Bar Close Grip Curl",
-    "namePT": "Sz barra fechado pegada rosca com cabo",
+    "name": "Cable Ez Bar Close Grip Curl",
+    "namePT": "Ez barra fechado pegada rosca com cabo",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -7910,10 +7910,10 @@
       }
     ],
     "searchAlias": [
-      "Sz Bar Close Grip Curl"
+      "Ez Bar Close Grip Curl"
     ],
     "searchAliasPT": [
-      "Sz barra fechado pegada rosca"
+      "Ez barra fechado pegada rosca"
     ],
     "imageFileId": "325a3fa5-7cea-4a0f-b8d5-5ff863325b6f"
   },
