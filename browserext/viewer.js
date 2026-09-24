@@ -17,6 +17,7 @@ const jumpInput = document.getElementById("jump");
 const exportBtn = document.getElementById("export");
 const clearBtn = document.getElementById("clear");
 const sendToDownloaderBtn = document.getElementById("send-to-downloader");
+const exportDuplicatesBtn = document.getElementById("export-duplicates");
 const toast = document.getElementById("toast");
 const pageSizeSelect = document.getElementById("page-size");
 
@@ -38,6 +39,34 @@ function saveProblems() {
     showToast("Could not save to localStorage");
   }
   exportBtn.textContent = `Export problems (${problems.length})`;
+}
+
+// Maps a duplicate exercise id to the exercise id it duplicates.
+const DUPLICATES_KEY = "gymnerd.duplicateExerciseIds";
+let duplicates = loadDuplicates();
+
+function loadDuplicates() {
+  try {
+    return JSON.parse(localStorage.getItem(DUPLICATES_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveDuplicates() {
+  try {
+    localStorage.setItem(DUPLICATES_KEY, JSON.stringify(duplicates));
+  } catch {
+    showToast("Could not save to localStorage");
+  }
+  exportDuplicatesBtn.textContent = `Export duplicates (${Object.keys(duplicates).length})`;
+}
+
+function setDuplicate(id, originalId) {
+  if (originalId) duplicates[id] = originalId;
+  else delete duplicates[id];
+  saveDuplicates();
+  render();
 }
 
 function toggleProblem(id) {
@@ -65,7 +94,7 @@ async function copy(text, label) {
     document.execCommand("copy");
     textarea.remove();
   }
-  showToast(`Copied ${label}: ${text}`);
+  showToast(text.length > 80 ? `Copied ${label}` : `Copied ${label}: ${text}`);
 }
 
 function actionButton(label, onClick, className) {
@@ -120,13 +149,63 @@ function renderProblemsList() {
   });
 }
 
+const pickerDialog = document.getElementById("picker-dialog");
+const pickerTitle = document.getElementById("picker-title");
+const pickerSearch = document.getElementById("picker-search");
+const pickerGrid = document.getElementById("picker-grid");
+let pickerSource = null;
+
+function openDuplicatePicker(exercise) {
+  pickerSource = exercise;
+  pickerTitle.textContent = `"${exercise.name}" is a duplicate of…`;
+  const index = exercises.indexOf(exercise);
+  const sourceImg = document.getElementById("picker-source-img");
+  sourceImg.src = exercise.imageFileId ? `${CATALOG_URL}/images/${exercise.imageFileId}.webp` : "";
+  sourceImg.alt = exercise.name;
+  document.getElementById("picker-source-name").textContent = `${index + 1}. ${exercise.name}`;
+  document.getElementById("picker-source-id").textContent = exercise.id;
+  pickerSearch.value = "";
+  renderPicker();
+  pickerDialog.showModal();
+  pickerSearch.focus();
+}
+
+function renderPicker() {
+  const query = pickerSearch.value.trim().toLowerCase();
+  pickerGrid.innerHTML = "";
+  exercises.forEach((exercise, index) => {
+    if (exercise.id === pickerSource.id) return;
+    const haystack = [exercise.name, exercise.namePT, ...(exercise.searchAlias || []), ...(exercise.searchAliasPT || [])]
+      .join(" ")
+      .toLowerCase();
+    if (query && !haystack.includes(query) && String(index + 1) !== query) return;
+
+    const option = document.createElement("button");
+    option.className = "picker-option";
+    option.onclick = () => {
+      setDuplicate(pickerSource.id, exercise.id);
+      pickerDialog.close();
+      showToast(`Marked as duplicate of #${index + 1} ${exercise.name}`);
+    };
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.alt = exercise.name;
+    if (exercise.imageFileId) img.src = `${CATALOG_URL}/images/${exercise.imageFileId}.webp`;
+    const label = document.createElement("span");
+    label.textContent = `${index + 1}. ${exercise.name}`;
+    option.append(img, label);
+    pickerGrid.appendChild(option);
+  });
+}
+
 function render() {
   grid.innerHTML = "";
   const page = exercises.slice(offset, offset + pageSize);
   page.forEach((exercise, i) => {
     const card = document.createElement("div");
     const isProblem = problems.includes(exercise.id);
-    card.className = isProblem ? "card problem" : "card";
+    const originalId = duplicates[exercise.id];
+    card.className = ["card", isProblem && "problem", originalId && "duplicate"].filter(Boolean).join(" ");
 
     const imgWrap = document.createElement("div");
     imgWrap.className = "img-wrap";
@@ -147,8 +226,17 @@ function render() {
     name.textContent = `${offset + i + 1}. ${exercise.name}`;
     const meta = document.createElement("div");
     meta.className = "meta";
-    meta.textContent = [exercise.namePT, exercise.type].filter(Boolean).join(" · ");
+    meta.textContent = exercise.type || "";
     info.append(name, meta);
+    if (originalId) {
+      const originalIndex = exercises.findIndex((e) => e.id === originalId);
+      const duplicateOf = document.createElement("div");
+      duplicateOf.className = "duplicate-of";
+      duplicateOf.textContent = originalIndex >= 0
+        ? `Duplicate of #${originalIndex + 1} ${exercises[originalIndex].name}`
+        : `Duplicate of ${originalId}`;
+      info.appendChild(duplicateOf);
+    }
 
     const actions = document.createElement("div");
     actions.className = "actions";
@@ -156,6 +244,11 @@ function render() {
       actionButton("Copy exercise id", () => copy(exercise.id, "exercise id")),
       actionButton("Copy image id", () => copy(exercise.imageFileId || "", "image id")),
       actionButton(isProblem ? "Problematic ✓" : "Mark as problematic", () => toggleProblem(exercise.id), "mark"),
+      actionButton(
+        originalId ? "Duplicate ✓" : "Mark as duplicate",
+        () => (originalId ? setDuplicate(exercise.id, null) : openDuplicatePicker(exercise)),
+        "dup",
+      ),
     );
 
     card.append(imgWrap, info, actions);
@@ -213,11 +306,36 @@ problemsDialog.onclick = (e) => { if (e.target === problemsDialog) problemsDialo
 document.getElementById("copy-all").onclick = () => {
   if (problems.length) copy(problems.join(","), `${problems.length} ids`);
 };
-exportBtn.onclick = () => {
-  const blob = new Blob([problems.join("\n") + (problems.length ? "\n" : "")], { type: "text/plain" });
+pickerSearch.oninput = renderPicker;
+document.getElementById("close-picker").onclick = () => pickerDialog.close();
+pickerDialog.onclick = (e) => { if (e.target === pickerDialog) pickerDialog.close(); };
+
+exportBtn.onclick = () => downloadLines("problem-images.txt", problems);
+// Merges ids from a problem-images.txt (one per line or comma separated) into the current list.
+const importFile = document.getElementById("import-file");
+document.getElementById("import").onclick = () => importFile.click();
+importFile.onchange = async () => {
+  const file = importFile.files[0];
+  importFile.value = "";
+  if (!file) return;
+  const ids = (await file.text()).split(/[\s,]+/).filter(Boolean);
+  const known = new Set(exercises.map((e) => e.id));
+  const added = ids.filter((id) => !problems.includes(id));
+  const unknown = added.filter((id) => !known.has(id)).length;
+  problems = [...new Set([...problems, ...added])];
+  saveProblems();
+  render();
+  showToast(`Imported ${new Set(added).size} new ids` + (unknown ? ` (${unknown} not in catalog)` : ""));
+};
+exportDuplicatesBtn.onclick = () => {
+  downloadLines("duplicates.txt", Object.entries(duplicates).map(([id, originalId]) => `${id} -> ${originalId}`));
+};
+
+function downloadLines(filename, lines) {
+  const blob = new Blob([lines.join("\n") + (lines.length ? "\n" : "")], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
   chrome.downloads.download(
-    { url, filename: "problem-images.txt", conflictAction: "overwrite", saveAs: false },
+    { url, filename, conflictAction: "overwrite", saveAs: false },
     (downloadId) => {
       URL.revokeObjectURL(url);
       if (chrome.runtime.lastError || downloadId === undefined) {
@@ -245,8 +363,9 @@ clearBtn.onclick = () => {
   render();
 };
 saveProblems();
+saveDuplicates();
 document.addEventListener("keydown", (e) => {
-  if (e.target === jumpInput || e.target === pageSizeSelect || problemsDialog.open) return;
+  if (e.target === jumpInput || e.target === pageSizeSelect || document.querySelector("dialog[open]")) return;
   if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); if (!nextBtn.disabled) nextBtn.click(); }
   if (e.key === "ArrowLeft") { e.preventDefault(); if (!prevBtn.disabled) prevBtn.click(); }
 });
