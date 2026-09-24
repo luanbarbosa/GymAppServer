@@ -557,11 +557,15 @@
     "namePT": "Desenvolvimento sentado com halteres",
     "searchAlias": [
       "Seated Dumbbell Shoulder Press",
-      "Seated DB Shoulder Press"
+      "Seated DB Shoulder Press",
+      "Dumbbell Bench Seated Press",
+      "Bench Seated Press"
     ],
     "searchAliasPT": [
       "Desenvolvimento com halteres sentado",
-      "Desenvolvimento sentado halteres"
+      "Desenvolvimento sentado halteres",
+      "Banco sentado press com halteres",
+      "Banco sentado press"
     ],
     "type": "SHOULDERS",
     "trackedMetrics": [
@@ -2300,10 +2304,14 @@
     "name": "Dumbbell triceps kickback",
     "namePT": "Tríceps coice com halter",
     "searchAlias": [
-      "Triceps Kickback"
+      "Triceps Kickback",
+      "Dumbbell Kickback",
+      "Kickback"
     ],
     "searchAliasPT": [
-      "Coice de tríceps"
+      "Coice de tríceps",
+      "Kickback com halteres",
+      "Kickback"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -2547,10 +2555,18 @@
     "name": "Chest supported T-bar row",
     "namePT": "Remada cavalinho apoiado",
     "searchAlias": [
-      "Chest Supported T-Bar Row"
+      "Chest Supported T-Bar Row",
+      "Lever T Barrow Plate Loaded",
+      "Lever T Barrow Loaded",
+      "Machine T Barrow Plate Loaded",
+      "Machine T Barrow Loaded",
+      "Leverage T Barrow Plate Loaded"
     ],
     "searchAliasPT": [
-      "Remada cavalinho no banco"
+      "Remada cavalinho no banco",
+      "T barrow carregado com alavanca",
+      "T barrow carregado",
+      "T barrow carregado com máquina"
     ],
     "type": "BACK",
     "trackedMetrics": [
@@ -2739,10 +2755,14 @@
     "namePT": "Escada rolante (StairMaster)",
     "searchAlias": [
       "StairMaster",
-      "Stair Machine"
+      "Stair Machine",
+      "Walking On Step Mill",
+      "Walking On Step Mills"
     ],
     "searchAliasPT": [
-      "Simulador de escada"
+      "Simulador de escada",
+      "Caminhando em passo mill",
+      "Caminhando em passo mills"
     ],
     "type": "CARDIO",
     "trackedMetrics": [
@@ -2785,10 +2805,14 @@
     "namePT": "Corrida ao ar livre",
     "searchAlias": [
       "Running Outside",
-      "Road Run"
+      "Road Run",
+      "Run",
+      "Runs"
     ],
     "searchAliasPT": [
-      "Corrida na rua"
+      "Corrida na rua",
+      "Corrida",
+      "Corridas"
     ],
     "type": "CARDIO",
     "trackedMetrics": [
@@ -2834,10 +2858,14 @@
     "name": "Swimming",
     "namePT": "Natação",
     "searchAlias": [
-      "Swim"
+      "Swim",
+      "Swimming Crawl Style",
+      "Swimming Crawl Styles"
     ],
     "searchAliasPT": [
-      "Nadar"
+      "Nadar",
+      "Swimming crawl style",
+      "Swimming crawl styles"
     ],
     "type": "CARDIO",
     "trackedMetrics": [
@@ -2879,10 +2907,14 @@
     "namePT": "Bicicleta aeróbica (air bike)",
     "searchAlias": [
       "Assault Bike",
-      "Fan Bike"
+      "Fan Bike",
+      "Assault Bike Run",
+      "Assault Bike Runs"
     ],
     "searchAliasPT": [
-      "Bike de ar"
+      "Bike de ar",
+      "Assault bicicleta corrida",
+      "Assault bicicleta corridas"
     ],
     "type": "CARDIO",
     "trackedMetrics": [
@@ -3004,11 +3036,19 @@
     "name": "Chest dip",
     "namePT": "Paralelas para peito",
     "searchAlias": [
-      "Parallel Bar Chest Dip"
+      "Parallel Bar Chest Dip",
+      "Chest Dip On Dip Pullup Cage",
+      "Chest Dip On Dip Pull-Up Cage",
+      "Triceps Dip",
+      "Tricep Dip"
     ],
     "searchAliasPT": [
       "Mergulho para peitoral",
-      "Paralelas inclinado"
+      "Paralelas inclinado",
+      "Peito mergulho em mergulho barra fixa gaiola",
+      "Peito mergulho em mergulho barra fixa gaiolas",
+      "Triceps mergulho",
+      "Triceps mergulhos"
     ],
     "type": "CHEST",
     "trackedMetrics": [
@@ -3029,11 +3069,20 @@
     "name": "Assisted chest dip",
     "namePT": "Paralelas assistida para peito",
     "searchAlias": [
-      "Assisted Parallel Bar Chest Dip"
+      "Assisted Parallel Bar Chest Dip",
+      "Assisted Chest Dip Kneeling",
+      "Chest Dip Kneeling",
+      "Assisted Triceps Dip Kneeling",
+      "Assisted Tricep Dip Kneeling",
+      "Triceps Dip Kneeling"
     ],
     "searchAliasPT": [
       "Mergulho assistido para peitoral",
-      "Paralelas inclinado assistido"
+      "Paralelas inclinado assistido",
+      "Assistido peito mergulho ajoelhado",
+      "Peito mergulho ajoelhado",
+      "Assistido triceps mergulho ajoelhado",
+      "Triceps mergulho ajoelhado"
     ],
     "type": "CHEST",
     "trackedMetrics": [
@@ -4445,10 +4494,14 @@
     "name": "Sled pull",
     "namePT": "Puxar trenó",
     "searchAlias": [
-      "Sled Drag"
+      "Sled Drag",
+      "Power Sled Pull",
+      "Power Pull"
     ],
     "searchAliasPT": [
-      "Arrastar sled"
+      "Arrastar sled",
+      "Potência pull com trenó",
+      "Potência pull"
     ],
     "type": "FULL_BODY",
     "trackedMetrics": [
@@ -5003,52 +5056,6 @@
     "imageFileId": "31b1fcae-27a4-4ea5-b0df-2de66a87fa88"
   },
   {
-    "id": "eb93feb1-49a7-4857-a8a4-22bebe93df14",
-    "name": "Assault Bike Run",
-    "namePT": "Assault bicicleta corrida",
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DISTANCE",
-        "default": true
-      },
-      {
-        "type": "DURATION",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Assault Bike Runs"
-    ],
-    "searchAliasPT": [
-      "Assault bicicleta corridas"
-    ],
-    "imageFileId": "e8d460fe-ce55-4cc3-b28a-7d4c011a2533"
-  },
-  {
-    "id": "b29982ff-2e55-4b7a-8c69-250b3c63ae9e",
-    "name": "Assisted Chest Dip Kneeling",
-    "namePT": "Assistido peito mergulho ajoelhado",
-    "type": "CHEST",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Chest Dip Kneeling"
-    ],
-    "searchAliasPT": [
-      "Peito mergulho ajoelhado"
-    ],
-    "imageFileId": "aef457f2-ef22-46d1-857f-7bbcac05bf47"
-  },
-  {
     "id": "d86b1867-9249-49f3-a9ff-4260be1ec353",
     "name": "Assisted Chinup",
     "namePT": "Assistido barra supinada",
@@ -5090,30 +5097,6 @@
       "Fechado pegada supinado barra supinada"
     ],
     "imageFileId": "99b28de1-0791-44b4-849d-260ec95047c6"
-  },
-  {
-    "id": "2df9648f-32b6-4a39-8157-120169b5dfcc",
-    "name": "Assisted Triceps Dip Kneeling",
-    "namePT": "Assistido triceps mergulho ajoelhado",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Assisted Tricep Dip Kneeling",
-      "Triceps Dip Kneeling"
-    ],
-    "searchAliasPT": [
-      "Triceps mergulho ajoelhado"
-    ],
-    "imageFileId": "d0db7de6-13a9-45fa-8a16-506387229f76"
   },
   {
     "id": "db1f2ea8-dff7-44ea-8853-455cb83a8160",
@@ -7341,10 +7324,17 @@
       }
     ],
     "searchAlias": [
-      "Overhead Curl"
+      "Overhead Curl",
+      "Cable Standing Inner Curl",
+      "Standing Inner Curl"
     ],
     "searchAliasPT": [
-      "Overhead rosca"
+      "Overhead rosca",
+      "Em pé interno rosca com cabo",
+      "Em pé interno rosca",
+      "Interno rosca com cabo",
+      "De pé interno rosca com cabo",
+      "De pé interno rosca"
     ],
     "imageFileId": "2cb8483b-91e2-412b-ae17-3f97dc868649"
   },
@@ -7748,32 +7738,6 @@
     "imageFileId": "5850162b-4b31-44c6-9944-bac8a13f52f4"
   },
   {
-    "id": "18866809-b671-4fe8-a31a-0a6305304b72",
-    "name": "Cable Standing Inner Curl",
-    "namePT": "Em pé interno rosca com cabo",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Standing Inner Curl"
-    ],
-    "searchAliasPT": [
-      "Em pé interno rosca",
-      "Interno rosca com cabo",
-      "De pé interno rosca com cabo",
-      "De pé interno rosca"
-    ],
-    "imageFileId": "8ebfb550-73a8-4d01-8aca-7ea9ed3b4d6d"
-  },
-  {
     "id": "51560827-0e57-4f84-b0fb-aeb033d0336d",
     "name": "Cable Standing Reverse Grip Curl Straight Bar",
     "namePT": "Em pé invertido pegada rosca reta barra com cabo",
@@ -8123,29 +8087,6 @@
     "imageFileId": "6c47aa9e-9520-4056-9f52-e014bed3dced"
   },
   {
-    "id": "20750a2e-6b26-4282-a89e-c9a6549b60a9",
-    "name": "Chest Dip On Dip Pullup Cage",
-    "namePT": "Peito mergulho em mergulho barra fixa gaiola",
-    "type": "CHEST",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Chest Dip On Dip Pull-Up Cage"
-    ],
-    "searchAliasPT": [
-      "Peito mergulho em mergulho barra fixa gaiolas"
-    ],
-    "imageFileId": "9a1455f1-69e2-41f6-a47f-402dec5d4800"
-  },
-  {
     "id": "14bed31a-e21f-4a2f-9782-d684ce04eec4",
     "name": "Clap Pushup",
     "namePT": "Palma flexão de braço",
@@ -8279,31 +8220,16 @@
       }
     ],
     "searchAlias": [
-      "Downward Facing Dogs"
-    ],
-    "searchAliasPT": [
-      "Downward facing dogs"
-    ],
-    "imageFileId": "1e47e7be-727f-4511-95ee-daf002c15e03"
-  },
-  {
-    "id": "7b289587-9d5f-4441-8436-22ae482fd511",
-    "name": "Downward Facing Dog Adho Mukha Svanasana",
-    "namePT": "Downward facing dog adho mukha svanasana",
-    "type": "STRETCHING",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
+      "Downward Facing Dogs",
+      "Downward Facing Dog Adho Mukha Svanasana",
       "Downward Facing Dog Adho Mukha Svanasanas"
     ],
     "searchAliasPT": [
+      "Downward facing dogs",
+      "Downward facing dog adho mukha svanasana",
       "Downward facing dog adho mukha svanasanas"
     ],
-    "imageFileId": "ba4664b0-63cd-4a93-9085-d6fbc8efd127"
+    "imageFileId": "1e47e7be-727f-4511-95ee-daf002c15e03"
   },
   {
     "id": "d98bb073-18a0-4024-b31c-e352e6837658",
@@ -8350,29 +8276,6 @@
       "Around pullover"
     ],
     "imageFileId": "e95fb1d8-2cf8-4dcc-87ad-f489d5e30a2b"
-  },
-  {
-    "id": "a34bef9a-382c-4171-9f03-d2263da504a2",
-    "name": "Dumbbell Bench Seated Press",
-    "namePT": "Banco sentado press com halteres",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Bench Seated Press"
-    ],
-    "searchAliasPT": [
-      "Banco sentado press"
-    ],
-    "imageFileId": "9b30719a-2e1c-48ab-82fe-35a33eb3aa5e"
   },
   {
     "id": "bbcec1cb-49c0-405f-a67c-5c09b8476ba7",
@@ -8733,29 +8636,6 @@
       "Ipsilateral unilateral perna levantamento terra pernas rígidas"
     ],
     "imageFileId": "73584bdb-846b-440c-9d91-3a1d773931f7"
-  },
-  {
-    "id": "936e133d-294d-426f-90ad-1e599742dfbe",
-    "name": "Dumbbell Kickback",
-    "namePT": "Kickback com halteres",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Kickback"
-    ],
-    "searchAliasPT": [
-      "Kickback"
-    ],
-    "imageFileId": "ef92cf05-c59b-41ff-9bc5-09bedd1cab37"
   },
   {
     "id": "f8e1356a-b59f-4154-959b-bf2dfa7b106b",
@@ -9807,10 +9687,14 @@
       }
     ],
     "searchAlias": [
-      "Elbow Up And Down Dynamic Planks"
+      "Elbow Up And Down Dynamic Planks",
+      "Front Elbow Plank",
+      "Elbow Plank"
     ],
     "searchAliasPT": [
-      "Cotovelo para cima e para baixo dynamic pranchas"
+      "Cotovelo para cima e para baixo dynamic pranchas",
+      "Frontal cotovelo prancha",
+      "Cotovelo prancha"
     ],
     "imageFileId": "fdd050b1-02b3-495a-be6a-d0f17f0f8041"
   },
@@ -9934,53 +9818,6 @@
       "Frog saltos"
     ],
     "imageFileId": "de5c7830-a0c9-4df3-9b37-1c0315ccd23a"
-  },
-  {
-    "id": "95450997-ff39-4de5-87ca-1c332d34f1d5",
-    "name": "Front Elbow Plank",
-    "namePT": "Frontal cotovelo prancha",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Elbow Plank"
-    ],
-    "searchAliasPT": [
-      "Cotovelo prancha"
-    ],
-    "imageFileId": "5bae3928-25a6-4f62-aee2-e14a5d62262f"
-  },
-  {
-    "id": "e98c4aab-ed59-4fb8-bb43-cea4fc54a835",
-    "name": "Front Lever Hold",
-    "namePT": "Frontal isometria com alavanca",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Front Hold",
-      "Front Machine Hold",
-      "Front Leverage Hold",
-      "Lever Hold"
-    ],
-    "searchAliasPT": [
-      "Frontal isometria",
-      "Isometria com alavanca",
-      "Frontal isometria com máquina"
-    ],
-    "imageFileId": "60345aa0-67d3-44a0-b12a-3d26abdd5fdf"
   },
   {
     "id": "a7c44eff-e000-43cf-9058-ab733d142871",
@@ -10139,12 +9976,21 @@
       "Hanging Front Raise",
       "Hanging Front Machine Raise",
       "Hanging Front Leverage Raise",
-      "Front Lever Raise"
+      "Front Lever Raise",
+      "Front Lever Hold",
+      "Front Hold",
+      "Front Machine Hold",
+      "Front Leverage Hold",
+      "Lever Hold"
     ],
     "searchAliasPT": [
       "Suspenso frontal elevação",
       "Frontal elevação com alavanca",
-      "Suspenso frontal elevação com máquina"
+      "Suspenso frontal elevação com máquina",
+      "Frontal isometria com alavanca",
+      "Frontal isometria",
+      "Isometria com alavanca",
+      "Frontal isometria com máquina"
     ],
     "imageFileId": "1252bb93-a188-4567-944d-9cfe2f03c274"
   },
@@ -10317,25 +10163,6 @@
     "imageFileId": "6b00a016-9759-4b88-8b27-1c303fcb5b9b"
   },
   {
-    "id": "ae991be4-fdc3-4975-8eb3-250c0f3bb1f9",
-    "name": "Incline Push Press",
-    "namePT": "Inclinado push press",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Push Press"
-    ],
-    "searchAliasPT": [
-      "Push press"
-    ],
-    "imageFileId": "43c17825-3dba-4b06-99c7-65b31ea84462"
-  },
-  {
     "id": "23930cd5-ebb3-4641-ac8c-421dfb7f665b",
     "name": "Incline Push-Up On Box",
     "namePT": "Inclinado push-up em caixote",
@@ -10349,10 +10176,14 @@
     "searchAlias": [
       "Incline Pushup On Box",
       "Incline Push Up On Box",
-      "Push-Up On Box"
+      "Push-Up On Box",
+      "Incline Push Press",
+      "Push Press"
     ],
     "searchAliasPT": [
-      "Push-up em caixote"
+      "Push-up em caixote",
+      "Inclinado push press",
+      "Push press"
     ],
     "imageFileId": "328eb0b2-6664-4cf8-a13e-bf8eee3ab5e5"
   },
@@ -11055,33 +10886,6 @@
     "imageFileId": "61951353-7ebe-483d-9310-3bba3b6da5d4"
   },
   {
-    "id": "7add17e7-3a7c-4168-adfa-a16a7386b971",
-    "name": "Lever Bent Over Row Plate Loaded",
-    "namePT": "Remada curvada carregado com alavanca",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Lever Bent Over Row Loaded",
-      "Machine Bent Over Row Plate Loaded",
-      "Machine Bent Over Row Loaded",
-      "Leverage Bent Over Row Plate Loaded"
-    ],
-    "searchAliasPT": [
-      "Remada curvada carregado",
-      "Remada curvada carregado com máquina"
-    ],
-    "imageFileId": "73a8a4f9-200a-4376-ae17-2a4450780b9b"
-  },
-  {
     "id": "609fee66-d76c-4d80-8643-446d60ee8079",
     "name": "Lever Bent Over Row With V-Bar Plate Loaded",
     "namePT": "Remada curvada com v-bar carregado com alavanca",
@@ -11100,11 +10904,19 @@
       "Lever Bent Over Row With V-Bar Loaded",
       "Lever Bent Over Row With V Bar Plate Loaded",
       "Lever Bent Over Row With V Bar Loaded",
-      "Machine Bent Over Row With V-Bar Plate Loaded"
+      "Machine Bent Over Row With V-Bar Plate Loaded",
+      "Lever Bent Over Row Plate Loaded",
+      "Lever Bent Over Row Loaded",
+      "Machine Bent Over Row Plate Loaded",
+      "Machine Bent Over Row Loaded",
+      "Leverage Bent Over Row Plate Loaded"
     ],
     "searchAliasPT": [
       "Remada curvada com v-bar carregado",
-      "Remada curvada com v-bar carregado com máquina"
+      "Remada curvada com v-bar carregado com máquina",
+      "Remada curvada carregado com alavanca",
+      "Remada curvada carregado",
+      "Remada curvada carregado com máquina"
     ],
     "imageFileId": "96ead9f0-2256-4cee-a28d-34b75724f18a"
   },
@@ -11727,33 +11539,6 @@
     "imageFileId": "40b48da0-bc85-4662-9312-8aed6cb5251e"
   },
   {
-    "id": "f69f3095-f52e-480f-9372-e4289bc80308",
-    "name": "Lever Seated Dip",
-    "namePT": "Sentado mergulho com alavanca",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Seated Dip",
-      "Machine Seated Dip",
-      "Leverage Seated Dip"
-    ],
-    "searchAliasPT": [
-      "Sentado mergulho",
-      "Mergulho com alavanca",
-      "Sentado mergulho com máquina"
-    ],
-    "imageFileId": "b2e7bb00-ad5e-454a-87a3-f69352522738"
-  },
-  {
     "id": "c97e7442-ba65-4973-90bb-a06ae6a9bba5",
     "name": "Lever Seated Leg Curl",
     "namePT": "Sentado perna rosca com alavanca",
@@ -12029,33 +11814,6 @@
     "imageFileId": "04b573e6-8e9c-4126-b640-26ea0f5c0132"
   },
   {
-    "id": "3343e71c-c10e-42fd-92e7-a77fda195fe2",
-    "name": "Lever T Barrow Plate Loaded",
-    "namePT": "T barrow carregado com alavanca",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Lever T Barrow Loaded",
-      "Machine T Barrow Plate Loaded",
-      "Machine T Barrow Loaded",
-      "Leverage T Barrow Plate Loaded"
-    ],
-    "searchAliasPT": [
-      "T barrow carregado",
-      "T barrow carregado com máquina"
-    ],
-    "imageFileId": "76cf854a-1141-41a6-b24f-4e50baceab83"
-  },
-  {
     "id": "44108d18-854d-4448-9be3-3fa9bd461003",
     "name": "Lever Torso Rotation",
     "namePT": "Torso rotação com alavanca",
@@ -12127,13 +11885,21 @@
       "Triceps Extension",
       "Lever Tricep Extension",
       "Tricep Extension",
-      "Machine Triceps Extension"
+      "Machine Triceps Extension",
+      "Lever Seated Dip",
+      "Seated Dip",
+      "Machine Seated Dip",
+      "Leverage Seated Dip"
     ],
     "searchAliasPT": [
       "Extensão de tríceps",
       "Extensão de triceps com alavanca",
       "Extensão de triceps",
-      "Extensão de tríceps com máquina"
+      "Extensão de tríceps com máquina",
+      "Sentado mergulho com alavanca",
+      "Sentado mergulho",
+      "Mergulho com alavanca",
+      "Sentado mergulho com máquina"
     ],
     "imageFileId": "6bcec4cc-bdfe-4d77-8931-8215caac9a7a"
   },
@@ -12478,29 +12244,6 @@
     "imageFileId": "064ca1f1-bc19-44a2-8be2-9acef1804f33"
   },
   {
-    "id": "a6c71303-5236-4835-ba58-0fb10a0a8bb3",
-    "name": "Power Sled Pull",
-    "namePT": "Potência pull com trenó",
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Power Pull"
-    ],
-    "searchAliasPT": [
-      "Potência pull"
-    ],
-    "imageFileId": "2088252d-26e5-4c9b-8f63-7f70930b99da"
-  },
-  {
     "id": "e4f53e65-0bff-4c81-b662-08eba6cbb74b",
     "name": "Power Sled Push",
     "namePT": "Potência push com trenó",
@@ -12766,58 +12509,16 @@
       }
     ],
     "searchAlias": [
-      "Rowing Straight Back With Rowing"
-    ],
-    "searchAliasPT": [
-      "Remo reta costas"
-    ],
-    "imageFileId": "68fdbc7c-043f-414f-9e2c-ada1d4ae005f"
-  },
-  {
-    "id": "356d9bf4-47c2-456c-8797-6676cb8dc87d",
-    "name": "Rowing With Rowing Machine",
-    "namePT": "Remo com remo com máquina",
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DISTANCE",
-        "default": true
-      },
-      {
-        "type": "DURATION",
-        "default": true
-      }
-    ],
-    "searchAlias": [
+      "Rowing Straight Back With Rowing",
+      "Rowing With Rowing Machine",
       "Rowing With Rowing"
     ],
     "searchAliasPT": [
+      "Remo reta costas",
+      "Remo com remo com máquina",
       "Remo"
     ],
-    "imageFileId": "e720f996-8507-4675-898c-b12a8bfeff06"
-  },
-  {
-    "id": "d9900d7b-494d-4796-a719-5bc73d189e6d",
-    "name": "Run",
-    "namePT": "Corrida",
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DISTANCE",
-        "default": true
-      },
-      {
-        "type": "DURATION",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Runs"
-    ],
-    "searchAliasPT": [
-      "Corridas"
-    ],
-    "imageFileId": "68e4242e-fed0-40d4-b687-1e333158cbbe"
+    "imageFileId": "68fdbc7c-043f-414f-9e2c-ada1d4ae005f"
   },
   {
     "id": "f2f9e48f-95b3-4794-ac8c-96391f2b54bd",
@@ -12835,35 +12536,16 @@
       }
     ],
     "searchAlias": [
-      "Run Equipments"
-    ],
-    "searchAliasPT": [
-      "Corrida equipments"
-    ],
-    "imageFileId": "58e5490b-05c8-4bef-87bc-d0bbcdffd93d"
-  },
-  {
-    "id": "ee8da381-3b23-4936-a773-a74fa0948e7a",
-    "name": "Run On Treadmill",
-    "namePT": "Corrida em treadmill",
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DISTANCE",
-        "default": true
-      },
-      {
-        "type": "DURATION",
-        "default": true
-      }
-    ],
-    "searchAlias": [
+      "Run Equipments",
+      "Run On Treadmill",
       "Run On Treadmills"
     ],
     "searchAliasPT": [
+      "Corrida equipments",
+      "Corrida em treadmill",
       "Corrida em treadmills"
     ],
-    "imageFileId": "a0d80e3c-c730-492f-80ab-5a634d9cfe01"
+    "imageFileId": "58e5490b-05c8-4bef-87bc-d0bbcdffd93d"
   },
   {
     "id": "76d82c9c-2369-4a80-9d1b-df631eefdef2",
@@ -13370,35 +13052,16 @@
       }
     ],
     "searchAlias": [
-      "45 Degrees Leg Press"
-    ],
-    "searchAliasPT": [
-      "45 graus leg press"
-    ],
-    "imageFileId": "36939288-e8a9-4665-a95f-a7d6b15dd0b1"
-  },
-  {
-    "id": "85fcb6d6-95fc-455d-be2b-a75cbf9b8c74",
-    "name": "Sled 45 Leg Press",
-    "namePT": "45 leg press com trenó",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
+      "45 Degrees Leg Press",
+      "Sled 45 Leg Press",
       "45 Leg Press"
     ],
     "searchAliasPT": [
+      "45 graus leg press",
+      "45 leg press com trenó",
       "45 leg press"
     ],
-    "imageFileId": "86398911-1906-428c-b380-6a182ac33695"
+    "imageFileId": "36939288-e8a9-4665-a95f-a7d6b15dd0b1"
   },
   {
     "id": "98275e26-ee4b-4c33-841e-89216d61f164",
@@ -14260,52 +13923,6 @@
     "imageFileId": "83996645-1c69-4a7c-ab52-b082cdf0b384"
   },
   {
-    "id": "44f3623c-b44e-4ddb-b3af-ad924ee6cd88",
-    "name": "Swimming Crawl Style",
-    "namePT": "Swimming crawl style",
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Swimming Crawl Styles"
-    ],
-    "searchAliasPT": [
-      "Swimming crawl styles"
-    ],
-    "imageFileId": "71711514-d10c-4b06-801d-e897bb7f3cc0"
-  },
-  {
-    "id": "7a501c2b-ecf0-4c5c-bf9d-4cbae427c7ff",
-    "name": "Triceps Dip",
-    "namePT": "Triceps mergulho",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Tricep Dip"
-    ],
-    "searchAliasPT": [
-      "Triceps mergulhos"
-    ],
-    "imageFileId": "632829f5-78c8-484d-b3ab-d3c10ccce775"
-  },
-  {
     "id": "3ce876b4-61cd-425f-a9a8-b203b18c6cbc",
     "name": "Triceps Dip Floor",
     "namePT": "Triceps mergulho no chão",
@@ -14374,29 +13991,6 @@
       "Caminhandos"
     ],
     "imageFileId": "6e966c69-94bc-4654-8e86-76446ebbf36d"
-  },
-  {
-    "id": "c1aaa543-e3e5-496e-b60d-8ce50eef5d9b",
-    "name": "Walking On Step Mill",
-    "namePT": "Caminhando em passo mill",
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DISTANCE",
-        "default": true
-      },
-      {
-        "type": "DURATION",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Walking On Step Mills"
-    ],
-    "searchAliasPT": [
-      "Caminhando em passo mills"
-    ],
-    "imageFileId": "f2525845-c8ec-4de5-b838-1ee47cf821c7"
   },
   {
     "id": "1ac705c9-df79-4f2b-b0ae-fdf9367843c0",
