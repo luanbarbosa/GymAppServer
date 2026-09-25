@@ -233,6 +233,9 @@
   <button id="prev">Previous</button>
   <button id="next" class="primary">Next</button>
   <label>Go to # <input id="jump" type="number" min="1"></label>
+  <label>Type
+    <select id="type-filter"><option value="">All</option></select>
+  </label>
   <label>Per page
     <select id="page-size">
       <option>1</option><option>2</option><option>3</option><option selected>4</option>
@@ -244,10 +247,9 @@
   <button id="import">Import problems</button>
   <input id="import-file" type="file" accept=".txt,text/plain" hidden>
   <button id="clear">Clear problems</button>
-  <button id="send-to-downloader">Send problems to downloader</button>
   <button id="export-duplicates">Export duplicates (0)</button>
   <button id="fix-duplicates">Fix duplicates</button>
-  <button id="refresh">Refresh</button>
+  <button id="reset">Reset</button>
 </header>
 <div id="grid"></div>
 <div id="toast"></div>

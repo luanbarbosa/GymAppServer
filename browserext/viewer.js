@@ -8,7 +8,17 @@ try {
 
 let exercises = [];
 let offset = 0;
-// Bumped by "Refresh" so every image URL changes and the browser refetches it instead of using its cache.
+// Exercise type to show ("" shows all). Paging and offset apply to the filtered list; cards keep their catalog #.
+const TYPE_FILTER_KEY = "gymnerd.typeFilter";
+let typeFilter = "";
+try {
+  typeFilter = localStorage.getItem(TYPE_FILTER_KEY) || "";
+} catch {}
+
+function visibleExercises() {
+  return typeFilter ? exercises.filter((e) => e.type === typeFilter) : exercises;
+}
+// Bumped by "Reset" so every image URL changes and the browser refetches it instead of using its cache.
 // Persisted so a later page load keeps using the fresh copies rather than older cached ones.
 const IMAGE_VERSION_KEY = "gymnerd.imageVersion";
 let imageVersion = "";
@@ -27,7 +37,7 @@ const nextBtn = document.getElementById("next");
 const jumpInput = document.getElementById("jump");
 const exportBtn = document.getElementById("export");
 const clearBtn = document.getElementById("clear");
-const sendToDownloaderBtn = document.getElementById("send-to-downloader");
+const typeFilterSelect = document.getElementById("type-filter");
 const exportDuplicatesBtn = document.getElementById("export-duplicates");
 const toast = document.getElementById("toast");
 const pageSizeSelect = document.getElementById("page-size");
@@ -149,7 +159,7 @@ function renderProblemsList() {
     if (exercise) {
       row.append(actionButton("Go to", () => {
         problemsDialog.close();
-        goTo(index - (index % pageSize));
+        goToExercise(exercise);
       }));
     }
     row.append(actionButton("Remove", () => {
@@ -211,8 +221,9 @@ function renderPicker() {
 
 function render() {
   grid.innerHTML = "";
-  const page = exercises.slice(offset, offset + pageSize);
-  page.forEach((exercise, i) => {
+  const visible = visibleExercises();
+  const page = visible.slice(offset, offset + pageSize);
+  page.forEach((exercise) => {
     const card = document.createElement("div");
     const isProblem = problems.includes(exercise.id);
     const originalId = duplicates[exercise.id];
@@ -234,7 +245,7 @@ function render() {
     info.className = "info";
     const name = document.createElement("div");
     name.className = "name";
-    name.textContent = `${offset + i + 1}. ${exercise.name}`;
+    name.textContent = `${exercises.indexOf(exercise) + 1}. ${exercise.name}`;
     const meta = document.createElement("div");
     meta.className = "meta";
     meta.textContent = exercise.type || "";
@@ -266,10 +277,10 @@ function render() {
     grid.appendChild(card);
   });
 
-  const end = Math.min(offset + pageSize, exercises.length);
-  status.textContent = `${offset + 1}–${end} of ${exercises.length}`;
+  const end = Math.min(offset + pageSize, visible.length);
+  status.textContent = visible.length ? `${offset + 1}–${end} of ${visible.length}` : "No exercises";
   prevBtn.disabled = offset === 0;
-  nextBtn.disabled = end >= exercises.length;
+  nextBtn.disabled = end >= visible.length;
   history.replaceState(null, "", `#${offset + 1}`);
   try {
     localStorage.setItem(OFFSET_KEY, String(offset));
@@ -277,10 +288,35 @@ function render() {
 }
 
 function goTo(newOffset) {
-  const maxOffset = Math.max(0, exercises.length - 1);
+  const maxOffset = Math.max(0, visibleExercises().length - 1);
   offset = Math.min(Math.max(0, newOffset), maxOffset);
   render();
 }
+
+// Shows the page containing the exercise, clearing the type filter when it hides the exercise.
+function goToExercise(exercise) {
+  if (typeFilter && exercise.type !== typeFilter) setTypeFilter("");
+  const index = visibleExercises().indexOf(exercise);
+  goTo(index - (index % pageSize));
+}
+
+function setTypeFilter(type) {
+  typeFilter = type;
+  typeFilterSelect.value = type;
+  try {
+    localStorage.setItem(TYPE_FILTER_KEY, type);
+  } catch {}
+}
+
+function populateTypeFilter() {
+  const types = [...new Set(exercises.map((e) => e.type).filter(Boolean))].sort();
+  typeFilterSelect.replaceChildren(new Option("All", ""), ...types.map((type) => new Option(type, type)));
+  setTypeFilter(types.includes(typeFilter) ? typeFilter : "");
+}
+typeFilterSelect.onchange = () => {
+  setTypeFilter(typeFilterSelect.value);
+  goTo(0);
+};
 
 function updateGridShape() {
   let cols = pageSize % 4 === 0 ? 4 : pageSize % 3 === 0 ? 3 : Math.min(pageSize, 4);
@@ -307,7 +343,12 @@ applyPageSize();
 
 prevBtn.onclick = () => goTo(offset - pageSize);
 nextBtn.onclick = () => goTo(offset + pageSize);
-jumpInput.onchange = () => goTo(Number(jumpInput.value) - 1);
+jumpInput.onchange = () => {
+  const exercise = exercises[Number(jumpInput.value) - 1];
+  if (!exercise) return;
+  if (typeFilter && exercise.type !== typeFilter) setTypeFilter("");
+  goTo(visibleExercises().indexOf(exercise));
+};
 document.getElementById("show-problems").onclick = () => {
   renderProblemsList();
   problemsDialog.showModal();
@@ -358,16 +399,6 @@ function downloadLines(filename, lines) {
     },
   );
 };
-// Loads the problematic exercises into the popup's downloader queue (same storage keys popup.js uses).
-sendToDownloaderBtn.onclick = async () => {
-  const queue = problems.map((id) => exercises.find((e) => e.id === id)).filter((e) => e?.imageFileId);
-  if (!queue.length) {
-    showToast("No problematic exercises to send");
-    return;
-  }
-  await chrome.storage.local.set({ catalog: queue, pointer: 0 });
-  showToast(`Sent ${queue.length} exercises to the downloader`);
-};
 clearBtn.onclick = () => {
   if (!problems.length || !window.confirm(`Clear ${problems.length} problematic exercise ids?`)) return;
   problems = [];
@@ -377,7 +408,7 @@ clearBtn.onclick = () => {
 saveProblems();
 saveDuplicates();
 document.addEventListener("keydown", (e) => {
-  if (e.target === jumpInput || e.target === pageSizeSelect || document.querySelector("dialog[open]")) return;
+  if (e.target === jumpInput || e.target === pageSizeSelect || e.target === typeFilterSelect || document.querySelector("dialog[open]")) return;
   if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); if (!nextBtn.disabled) nextBtn.click(); }
   if (e.key === "ArrowLeft") { e.preventDefault(); if (!prevBtn.disabled) prevBtn.click(); }
 });
@@ -390,9 +421,9 @@ function loadExercises() {
 }
 
 // Reloads exercises.json and every image from scratch and clears all problem and duplicate markings.
-document.getElementById("refresh").onclick = async () => {
+document.getElementById("reset").onclick = async () => {
   const markings = problems.length + Object.keys(duplicates).length;
-  if (markings && !window.confirm(`Refresh the catalog? This clears ${problems.length} problems and ${Object.keys(duplicates).length} duplicates.`)) return;
+  if (markings && !window.confirm(`Reset the catalog? This clears ${problems.length} problems and ${Object.keys(duplicates).length} duplicates.`)) return;
   problems = [];
   duplicates = {};
   saveProblems();
@@ -401,9 +432,10 @@ document.getElementById("refresh").onclick = async () => {
   try {
     localStorage.setItem(IMAGE_VERSION_KEY, imageVersion);
   } catch {}
-  status.textContent = "Refreshing…";
+  status.textContent = "Resetting…";
   try {
     exercises = await loadExercises();
+    populateTypeFilter();
     goTo(offset);
     showToast(`Reloaded ${exercises.length} exercises`);
   } catch (err) {
@@ -414,6 +446,7 @@ document.getElementById("refresh").onclick = async () => {
 loadExercises()
   .then((data) => {
     exercises = data;
+    populateTypeFilter();
     // URL hash wins so links to a specific exercise still work; otherwise resume the last position.
     let start = parseInt(location.hash.slice(1), 10);
     if (!Number.isFinite(start)) {

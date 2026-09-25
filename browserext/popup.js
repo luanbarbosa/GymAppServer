@@ -7,13 +7,28 @@ const cancelBtn = document.getElementById("cancelBtn");
 const jsonInput = document.getElementById("jsonInput");
 const pasteBtn = document.getElementById("pasteBtn");
 const openViewerBtn = document.getElementById("openViewerBtn");
+const imageIdRow = document.getElementById("imageIdRow");
+const imageIdValue = document.getElementById("imageIdValue");
+const copyImageIdBtn = document.getElementById("copyImageIdBtn");
+
+copyImageIdBtn.addEventListener("click", async () => {
+  await navigator.clipboard.writeText(imageIdValue.textContent);
+  copyImageIdBtn.title = "Copied!";
+  setTimeout(() => { copyImageIdBtn.title = "Copy imageFileId"; }, 1500);
+});
 
 openViewerBtn.addEventListener("click", () => {
   chrome.tabs.create({ url: chrome.runtime.getURL("viewer.html") });
 });
 
+document.getElementById("openAccuracyLink").addEventListener("click", (e) => {
+  e.preventDefault();
+  chrome.tabs.create({ url: chrome.runtime.getURL("data-accuracy.html") });
+});
+
 async function render() {
   const { catalog = [], pointer = 0 } = await chrome.storage.local.get(["catalog", "pointer"]);
+  imageIdRow.hidden = true;
 
   if (!catalog.length) {
     statusEl.textContent = "No catalog loaded.";
@@ -25,7 +40,9 @@ async function render() {
   }
 
   const ex = catalog[pointer];
-  statusEl.textContent = `${pointer + 1}/${catalog.length}\n${ex.name}\nimageFileId: ${ex.imageFileId}`;
+  statusEl.textContent = `${pointer + 1}/${catalog.length}\n${ex.name}`;
+  imageIdValue.textContent = ex.imageFileId;
+  imageIdRow.hidden = false;
 }
 
 async function loadCatalog(text) {
@@ -39,6 +56,7 @@ async function loadCatalog(text) {
     await render();
   } catch (err) {
     statusEl.textContent = `Error: ${err.message}`;
+    imageIdRow.hidden = true;
   }
 }
 
@@ -101,6 +119,7 @@ lookupBtn.addEventListener("click", async () => {
     await loadCatalog(JSON.stringify(ids.map((id) => byImageId.get(id))));
   } catch (err) {
     statusEl.textContent = `Error: ${err.message}`;
+    imageIdRow.hidden = true;
   }
 });
 
