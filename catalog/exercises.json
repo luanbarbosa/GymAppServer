@@ -699,7 +699,7 @@
       "Peck deck invertido",
       "Crucifixo inverso máquina"
     ],
-    "type": "BACK",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -1007,7 +1007,7 @@
       "Encolhimento com halter",
       "Encolhimento de ombros com halteres"
     ],
-    "type": "BACK",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -1502,7 +1502,7 @@
       "Puxada facial",
       "Face pull no cabo"
     ],
-    "type": "BACK",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -2616,7 +2616,7 @@
     "searchAliasPT": [
       "Encolhimento de ombros com barra"
     ],
-    "type": "BACK",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -2735,7 +2735,7 @@
       "Banco romano",
       "Extensão de lombar"
     ],
-    "type": "BACK",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -6716,7 +6716,7 @@
     "id": "76f90ae7-effe-4109-85b9-9ae6554d302f",
     "name": "Bodyweight Muscle-Up Version 2",
     "namePT": "Muscle-up versão 2 com peso corporal",
-    "type": "BACK",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -7591,7 +7591,7 @@
     "id": "a079b4cd-39b0-4c74-b2bc-f89f9614fc8b",
     "name": "Cable Shrug",
     "namePT": "Encolhimento com cabo",
-    "type": "BACK",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -9961,7 +9961,7 @@
     "id": "5abc6e85-abfa-4cb3-a9fc-7aca0b63e838",
     "name": "Hanging Front Lever Raise",
     "namePT": "Suspenso frontal elevação com alavanca",
-    "type": "CORE",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10143,7 +10143,7 @@
     "id": "afe76018-0c54-463d-a06c-08813789f55b",
     "name": "Hyperextension Version 2",
     "namePT": "Hiperextensão versão 2",
-    "type": "BACK",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10256,7 +10256,7 @@
     "id": "eaddd17e-005a-4518-b238-93275d9e512d",
     "name": "Jump Shrug",
     "namePT": "Salto encolhimento",
-    "type": "FULL_BODY",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -10325,7 +10325,7 @@
     "id": "333045db-f9bd-460f-b007-3e7eb9c64170",
     "name": "Kettlebell Around Head Rotation",
     "namePT": "Around head rotação com kettlebell",
-    "type": "BACK",
+    "type": "MOBILITY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -11650,7 +11650,7 @@
     "id": "8df4544e-d684-42fe-a1f5-8329d41f66db",
     "name": "Lever Shrug Plate Loaded",
     "namePT": "Encolhimento carregado com alavanca",
-    "type": "BACK",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12097,7 +12097,7 @@
     "id": "0e4c599d-fe6d-4180-af1f-24f274565a02",
     "name": "Medicine Ball Slam Version 2",
     "namePT": "Medicinal bola slam versão 2",
-    "type": "CORE",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12139,7 +12139,7 @@
     "id": "232652a0-1ec9-4ac6-9926-3a758ac95f09",
     "name": "Muscle-Up On Vertical Bar",
     "namePT": "Muscle-up em vertical barra",
-    "type": "BACK",
+    "type": "FULL_BODY",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12340,7 +12340,7 @@
     "id": "bf333bde-5805-40ba-93fc-57d2520ed75a",
     "name": "Rear Decline Bridge",
     "namePT": "Posterior declinado ponte",
-    "type": "CORE",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -12405,7 +12405,7 @@
     "id": "44829f68-8518-4318-86cc-84590cea2f8e",
     "name": "Resistance Band Side Plank Clamshell",
     "namePT": "Resistência prancha lateral clamshell com elástico",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13090,7 +13090,7 @@
     "id": "d488c265-a909-494c-85ae-2e976763814b",
     "name": "Smith Back Shrug",
     "namePT": "Costas encolhimento com smith",
-    "type": "BACK",
+    "type": "SHOULDERS",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -13763,7 +13763,7 @@
     "id": "7ce0972d-6c5f-43fa-9a13-bf432763b018",
     "name": "Suspender Hip Lift Knee Tuck",
     "namePT": "Suspensão quadril lift joelho tuck",
-    "type": "LEGS",
+    "type": "CORE",
     "trackedMetrics": [
       {
         "type": "REPS",
@@ -14085,7 +14085,7 @@
     "id": "e49ab376-54d8-4964-8279-88c0a324dd28",
     "name": "Weighted Hyperextension",
     "namePT": "Com peso hiperextensão",
-    "type": "BACK",
+    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "REPS",
