@@ -139,6 +139,10 @@
   .fix-group h3, .fix-prompt-header h3 { font-size: 14px; margin: 0 0 8px; color: var(--muted); }
   .fix-options { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
   .picker-option.selected { border-color: #30a46c; box-shadow: 0 0 0 3px #30a46c; }
+  .fix-option { display: flex; flex-direction: column; gap: 6px; }
+  .fix-option .picker-option { flex: 1; }
+  .fix-option button.keep-image { padding: 5px 10px; font-size: 12px; }
+  .fix-option button.keep-image.selected { background: #0090ff; border-color: #0090ff; color: #fff; }
   .fix-prompt-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
   #fix-prompt {
     width: 100%;
@@ -265,6 +269,7 @@
   <div class="dialog-header">
     <h2 id="picker-title">Duplicate of…</h2>
     <input id="picker-search" type="search" placeholder="Search name, alias or #">
+    <button id="picker-confirm" class="primary" disabled>Mark as duplicates</button>
     <button id="close-picker">Close</button>
   </div>
   <div class="picker-body">

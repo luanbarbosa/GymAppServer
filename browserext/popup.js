@@ -21,11 +21,6 @@ openViewerBtn.addEventListener("click", () => {
   chrome.tabs.create({ url: chrome.runtime.getURL("viewer.html") });
 });
 
-document.getElementById("openAccuracyLink").addEventListener("click", (e) => {
-  e.preventDefault();
-  chrome.tabs.create({ url: chrome.runtime.getURL("data-accuracy.html") });
-});
-
 async function render() {
   const { catalog = [], pointer = 0 } = await chrome.storage.local.get(["catalog", "pointer"]);
   imageIdRow.hidden = true;

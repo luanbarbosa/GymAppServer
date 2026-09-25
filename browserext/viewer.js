@@ -90,6 +90,23 @@ function setDuplicate(id, originalId) {
   render();
 }
 
+// Follows duplicate links from id to the end of its chain (an exercise not marked as a duplicate).
+function duplicateRoot(id) {
+  const seen = new Set();
+  while (duplicates[id] && !seen.has(id)) {
+    seen.add(id);
+    id = duplicates[id];
+  }
+  return id;
+}
+
+// Puts both exercises in the same duplicate group without dropping any existing links.
+function linkDuplicates(a, b) {
+  const rootA = duplicateRoot(a);
+  const rootB = duplicateRoot(b);
+  if (rootA !== rootB) duplicates[rootA] = rootB;
+}
+
 function toggleProblem(id) {
   problems = problems.includes(id) ? problems.filter((x) => x !== id) : [...problems, id];
   saveProblems();
@@ -174,11 +191,14 @@ const pickerDialog = document.getElementById("picker-dialog");
 const pickerTitle = document.getElementById("picker-title");
 const pickerSearch = document.getElementById("picker-search");
 const pickerGrid = document.getElementById("picker-grid");
+const pickerConfirm = document.getElementById("picker-confirm");
 let pickerSource = null;
+let pickerSelected = [];
 
 function openDuplicatePicker(exercise) {
   pickerSource = exercise;
-  pickerTitle.textContent = `"${exercise.name}" is a duplicate of…`;
+  pickerTitle.textContent = `"${exercise.name}" is a duplicate of… (select one or more)`;
+  pickerSelected = [];
   const index = exercises.indexOf(exercise);
   const sourceImg = document.getElementById("picker-source-img");
   sourceImg.src = exercise.imageFileId ? imageUrl(exercise.imageFileId) : "";
@@ -192,6 +212,8 @@ function openDuplicatePicker(exercise) {
 }
 
 function renderPicker() {
+  pickerConfirm.disabled = !pickerSelected.length;
+  pickerConfirm.textContent = `Mark as duplicates (${pickerSelected.length + 1})`;
   const query = pickerSearch.value.trim().toLowerCase();
   pickerGrid.innerHTML = "";
   exercises.forEach((exercise, index) => {
@@ -202,11 +224,12 @@ function renderPicker() {
     if (query && !haystack.includes(query) && String(index + 1) !== query) return;
 
     const option = document.createElement("button");
-    option.className = "picker-option";
+    option.className = pickerSelected.includes(exercise.id) ? "picker-option selected" : "picker-option";
     option.onclick = () => {
-      setDuplicate(pickerSource.id, exercise.id);
-      pickerDialog.close();
-      showToast(`Marked as duplicate of #${index + 1} ${exercise.name}`);
+      pickerSelected = pickerSelected.includes(exercise.id)
+        ? pickerSelected.filter((id) => id !== exercise.id)
+        : [...pickerSelected, exercise.id];
+      renderPicker();
     };
     const img = document.createElement("img");
     img.loading = "lazy";
@@ -360,6 +383,13 @@ document.getElementById("copy-all").onclick = () => {
   if (imageIds.length) copy(imageIds.join(","), `${imageIds.length} image ids`);
 };
 pickerSearch.oninput = renderPicker;
+pickerConfirm.onclick = () => {
+  pickerSelected.forEach((id) => linkDuplicates(pickerSource.id, id));
+  saveDuplicates();
+  render();
+  pickerDialog.close();
+  showToast(`Marked ${pickerSelected.length + 1} exercises as duplicates`);
+};
 document.getElementById("close-picker").onclick = () => pickerDialog.close();
 pickerDialog.onclick = (e) => { if (e.target === pickerDialog) pickerDialog.close(); };
 

@@ -1,6 +1,6 @@
 // "Fix duplicates": takes the duplicates marked in the viewer, groups linked ids
 // (chains like a -> b -> c become one group), lets the user pick each group's primary
-// exercise and builds a merge prompt to copy. Uses globals from viewer.js.
+// exercise and whose image to keep, and builds a merge prompt to copy. Uses globals from viewer.js.
 
 const fixDialog = document.getElementById("fix-dialog");
 const fixTitle = document.getElementById("fix-title");
@@ -11,6 +11,8 @@ const fixPromptText = document.getElementById("fix-prompt");
 
 let fixGroups = [];
 let fixPrimaries = [];
+// Per group, the exercise whose image the primary keeps (null keeps the primary's own image).
+let fixImages = [];
 
 function groupDuplicatePairs(pairs) {
   const parent = new Map();
@@ -52,8 +54,11 @@ function renderFixGroups() {
     const options = document.createElement("div");
     options.className = "fix-options";
 
+    const imageId = fixImages[groupIndex] || fixPrimaries[groupIndex];
     ids.forEach((id) => {
       const { index, exercise } = describeExercise(id);
+      const wrap = document.createElement("div");
+      wrap.className = "fix-option";
       const option = document.createElement("button");
       option.className = fixPrimaries[groupIndex] === id ? "picker-option selected" : "picker-option";
       option.onclick = () => {
@@ -68,7 +73,17 @@ function renderFixGroups() {
       const label = document.createElement("span");
       label.textContent = exercise ? `${index + 1}. ${exercise.name}` : `Unknown exercise ${id}`;
       option.append(img, label);
-      options.appendChild(option);
+      const keepImage = actionButton(
+        imageId === id ? "Image kept ✓" : "Keep this image",
+        () => {
+          fixImages[groupIndex] = fixImages[groupIndex] === id ? null : id;
+          renderFixGroups();
+        },
+        imageId === id ? "keep-image selected" : "keep-image",
+      );
+      keepImage.disabled = !exercise?.imageFileId;
+      wrap.append(option, keepImage);
+      options.appendChild(wrap);
     });
 
     section.append(heading, options);
@@ -84,19 +99,23 @@ function exerciseLabel(id) {
 function buildMergePrompt() {
   // Groups without a primary are skipped.
   const selected = fixGroups
-    .map((ids, groupIndex) => ({ ids, primary: fixPrimaries[groupIndex] }))
+    .map((ids, groupIndex) => ({ ids, primary: fixPrimaries[groupIndex], image: fixImages[groupIndex] }))
     .filter(({ primary }) => primary);
-  const groups = selected.map(({ ids, primary }, groupIndex) => {
+  const groups = selected.map(({ ids, primary, image }, groupIndex) => {
     const others = ids.filter((id) => id !== primary);
+    const imageFileId = image && image !== primary ? describeExercise(image).exercise?.imageFileId : null;
     return [
       `Group ${groupIndex + 1}:`,
       `- Primary: ${exerciseLabel(primary)}`,
       ...others.map((id) => `- Merge into primary: ${exerciseLabel(id)}`),
+      imageFileId
+        ? `- Image: set the primary's imageFileId to ${imageFileId} (the image of ${exerciseLabel(image)})`
+        : "- Image: keep the primary's imageFileId",
     ].join("\n");
   });
   return [
     "Merge the following exercises including their aliases in catalog/exercises.json.",
-    "For each group, keep the primary exercise (its id and imageFileId) and move into it the information from the other exercises: " +
+    "For each group, keep the primary exercise (its id, and the imageFileId given for the group) and move into it the information from the other exercises: " +
       "searchAlias and searchAliasPT (no repeated entries, and add the other exercises' name/namePT as aliases when they differ from the primary's), " +
       "plus any other field the primary is missing. Then remove the merged exercises from the catalog.",
     "",
@@ -112,6 +131,7 @@ document.getElementById("fix-duplicates").onclick = () => {
   }
   fixGroups = groupDuplicatePairs(pairs);
   fixPrimaries = fixGroups.map(() => null);
+  fixImages = fixGroups.map(() => null);
   fixPromptWrap.hidden = true;
   renderFixGroups();
   fixDialog.showModal();
