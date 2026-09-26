@@ -1886,10 +1886,14 @@
     "name": "Close grip bench press",
     "namePT": "Supino fechado",
     "searchAlias": [
-      "Close Grip Barbell Bench Press"
+      "Close Grip Barbell Bench Press",
+      "Barbell Close Grip Bench Press"
     ],
     "searchAliasPT": [
-      "Supino pegada fechada"
+      "Supino pegada fechada",
+      "Fechado pegada supino com barra",
+      "Fechado pegada supino",
+      "Pegada supino com barra"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -1964,30 +1968,6 @@
     ]
   },
   {
-    "id": "bf04d221-72de-4e1c-a261-668a4d257a84",
-    "imageFileId": "99593325-f454-4533-b98e-1aad4fdf8c4a",
-    "legacyImageId": null,
-    "name": "Barbell skullcrusher",
-    "namePT": "Tríceps testa com barra",
-    "searchAlias": [
-      "Barbell Lying Triceps Extension"
-    ],
-    "searchAliasPT": [
-      "Tríceps francês com barra"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "77b3b071-72a9-4637-94a3-f37280dbf75d",
     "imageFileId": "3b533479-6364-4786-82a5-96dd5dc5b237",
     "legacyImageId": null,
@@ -2019,13 +1999,25 @@
     "id": "09352769-32a3-4cd2-9565-e869fd7e47fc",
     "imageFileId": "374ac1c4-85b8-4e42-8b1b-9441eeca3e87",
     "legacyImageId": null,
-    "name": "Dumbbell wrist curl",
-    "namePT": "Rosca de punho com halteres",
+    "name": "Dumbbell wrist curl (single arm)",
+    "namePT": "Flexão de punho unilateral com halter",
     "searchAlias": [
-      "Wrist Curl"
+      "Single Arm Dumbbell Wrist Curl",
+      "One Arm Dumbbell Wrist Curl",
+      "Unilateral Dumbbell Wrist Curl",
+      "Dumbbell Wrist Curl",
+      "Single Hand Wrist Curl",
+      "One Hand Wrist Curl",
+      "Dumbbell Forearm Curl"
     ],
     "searchAliasPT": [
-      "Rosca de punho"
+      "Flexão de punho unilateral",
+      "Flexão de punho com halter",
+      "Flexão de punho unilateral com halter",
+      "Rosca de punho unilateral",
+      "Rosca de punho com halter",
+      "Flexão de punho com uma mão",
+      "Exercício de antebraço com halter"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -5107,32 +5099,6 @@
     "imageFileId": "d7a62fa2-dc98-4e69-a2a7-cb80b49faadd"
   },
   {
-    "id": "c2ebc8b7-5fd0-43d1-a107-d01b89e5f918",
-    "name": "Band Standing Hammer Curl",
-    "namePT": "Em pé rosca martelo com elástico",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Standing Hammer Curl"
-    ],
-    "searchAliasPT": [
-      "Em pé rosca martelo",
-      "Rosca martelo com elástico",
-      "De pé rosca martelo com elástico",
-      "De pé rosca martelo"
-    ],
-    "imageFileId": "da4fb096-df34-4d06-9677-9bb102b7e087"
-  },
-  {
     "id": "553b8e52-3179-4bde-9fa9-6d0b97f48b61",
     "name": "Barbell Bent Over Row",
     "namePT": "Remada curvada com barra",
@@ -5200,30 +5166,6 @@
       "Clean pull"
     ],
     "imageFileId": "0d9c8b7d-a4b8-4f8e-84e7-57f8de9d5763"
-  },
-  {
-    "id": "39dbd595-7230-4898-be1d-4f236f8f0423",
-    "name": "Barbell Close Grip Bench Press",
-    "namePT": "Fechado pegada supino com barra",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Close Grip Bench Press"
-    ],
-    "searchAliasPT": [
-      "Fechado pegada supino",
-      "Pegada supino com barra"
-    ],
-    "imageFileId": "34a854ea-d466-4890-ac1b-66c222923f64"
   },
   {
     "id": "c26cb65b-d8f9-4a96-86e4-8b36859d65b1",
@@ -5595,15 +5537,20 @@
     "searchAlias": [
       "Lying Triceps Extension Skullcrusher",
       "Barbell Lying Tricep Extension Skullcrusher",
-      "Lying Tricep Extension Skullcrusher"
+      "Lying Tricep Extension Skullcrusher",
+      "Barbell skullcrusher",
+      "Barbell Lying Triceps Extension"
     ],
     "searchAliasPT": [
       "Deitado extensão de tríceps extensão de tríceps testa",
       "Extensão de tríceps extensão de tríceps testa com barra",
       "Deitado extensão de triceps extensão de triceps testa com barra",
-      "Deitado extensão de triceps extensão de triceps testa"
+      "Deitado extensão de triceps extensão de triceps testa",
+      "Tríceps testa com barra",
+      "Tríceps francês com barra"
     ],
-    "imageFileId": "7a6763bb-2062-4657-8d52-04657dfa3f88"
+    "imageFileId": "99593325-f454-4533-b98e-1aad4fdf8c4a",
+    "legacyImageId": null
   },
   {
     "id": "2ea25993-d5a6-4f63-a16f-0dc351d62212",
@@ -8830,8 +8777,8 @@
   },
   {
     "id": "e5fde4df-4025-4776-8198-bf83596e7a8d",
-    "name": "Dumbbell Seated Palms Up Wrist Curl",
-    "namePT": "Sentado palmas para cima rosca de punho com halteres",
+    "name": "Dumbbell wrist curl (double arms)",
+    "namePT": "Flexão de punhos com halteres",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -8844,11 +8791,22 @@
       }
     ],
     "searchAlias": [
-      "Seated Palms Up Wrist Curl"
+      "Dumbbell Wrist Curl",
+      "Double Arm Dumbbell Wrist Curl",
+      "Two Arm Dumbbell Wrist Curl",
+      "Both Arms Dumbbell Wrist Curl",
+      "Dumbbell Wrist Curls",
+      "Double Hand Wrist Curl",
+      "Dumbbell Forearm Curl"
     ],
     "searchAliasPT": [
-      "Sentado palmas para cima rosca de punho",
-      "Palmas para cima rosca de punho com halteres"
+      "Flexão de punhos com halteres",
+      "Flexão de punho com halteres",
+      "Flexão de punhos com dois halteres",
+      "Flexão de punhos bilateral",
+      "Rosca de punhos com halteres",
+      "Rosca de punho com halteres",
+      "Exercício de antebraço com halteres"
     ],
     "imageFileId": "475abac2-aa38-463d-9683-136230a02a1c"
   },
@@ -12156,12 +12114,19 @@
       }
     ],
     "searchAlias": [
-      "Resistance Hammer Curl"
+      "Resistance Hammer Curl",
+      "Band Standing Hammer Curl",
+      "Standing Hammer Curl"
     ],
     "searchAliasPT": [
-      "Resistência rosca martelo"
+      "Resistência rosca martelo",
+      "Em pé rosca martelo com elástico",
+      "Em pé rosca martelo",
+      "Rosca martelo com elástico",
+      "De pé rosca martelo com elástico",
+      "De pé rosca martelo"
     ],
-    "imageFileId": "6526935d-168d-4815-8599-5d7190f2baad"
+    "imageFileId": "da4fb096-df34-4d06-9677-9bb102b7e087"
   },
   {
     "id": "b022222e-62f3-405a-b144-013215a84d9e",
