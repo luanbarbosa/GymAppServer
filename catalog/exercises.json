@@ -1016,32 +1016,6 @@
     ]
   },
   {
-    "id": "6c1d04bd-40f8-4cd7-baf1-085afd20b02a",
-    "imageFileId": "377b327a-39b8-4ef7-a2f8-048d6017ced4",
-    "legacyImageId": 57,
-    "name": "Face pull",
-    "namePT": "Face pull",
-    "searchAlias": [
-      "Cable Face Pull",
-      "Rope Face Pull"
-    ],
-    "searchAliasPT": [
-      "Puxada facial",
-      "Face pull no cabo"
-    ],
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "41eac65b-28b3-413c-a2b7-b41ea79d4b47",
     "imageFileId": "a11a221a-0f04-41df-869f-11acf6745c4a",
     "legacyImageId": 58,
@@ -3380,16 +3354,23 @@
   },
   {
     "id": "7b113b8c-d51f-4a40-988e-9a2114c1fc40",
-    "imageFileId": "62920fbe-9703-45f6-b37f-55f839f48f21",
+    "imageFileId": "3984f840-8975-42f7-b69e-7015a282751f",
     "legacyImageId": null,
     "name": "Barbell overhead press",
     "namePT": "Desenvolvimento militar com barra",
     "searchAlias": [
       "Military Press",
-      "Standing Barbell Press"
+      "Standing Barbell Press",
+      "Barbell Standing Military Press Without Rack",
+      "Standing Military Press Without Rack"
     ],
     "searchAliasPT": [
-      "Desenvolvimento com barra em pé"
+      "Desenvolvimento com barra em pé",
+      "Em pé desenvolvimento militar sem suporte com barra",
+      "Em pé desenvolvimento militar sem suporte",
+      "Desenvolvimento militar sem suporte com barra",
+      "De pé desenvolvimento militar sem suporte com barra",
+      "De pé desenvolvimento militar sem suporte"
     ],
     "type": "SHOULDERS",
     "trackedMetrics": [
@@ -3410,58 +3391,17 @@
     "name": "Dumbbell standing shoulder press",
     "namePT": "Desenvolvimento em pé com halteres",
     "searchAlias": [
-      "Standing Dumbbell Press"
+      "Standing Dumbbell Press",
+      "Dumbbell Standing Overhead Press",
+      "Standing Overhead Press"
     ],
     "searchAliasPT": [
-      "Desenvolvimento halteres em pé"
-    ],
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "c8e255e8-274c-4a53-baf8-2050c48d0a1e",
-    "imageFileId": "07d86278-2010-4cbb-ad37-1ff8d88729fb",
-    "legacyImageId": null,
-    "name": "Arnold press",
-    "namePT": "Desenvolvimento Arnold",
-    "searchAlias": [
-      "Arnold Dumbbell Press"
-    ],
-    "searchAliasPT": [
-      "Arnold press halteres"
-    ],
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "1bd0b565-beec-44da-bea8-2355ba5b3d03",
-    "imageFileId": "df6206af-f770-4472-be2b-09286a160e72",
-    "legacyImageId": null,
-    "name": "Barbell upright row",
-    "namePT": "Remada alta com barra",
-    "searchAlias": [
-      "Upright Row"
-    ],
-    "searchAliasPT": [
-      "Remada alta"
+      "Desenvolvimento halteres em pé",
+      "Em pé desenvolvimento com halteres",
+      "Em pé desenvolvimento",
+      "Desenvolvimento com halteres",
+      "De pé desenvolvimento com halteres",
+      "De pé desenvolvimento"
     ],
     "type": "SHOULDERS",
     "trackedMetrics": [
@@ -3486,30 +3426,6 @@
     ],
     "searchAliasPT": [
       "Remada alta no cross"
-    ],
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "a59a9c9f-a4ac-4def-9c05-2dd4b2b4a499",
-    "imageFileId": "c568602f-430e-47ed-8865-02a508b8493b",
-    "legacyImageId": null,
-    "name": "Plate front raise",
-    "namePT": "Elevação frontal com anilha",
-    "searchAlias": [
-      "Weight Plate Front Raise"
-    ],
-    "searchAliasPT": [
-      "Elevação frontal com disco"
     ],
     "type": "SHOULDERS",
     "trackedMetrics": [
@@ -4860,12 +4776,17 @@
       }
     ],
     "searchAlias": [
-      "Shoulder Grip Upright Row"
+      "Shoulder Grip Upright Row",
+      "Barbell upright row",
+      "Upright Row"
     ],
     "searchAliasPT": [
-      "Ombro pegada remada alta"
+      "Ombro pegada remada alta",
+      "Remada alta com barra",
+      "Remada alta"
     ],
-    "imageFileId": "4caceae5-e9bd-468b-ac5a-9371fed976d2"
+    "imageFileId": "df6206af-f770-4472-be2b-09286a160e72",
+    "legacyImageId": null
   },
   {
     "id": "1968af88-ff28-451e-b37e-ca9b62911718",
@@ -4986,32 +4907,6 @@
       "De pé costas rosca de punho"
     ],
     "imageFileId": "baa17499-31b4-40c1-a584-9cd5b607fabe"
-  },
-  {
-    "id": "04881914-a610-4298-83b6-609527475005",
-    "name": "Barbell Standing Military Press Without Rack",
-    "namePT": "Em pé desenvolvimento militar sem suporte com barra",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Standing Military Press Without Rack"
-    ],
-    "searchAliasPT": [
-      "Em pé desenvolvimento militar sem suporte",
-      "Desenvolvimento militar sem suporte com barra",
-      "De pé desenvolvimento militar sem suporte com barra",
-      "De pé desenvolvimento militar sem suporte"
-    ],
-    "imageFileId": "3984f840-8975-42f7-b69e-7015a282751f"
   },
   {
     "id": "951fad90-a2ee-4bc2-8d92-91892baba769",
@@ -6430,15 +6325,22 @@
       }
     ],
     "searchAlias": [
-      "Standing Supinated Facepull With Rope"
+      "Standing Supinated Facepull With Rope",
+      "Face pull",
+      "Cable Face Pull",
+      "Rope Face Pull"
     ],
     "searchAliasPT": [
       "Em pé supinado puxada facial",
       "Supinado puxada facial com corda com cabo",
       "Em pé supinado pulldown facial com corda com cabo",
-      "Em pé supinado pulldown facial"
+      "Em pé supinado pulldown facial",
+      "Face pull",
+      "Puxada facial",
+      "Face pull no cabo"
     ],
-    "imageFileId": "7a79c76d-553c-4e93-b27a-e3ee3bcab6aa"
+    "imageFileId": "7a79c76d-553c-4e93-b27a-e3ee3bcab6aa",
+    "legacyImageId": 57
   },
   {
     "id": "f4158fce-b8cd-49a6-a17c-619cbde48043",
@@ -6877,29 +6779,6 @@
     "imageFileId": "1e47e7be-727f-4511-95ee-daf002c15e03"
   },
   {
-    "id": "d98bb073-18a0-4024-b31c-e352e6837658",
-    "name": "Dumbbell Arnold Press II",
-    "namePT": "Desenvolvimento arnold ii com halteres",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Arnold Press II"
-    ],
-    "searchAliasPT": [
-      "Desenvolvimento arnold ii"
-    ],
-    "imageFileId": "b41488ad-85fe-4bbb-975b-598a72402985"
-  },
-  {
     "id": "8b4b8edb-5d48-43a5-a9f3-2ba025315d41",
     "name": "Dumbbell Around Pullover",
     "namePT": "Around pullover com halteres",
@@ -7208,11 +7087,16 @@
       }
     ],
     "searchAlias": [
-      "Incline Rear Fly"
+      "Incline Rear Fly",
+      "Dumbbell Reverse Fly",
+      "Reverse Fly"
     ],
     "searchAliasPT": [
       "Inclinado posterior crucifixo",
-      "Posterior crucifixo com halteres"
+      "Posterior crucifixo com halteres",
+      "Invertido crucifixo com halteres",
+      "Invertido crucifixo",
+      "Crucifixo com halteres"
     ],
     "imageFileId": "7fada01d-f8c0-4a95-b63f-959bf9b43c6b"
   },
@@ -7286,29 +7170,6 @@
       "Ipsilateral unilateral perna levantamento terra pernas rígidas"
     ],
     "imageFileId": "73584bdb-846b-440c-9d91-3a1d773931f7"
-  },
-  {
-    "id": "f8e1356a-b59f-4154-959b-bf2dfa7b106b",
-    "name": "Dumbbell Lateral Raise",
-    "namePT": "Elevação lateral com halteres",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Lateral Raise"
-    ],
-    "searchAliasPT": [
-      "Elevação lateral"
-    ],
-    "imageFileId": "f1d47a8e-c336-4079-a3a2-d562059c915e"
   },
   {
     "id": "800fd2bd-60db-4cfe-801f-b14f43da9e5e",
@@ -7617,30 +7478,6 @@
     "imageFileId": "37d78ce2-a3cc-4e7c-93c0-1d3bafe13db0"
   },
   {
-    "id": "5d890491-cb97-4842-b616-b709d48fca49",
-    "name": "Dumbbell Reverse Fly",
-    "namePT": "Invertido crucifixo com halteres",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Reverse Fly"
-    ],
-    "searchAliasPT": [
-      "Invertido crucifixo",
-      "Crucifixo com halteres"
-    ],
-    "imageFileId": "1d686247-0260-4204-a510-e7171cd2fce7"
-  },
-  {
     "id": "1e105ebb-aa82-4782-b0e7-4fd7bf8fa091",
     "name": "Dumbbell Reverse Grip Biceps Curl",
     "namePT": "Invertido pegada rosca bíceps com halteres",
@@ -7707,13 +7544,22 @@
       }
     ],
     "searchAlias": [
-      "Seated Arnold Press"
+      "Seated Arnold Press",
+      "Arnold press",
+      "Arnold Dumbbell Press",
+      "Dumbbell Arnold Press II",
+      "Arnold Press II"
     ],
     "searchAliasPT": [
       "Sentado desenvolvimento arnold",
-      "Desenvolvimento arnold com halteres"
+      "Desenvolvimento arnold com halteres",
+      "Desenvolvimento Arnold",
+      "Arnold press halteres",
+      "Desenvolvimento arnold ii com halteres",
+      "Desenvolvimento arnold ii"
     ],
-    "imageFileId": "2651fd68-508c-437d-a192-c834222fc80f"
+    "imageFileId": "07d86278-2010-4cbb-ad37-1ff8d88729fb",
+    "legacyImageId": null
   },
   {
     "id": "e5fde4df-4025-4776-8198-bf83596e7a8d",
@@ -8080,41 +7926,18 @@
       }
     ],
     "searchAlias": [
-      "Standing Lateral Raise"
+      "Standing Lateral Raise",
+      "Dumbbell Lateral Raise",
+      "Lateral Raise"
     ],
     "searchAliasPT": [
       "Em pé elevação lateral",
       "Elevação lateral com halteres",
       "De pé elevação lateral com halteres",
-      "De pé elevação lateral"
+      "De pé elevação lateral",
+      "Elevação lateral"
     ],
-    "imageFileId": "cfa5153e-0697-4937-a778-e0613898a1dd"
-  },
-  {
-    "id": "cab13fd1-4db4-46c6-bc4c-688da7da815f",
-    "name": "Dumbbell Standing Overhead Press",
-    "namePT": "Em pé desenvolvimento com halteres",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Standing Overhead Press"
-    ],
-    "searchAliasPT": [
-      "Em pé desenvolvimento",
-      "Desenvolvimento com halteres",
-      "De pé desenvolvimento com halteres",
-      "De pé desenvolvimento"
-    ],
-    "imageFileId": "59f4075c-fb9d-46d5-8d2c-228d80a23f41"
+    "imageFileId": "f1d47a8e-c336-4079-a3a2-d562059c915e"
   },
   {
     "id": "49f6fde2-bb61-4e42-9157-523a0dca98e1",
@@ -9129,11 +8952,15 @@
       }
     ],
     "searchAlias": [
-      "Single Arm Shoulder Press"
+      "Single Arm Shoulder Press",
+      "Kettlebell Strict Press",
+      "Strict Press"
     ],
     "searchAliasPT": [
       "Unilateral braço desenvolvimento",
-      "Braço desenvolvimento com kettlebell"
+      "Braço desenvolvimento com kettlebell",
+      "Strict press com kettlebell",
+      "Strict press"
     ],
     "imageFileId": "9b562265-0979-47a4-aae5-fe28806e5e88"
   },
@@ -9194,29 +9021,6 @@
       "De pé slingshots"
     ],
     "imageFileId": "baece454-7e1d-4ed3-a5a9-74fef082cf4d"
-  },
-  {
-    "id": "35f37678-be9b-45eb-88fc-a420abbf0532",
-    "name": "Kettlebell Strict Press",
-    "namePT": "Strict press com kettlebell",
-    "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Strict Press"
-    ],
-    "searchAliasPT": [
-      "Strict press"
-    ],
-    "imageFileId": "3fd7a0d4-8865-44d9-8602-a21b56b5d065"
   },
   {
     "id": "90a40412-49c4-41d2-9342-8e21f00e8891",
@@ -12716,12 +12520,17 @@
       }
     ],
     "searchAlias": [
-      "Front Raise"
+      "Front Raise",
+      "Plate front raise",
+      "Weight Plate Front Raise"
     ],
     "searchAliasPT": [
-      "Elevação frontal"
+      "Elevação frontal",
+      "Elevação frontal com anilha",
+      "Elevação frontal com disco"
     ],
-    "imageFileId": "d40f105d-3777-4d0e-8443-6e04ba0f658b"
+    "imageFileId": "c568602f-430e-47ed-8865-02a508b8493b",
+    "legacyImageId": null
   },
   {
     "id": "e49ab376-54d8-4964-8279-88c0a324dd28",
