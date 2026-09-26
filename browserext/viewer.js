@@ -16,16 +16,22 @@ try {
   typeFilter = localStorage.getItem(TYPE_FILTER_KEY) || "";
 } catch {}
 
-// Exercises marked as a duplicate of another one are hidden from the grid, as are fixed ones unless "Show fixed" is on.
+// Every exercise in a duplicate group, including the one the others point to.
+function inDuplicateGroup(id) {
+  return Boolean(duplicates[id]) || Object.values(duplicates).includes(id);
+}
+
+// Exercises in a duplicate group are hidden from the grid, as are fixed ones unless "Show fixed" is on.
 function visibleExercises() {
+  const grouped = new Set([...Object.keys(duplicates), ...Object.values(duplicates)]);
   return exercises.filter(
-    (e) => !duplicates[e.id] && (showFixed || !fixed.includes(e.id)) && (!typeFilter || e.type === typeFilter),
+    (e) => !grouped.has(e.id) && (showFixed || !fixed.includes(e.id)) && (!typeFilter || e.type === typeFilter),
   );
 }
 
 // Why an exercise is left out of the grid regardless of the type filter, or null when it can be shown.
 function hiddenReason(exercise) {
-  if (duplicates[exercise.id]) return "Exercise is marked as a duplicate and hidden";
+  if (inDuplicateGroup(exercise.id)) return "Exercise is marked as a duplicate and hidden";
   if (!showFixed && fixed.includes(exercise.id)) return "Exercise is marked as fixed and hidden";
   return null;
 }
