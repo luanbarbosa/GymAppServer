@@ -386,59 +386,6 @@
     ]
   },
   {
-    "id": "a6251f77-41a9-4c2c-83ee-984fa68aa3b3",
-    "imageFileId": "499ec104-b63e-41e4-9067-34d705f44ade",
-    "legacyImageId": 16,
-    "name": "Cable triceps pushdown (rope)",
-    "namePT": "Tríceps no pulley com corda",
-    "searchAlias": [
-      "Rope Triceps Pushdown",
-      "Cable Rope Pushdown",
-      "Triceps Pushdown"
-    ],
-    "searchAliasPT": [
-      "Tríceps corda",
-      "Puxada de tríceps com corda"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "4b23025e-a66f-4f60-a4d3-ae89a1a5ec98",
-    "imageFileId": "1e37a642-ef48-48f7-8edd-929de33d5467",
-    "legacyImageId": 17,
-    "name": "Dumbbell hammer curl",
-    "namePT": "Rosca martelo com halteres",
-    "searchAlias": [
-      "Hammer Curl",
-      "DB Hammer Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca martelo",
-      "Rosca martelo com halter"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "563061a0-fcf0-4745-bac5-01c021abc416",
     "imageFileId": "707e5090-881c-4c16-9405-4463a597ae47",
     "legacyImageId": 18,
@@ -451,32 +398,6 @@
     "searchAliasPT": [
       "Rosca martelo no banco inclinado",
       "Martelo inclinado"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "67465881-f7b5-4173-a1d8-c38469e929fa",
-    "imageFileId": "dbc1c576-b916-47fd-bcf4-948892c858f5",
-    "legacyImageId": 19,
-    "name": "Lever biceps curl",
-    "namePT": "Rosca bíceps na máquina",
-    "searchAlias": [
-      "Machine Bicep Curl",
-      "Bicep Curl Machine"
-    ],
-    "searchAliasPT": [
-      "Rosca na máquina",
-      "Rosca bíceps máquina"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -813,56 +734,6 @@
     ]
   },
   {
-    "id": "b7dc7d81-316e-4e09-83ba-3d640e840b2e",
-    "imageFileId": "41240230-4f2e-4fd4-9ade-547ed95be673",
-    "legacyImageId": 32,
-    "name": "Alternating dumbbell curl",
-    "namePT": "Rosca alternada com halteres",
-    "searchAlias": [
-      "Alternating Bicep Curl",
-      "Alternate Dumbbell Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca alternada",
-      "Rosca bíceps alternada com halter"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "b3e1552f-988f-4e86-b317-1835953854e9",
-    "imageFileId": "08a1f24b-1ce8-4ed7-9a93-37cd6ca4a2b1",
-    "legacyImageId": 33,
-    "name": "Concentration curl",
-    "namePT": "Rosca concentrada",
-    "searchAlias": [
-      "Dumbbell Concentration Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca concentrada com halter"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "fe2eda48-360d-4bc5-8724-fb63c1ff240b",
     "imageFileId": "42578020-8f83-4e9b-aea0-acdc549b9eda",
     "legacyImageId": 34,
@@ -875,32 +746,6 @@
     "searchAliasPT": [
       "Tríceps testa",
       "Extensão de tríceps deitado com halteres"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "a0bcd48c-5407-484a-8fdb-2b33a619d20c",
-    "imageFileId": "78d37cdf-f113-45e8-a183-208a3f7d408a",
-    "legacyImageId": 35,
-    "name": "Rope triceps pushdown",
-    "namePT": "Tríceps no pulley com corda",
-    "searchAlias": [
-      "Cable Rope Triceps Pushdown",
-      "Rope Pushdown"
-    ],
-    "searchAliasPT": [
-      "Tríceps corda pulley",
-      "Puxada tríceps com corda"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -1618,58 +1463,6 @@
     ]
   },
   {
-    "id": "3f822ab1-6843-406b-9f29-370998e2f408",
-    "imageFileId": "86e09208-8fb9-4c03-88dd-38b41d697328",
-    "legacyImageId": 63,
-    "name": "Cable rope hammer curl",
-    "namePT": "Rosca martelo com corda na polia",
-    "searchAlias": [
-      "Rope Hammer Curl",
-      "Cable Hammer Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca martelo na polia",
-      "Rosca martelo cabo com corda"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "ce2a1b9d-db22-4709-a046-4803c75f7e36",
-    "imageFileId": "6d8724ba-6583-4963-904d-06c07a58f113",
-    "legacyImageId": 64,
-    "name": "Cable bar curl",
-    "namePT": "Rosca direta na polia",
-    "searchAlias": [
-      "Cable Bar Bicep Curl",
-      "Straight Bar Cable Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca direta no cabo",
-      "Rosca bíceps na polia"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "fb0c5a6b-3da3-40d2-995c-81102ac5efac",
     "imageFileId": "6328476d-fa61-49b7-bb73-23df5b25a8ea",
     "legacyImageId": 65,
@@ -1789,33 +1582,6 @@
       "Puxada com barra neutra"
     ],
     "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "7a7da11b-3ced-4b29-a0a5-a3ec98430304",
-    "imageFileId": "d48fb84b-69b2-4ccc-aa1c-9b55506985e0",
-    "legacyImageId": 71,
-    "name": "Reverse Grip Barbell Curl",
-    "namePT": "Rosca com barra e pegada reversa",
-    "searchAlias": [
-      "Reverse Barbell Curl",
-      "Reverse Grip Curl",
-      "Pronated Barbell Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca pronada com barra",
-      "Rosca inversa com barra"
-    ],
-    "type": "ARMS",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -1985,14 +1751,25 @@
     "id": "958c116d-df8f-42a3-9281-7cc8861c788b",
     "imageFileId": "69c33515-ccd0-4981-be92-d86adcbca654",
     "legacyImageId": null,
-    "name": "Barbell curl",
-    "namePT": "Rosca direta com barra reta",
+    "name": "Standing barbell curl",
+    "namePT": "Rosca direta em pé com barra",
     "searchAlias": [
+      "Barbell Curl",
+      "Standing Barbell Curl",
+      "Standing Biceps Curl",
+      "Barbell Biceps Curl",
+      "Standing Barbell Biceps Curl",
       "Straight Bar Curl",
-      "Standing Barbell Curl"
+      "Barbell Arm Curl"
     ],
     "searchAliasPT": [
-      "Rosca direta barra reta"
+      "Rosca direta",
+      "Rosca direta com barra",
+      "Rosca direta em pé",
+      "Rosca bíceps com barra",
+      "Rosca bíceps em pé com barra",
+      "Rosca com barra",
+      "Rosca barra reta"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -2041,54 +1818,6 @@
     ],
     "searchAliasPT": [
       "Rosca scott halter"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "6952968a-ccf3-4083-b18f-541542d4adcf",
-    "imageFileId": "f0aaa7ad-2da7-4305-bb04-64f223ae212d",
-    "legacyImageId": null,
-    "name": "Cable bar curl (straight bar)",
-    "namePT": "Rosca no cabo barra reta",
-    "searchAlias": [
-      "Straight Bar Cable Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca no cross barra reta"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "d5869771-690c-4362-88b9-9d5c2618319a",
-    "imageFileId": "0e85fc54-1ec6-4a2b-a3df-90b7de88b5d4",
-    "legacyImageId": null,
-    "name": "Zottman curl",
-    "namePT": "Rosca Zottman",
-    "searchAlias": [
-      "Zottman Dumbbell Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca Zottman halteres"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -2175,40 +1904,28 @@
     ]
   },
   {
-    "id": "239c6d33-b9d2-472b-8b37-686aa43ee2e0",
-    "imageFileId": "6c58676c-9075-41eb-b437-1e5622f1a956",
-    "legacyImageId": null,
-    "name": "Bench dip",
-    "namePT": "Mergulho no banco",
-    "searchAlias": [
-      "Triceps Bench Dip"
-    ],
-    "searchAliasPT": [
-      "Tríceps banco mergulho"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ]
-  },
-  {
     "id": "ca23fdb9-206b-4d88-951a-5ae1242c159c",
     "imageFileId": "d78eeb0f-01a3-4638-98bb-81795bbc59da",
     "legacyImageId": null,
-    "name": "Single arm overhead dumbbell triceps extension",
-    "namePT": "Tríceps testa unilateral com halter acima da cabeça",
+    "name": "Single arm overhead dumbbell triceps extension (standing)",
+    "namePT": "Tríceps francês unilateral em pé com halter",
     "searchAlias": [
-      "One Arm Overhead Triceps Extension"
+      "Single Arm Overhead Dumbbell Triceps Extension",
+      "One Arm Overhead Dumbbell Triceps Extension",
+      "Single Arm Dumbbell Triceps Extension",
+      "One Arm Dumbbell Triceps Extension",
+      "Standing Single Arm Triceps Extension",
+      "Standing One Arm Triceps Extension",
+      "Single Arm Overhead Triceps Extension"
     ],
     "searchAliasPT": [
-      "Tríceps francês unilateral"
+      "Tríceps francês unilateral",
+      "Tríceps francês unilateral em pé",
+      "Tríceps francês com um braço",
+      "Tríceps francês com halter",
+      "Tríceps francês unilateral com halter",
+      "Extensão unilateral de tríceps acima da cabeça",
+      "Extensão de tríceps unilateral com halter"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -6090,12 +5807,19 @@
       }
     ],
     "searchAlias": [
-      "Reverse Curl"
+      "Reverse Curl",
+      "Reverse Grip Barbell Curl",
+      "Reverse Barbell Curl",
+      "Reverse Grip Curl",
+      "Pronated Barbell Curl"
     ],
     "searchAliasPT": [
-      "Rosca inversa"
+      "Rosca inversa",
+      "Rosca com barra e pegada reversa",
+      "Rosca pronada com barra"
     ],
-    "imageFileId": "0aa607e2-f275-43d3-ba16-463d1840c8e1"
+    "imageFileId": "d48fb84b-69b2-4ccc-aa1c-9b55506985e0",
+    "legacyImageId": 71
   },
   {
     "id": "9943553e-bf61-4759-a394-96c98f929ff2",
@@ -6567,12 +6291,17 @@
       }
     ],
     "searchAlias": [
-      "Bench Dip On Floors"
+      "Bench Dip On Floors",
+      "Bench dip",
+      "Triceps Bench Dip"
     ],
     "searchAliasPT": [
-      "Banco mergulho em no chãos"
+      "Banco mergulho em no chãos",
+      "Mergulho no banco",
+      "Tríceps banco mergulho"
     ],
-    "imageFileId": "7c704ad3-00f2-4be7-b76e-7ea4bb7b09bc"
+    "imageFileId": "7c704ad3-00f2-4be7-b76e-7ea4bb7b09bc",
+    "legacyImageId": null
   },
   {
     "id": "cce7da8c-746c-4b33-a7f0-e2ae449f0a33",
@@ -6949,29 +6678,6 @@
     "imageFileId": "9ed049db-7bed-4bfd-ae71-36b2f0e0288d"
   },
   {
-    "id": "518e5cdc-c6c5-4a4e-99aa-d6cbfc2471fe",
-    "name": "Cable Curl",
-    "namePT": "Rosca com cabo",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Curl"
-    ],
-    "searchAliasPT": [
-      "Rosca"
-    ],
-    "imageFileId": "a1642f08-780e-4d37-bd13-bad63b425e52"
-  },
-  {
     "id": "9affd5aa-1859-4dcf-9573-f1d26c9ccdec",
     "name": "Cable Front Raise",
     "namePT": "Elevação frontal com cabo",
@@ -7010,12 +6716,25 @@
       }
     ],
     "searchAlias": [
-      "Hammer Curl With Rope"
+      "Hammer Curl With Rope",
+      "Cable rope hammer curl",
+      "Rope Hammer Curl",
+      "Cable Hammer Curl",
+      "Rope Curl",
+      "Cable Hammer Biceps Curl"
     ],
     "searchAliasPT": [
-      "Rosca martelo"
+      "Rosca martelo",
+      "Rosca martelo com corda na polia",
+      "Rosca martelo na polia",
+      "Rosca martelo com corda",
+      "Rosca martelo na polia com corda",
+      "Rosca martelo corda pulley",
+      "Rosca martelo com corda no pulley",
+      "Rosca com corda na polia"
     ],
-    "imageFileId": "1d5311fd-fd5e-4000-8cbe-316541213101"
+    "imageFileId": "86e09208-8fb9-4c03-88dd-38b41d697328",
+    "legacyImageId": 63
   },
   {
     "id": "95656496-c946-40d9-989e-d62384a9ec40",
@@ -7384,14 +7103,30 @@
       }
     ],
     "searchAlias": [
-      "Pushdown"
+      "Pushdown",
+      "Cable triceps pushdown (full extension bar)",
+      "Triceps Pushdown",
+      "Cable Triceps Pushdown",
+      "Triceps Pressdown",
+      "Cable Triceps Pressdown",
+      "Straight Bar Triceps Pushdown",
+      "Straight Bar Pushdown",
+      "Triceps Pushdown with Bar"
     ],
     "searchAliasPT": [
       "Tríceps na polia",
       "Triceps na polia com cabo",
-      "Triceps na polia"
+      "Triceps na polia",
+      "Tríceps na polia (extensão completa)",
+      "Tríceps pulley",
+      "Tríceps na polia alta",
+      "Tríceps com barra na polia",
+      "Tríceps na polia com barra reta",
+      "Extensão de tríceps na polia",
+      "Tríceps pushdown"
     ],
-    "imageFileId": "9d27b8fc-5c6b-454a-aab9-2bd3d16d0184"
+    "imageFileId": "9d27b8fc-5c6b-454a-aab9-2bd3d16d0184",
+    "legacyImageId": 35
   },
   {
     "id": "050cd2ca-ee73-4722-9ec8-6939cd7c4362",
@@ -7409,14 +7144,22 @@
       }
     ],
     "searchAlias": [
-      "Pushdown With Rope Attachment"
+      "Pushdown With Rope Attachment",
+      "Cable triceps pushdown (rope)",
+      "Rope Triceps Pushdown",
+      "Cable Rope Pushdown",
+      "Triceps Pushdown"
     ],
     "searchAliasPT": [
       "Tríceps na polia",
       "Triceps na polia com corda acessório com cabo",
-      "Triceps na polia"
+      "Triceps na polia",
+      "Tríceps no pulley com corda",
+      "Tríceps corda",
+      "Puxada de tríceps com corda"
     ],
-    "imageFileId": "300a9686-2cbf-4969-a907-ccc650b6b02a"
+    "imageFileId": "499ec104-b63e-41e4-9067-34d705f44ade",
+    "legacyImageId": 16
   },
   {
     "id": "178625c6-4cef-4df7-8774-de187ad97a1d",
@@ -7890,12 +7633,26 @@
       }
     ],
     "searchAlias": [
-      "Ez Bar Close Grip Curl"
+      "Ez Bar Close Grip Curl",
+      "Cable bar curl",
+      "Cable Bar Bicep Curl",
+      "Straight Bar Cable Curl",
+      "Cable bar curl (straight bar)",
+      "Cable Curl",
+      "Curl"
     ],
     "searchAliasPT": [
-      "Ez barra fechado pegada rosca"
+      "Ez barra fechado pegada rosca",
+      "Rosca direta na polia",
+      "Rosca direta no cabo",
+      "Rosca bíceps na polia",
+      "Rosca no cabo barra reta",
+      "Rosca no cross barra reta",
+      "Rosca com cabo",
+      "Rosca"
     ],
-    "imageFileId": "325a3fa5-7cea-4a0f-b8d5-5ff863325b6f"
+    "imageFileId": "f0aaa7ad-2da7-4305-bb04-64f223ae212d",
+    "legacyImageId": 64
   },
   {
     "id": "6c76e772-f701-42dc-bbd2-74c170a51743",
@@ -8275,14 +8032,21 @@
     "searchAlias": [
       "Biceps Curl",
       "Dumbbell Bicep Curl",
-      "Bicep Curl"
+      "Bicep Curl",
+      "Alternating dumbbell curl",
+      "Alternating Bicep Curl",
+      "Alternate Dumbbell Curl"
     ],
     "searchAliasPT": [
       "Rosca bíceps",
       "Rosca biceps com halteres",
-      "Rosca biceps"
+      "Rosca biceps",
+      "Rosca alternada com halteres",
+      "Rosca alternada",
+      "Rosca bíceps alternada com halter"
     ],
-    "imageFileId": "22fc05e0-5d9b-4cc0-b061-0f365c15d770"
+    "imageFileId": "22fc05e0-5d9b-4cc0-b061-0f365c15d770",
+    "legacyImageId": 32
   },
   {
     "id": "3912c708-0c53-43ff-a38f-cb6bbdaa9a8a",
@@ -8323,12 +8087,19 @@
       }
     ],
     "searchAlias": [
-      "Crossbody Hammer Curl"
+      "Crossbody Hammer Curl",
+      "Dumbbell hammer curl",
+      "Hammer Curl",
+      "DB Hammer Curl"
     ],
     "searchAliasPT": [
-      "Crossbody rosca martelo"
+      "Crossbody rosca martelo",
+      "Rosca martelo com halteres",
+      "Rosca martelo",
+      "Rosca martelo com halter"
     ],
-    "imageFileId": "bbe2006b-3319-4ef5-a1d0-13c979bdb4af"
+    "imageFileId": "1e37a642-ef48-48f7-8edd-929de33d5467",
+    "legacyImageId": 17
   },
   {
     "id": "b41edcce-eb11-4e2f-a329-929b87e66fc4",
@@ -8783,8 +8554,8 @@
   },
   {
     "id": "502723a9-a495-4000-9d27-f8b86dbd8419",
-    "name": "Dumbbell One Arm Triceps Extension On Bench",
-    "namePT": "Um braço extensão de tríceps em banco com halteres",
+    "name": "Single arm overhead dumbbell triceps extension (seated)",
+    "namePT": "Tríceps francês unilateral sentado com halter",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -8797,14 +8568,22 @@
       }
     ],
     "searchAlias": [
-      "One Arm Triceps Extension On Bench",
-      "Dumbbell One Arm Tricep Extension On Bench",
-      "One Arm Tricep Extension On Bench"
+      "Single Arm Seated Overhead Dumbbell Triceps Extension",
+      "One Arm Seated Overhead Dumbbell Triceps Extension",
+      "Single Arm Seated Dumbbell Triceps Extension",
+      "One Arm Seated Triceps Extension",
+      "Seated Single Arm Triceps Extension",
+      "Seated One Arm Triceps Extension",
+      "Single Arm Seated Overhead Triceps Extension"
     ],
     "searchAliasPT": [
-      "Um braço extensão de tríceps em banco",
-      "Um braço extensão de triceps em banco com halteres",
-      "Um braço extensão de triceps em banco"
+      "Tríceps francês unilateral sentado",
+      "Tríceps francês sentado com um braço",
+      "Tríceps francês unilateral com halter",
+      "Tríceps francês sentado com halter",
+      "Extensão unilateral de tríceps acima da cabeça sentado",
+      "Extensão de tríceps unilateral sentado com halter",
+      "Tríceps unilateral sentado com halter"
     ],
     "imageFileId": "8afaa230-e008-458f-ba43-b4cb4a50e6aa"
   },
@@ -9075,8 +8854,8 @@
   },
   {
     "id": "1cf10c52-5e9a-4c8e-a183-be96565a4fbf",
-    "name": "Dumbbell Seated Preacher Curl",
-    "namePT": "Sentado rosca scott com halteres",
+    "name": "One arm dumbbell preacher curl",
+    "namePT": "Rosca Scott unilateral com halter",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -9089,11 +8868,22 @@
       }
     ],
     "searchAlias": [
-      "Seated Preacher Curl"
+      "One Arm Dumbbell Preacher Curl",
+      "Single Arm Dumbbell Preacher Curl",
+      "One Arm Preacher Curl",
+      "Single Arm Preacher Curl",
+      "Unilateral Dumbbell Preacher Curl",
+      "Dumbbell Preacher Curl",
+      "One Arm Scott Curl"
     ],
     "searchAliasPT": [
-      "Sentado rosca scott",
-      "Rosca scott com halteres"
+      "Rosca Scott unilateral",
+      "Rosca Scott unilateral com halter",
+      "Rosca Scott com um braço",
+      "Rosca Scott com halter",
+      "Rosca Scott unilateral com halter",
+      "Rosca concentrada no banco Scott",
+      "Rosca unilateral no banco Scott"
     ],
     "imageFileId": "13e08982-787c-4781-9f31-048c0d2545c4"
   },
@@ -9113,13 +8903,18 @@
       }
     ],
     "searchAlias": [
-      "Seated Reverse Grip Concentration Curl"
+      "Seated Reverse Grip Concentration Curl",
+      "Concentration curl",
+      "Dumbbell Concentration Curl"
     ],
     "searchAliasPT": [
       "Sentado invertido pegada rosca concentrada",
-      "Invertido pegada rosca concentrada com halteres"
+      "Invertido pegada rosca concentrada com halteres",
+      "Rosca concentrada",
+      "Rosca concentrada com halter"
     ],
-    "imageFileId": "39dfa895-c552-44d7-9de0-a77181e1cd59"
+    "imageFileId": "39dfa895-c552-44d7-9de0-a77181e1cd59",
+    "legacyImageId": 33
   },
   {
     "id": "a6a85672-9a27-45d3-a55f-e30adda5576f",
@@ -9648,12 +9443,15 @@
       }
     ],
     "searchAlias": [
-      "Zottman Curl"
+      "Zottman Curl",
+      "Zottman Dumbbell Curl"
     ],
     "searchAliasPT": [
-      "Rosca zottman"
+      "Rosca zottman",
+      "Rosca Zottman halteres"
     ],
-    "imageFileId": "50bbf560-8fec-41f2-bd37-2f59edc32195"
+    "imageFileId": "50bbf560-8fec-41f2-bd37-2f59edc32195",
+    "legacyImageId": null
   },
   {
     "id": "432db451-3a71-4053-9b71-926635c91cbf",
@@ -10803,15 +10601,22 @@
       "Alternate Biceps Curl",
       "Lever Alternate Bicep Curl",
       "Alternate Bicep Curl",
-      "Machine Alternate Biceps Curl"
+      "Machine Alternate Biceps Curl",
+      "Lever biceps curl",
+      "Machine Bicep Curl",
+      "Bicep Curl Machine"
     ],
     "searchAliasPT": [
       "Alternado rosca bíceps",
       "Rosca bíceps com alavanca",
       "Alternado rosca biceps com alavanca",
-      "Alternado rosca biceps"
+      "Alternado rosca biceps",
+      "Rosca bíceps na máquina",
+      "Rosca na máquina",
+      "Rosca bíceps máquina"
     ],
-    "imageFileId": "d3883615-5583-41ef-8b23-e4808d65def0"
+    "imageFileId": "dbc1c576-b916-47fd-bcf4-948892c858f5",
+    "legacyImageId": 19
   },
   {
     "id": "abf4e0a2-5a47-4346-a24a-a68be57dd4fe",
@@ -14309,5 +14114,32 @@
       "Punho rollers"
     ],
     "imageFileId": "3d7a7542-3f84-4895-9ebf-81714fab13e8"
+  },
+  {
+    "id": "99368ac7-8b37-4e06-9ec6-b68f95d646e0",
+    "imageFileId": "2f845133-a6f3-4bf1-9fff-6208a4d81aa0",
+    "legacyImageId": null,
+    "name": "Reverse dumbbell preacher curl",
+    "namePT": "Rosca Scott inversa com halter",
+    "searchAlias": [
+      "Reverse Grip Dumbbell Preacher Curl",
+      "Dumbbell Reverse Preacher Curl",
+      "Pronated Dumbbell Preacher Curl"
+    ],
+    "searchAliasPT": [
+      "Rosca scott pronada com halter",
+      "Rosca scott inversa halter"
+    ],
+    "type": "ARMS",
+    "trackedMetrics": [
+      {
+        "type": "WEIGHT",
+        "default": true
+      },
+      {
+        "type": "REPS",
+        "default": true
+      }
+    ]
   }
 ]
