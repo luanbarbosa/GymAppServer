@@ -362,8 +362,8 @@
     "id": "a87d0b21-21cd-492b-b1ab-eec37172e856",
     "imageFileId": "5bcf4a73-ab96-49c8-b0f3-e3289c178eb0",
     "legacyImageId": 14,
-    "name": "EZ barbell curl",
-    "namePT": "Bíceps barra w",
+    "name": "Barbell preacher curl (wide grip)",
+    "namePT": "Rosca Scott com barra (pegada larga)",
     "searchAlias": [
       "EZ Bar Curl",
       "W Bar Curl",
@@ -372,33 +372,6 @@
     "searchAliasPT": [
       "Rosca direta na barra w",
       "Rosca com barra w"
-    ],
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "82516e26-6a25-4a1d-b2cb-a648ef04ae94",
-    "imageFileId": "c2ea47f1-a95b-472e-b466-78cb0ae0a354",
-    "legacyImageId": 15,
-    "name": "Cable overhead triceps extension (rope)",
-    "namePT": "Extensão de tríceps acima da cabeça no cabo",
-    "searchAlias": [
-      "Cable Overhead Triceps Extension",
-      "Rope Overhead Triceps Extension",
-      "Overhead Cable Triceps Extension"
-    ],
-    "searchAliasPT": [
-      "Tríceps francês no cabo",
-      "Extensão de tríceps overhead na polia"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -2037,8 +2010,8 @@
     "id": "4e3467c5-3fe1-4940-adf0-abb4abbfd5e1",
     "imageFileId": "d48647a1-3756-424f-b713-d2cab8ba1b2c",
     "legacyImageId": null,
-    "name": "Barbell preacher curl",
-    "namePT": "Rosca Scott com barra",
+    "name": "Barbell preacher curl (narrow grip)",
+    "namePT": "Rosca Scott com barra (pegada fechada)",
     "searchAlias": [
       "Preacher Curl"
     ],
@@ -7340,8 +7313,8 @@
   },
   {
     "id": "10806770-85fa-48fa-b018-10652b7fc807",
-    "name": "Cable Overhead Triceps Extension Rope Attachment",
-    "namePT": "Overhead extensão de tríceps corda acessório com cabo",
+    "name": "Cable Overhead Triceps Extension",
+    "namePT": "Overhead extensão de tríceps",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -7356,12 +7329,19 @@
     "searchAlias": [
       "Overhead Triceps Extension Rope Attachment",
       "Cable Overhead Tricep Extension Rope Attachment",
-      "Overhead Tricep Extension Rope Attachment"
+      "Overhead Tricep Extension Rope Attachment",
+      "Cable overhead triceps extension (rope)",
+      "Cable Overhead Triceps Extension",
+      "Rope Overhead Triceps Extension",
+      "Overhead Cable Triceps Extension"
     ],
     "searchAliasPT": [
       "Overhead extensão de tríceps corda acessório",
       "Overhead extensão de triceps corda acessório com cabo",
-      "Overhead extensão de triceps corda acessório"
+      "Overhead extensão de triceps corda acessório",
+      "Extensão de tríceps acima da cabeça no cabo",
+      "Tríceps francês no cabo",
+      "Extensão de tríceps overhead na polia"
     ],
     "imageFileId": "68ff6a43-7657-46c8-8e9c-61dda43c4555"
   },
