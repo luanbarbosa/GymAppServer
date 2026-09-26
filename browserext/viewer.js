@@ -242,6 +242,7 @@ function openDuplicatePicker(exercise) {
   const sourceImg = document.getElementById("picker-source-img");
   sourceImg.src = exercise.imageFileId ? imageUrl(exercise.imageFileId) : "";
   sourceImg.alt = exercise.name;
+  sourceImg.onclick = exercise.imageFileId ? () => openImage(exercise, index) : null;
   document.getElementById("picker-source-name").textContent = `${index + 1}. ${exercise.name}`;
   document.getElementById("picker-source-id").textContent = exercise.id;
   pickerSearch.value = "";
@@ -252,6 +253,28 @@ function openDuplicatePicker(exercise) {
   pickerDialog.showModal();
   pickerSearch.focus();
 }
+
+const imageDialog = document.getElementById("image-dialog");
+
+function openImage(exercise, index) {
+  const img = document.getElementById("image-dialog-img");
+  img.src = imageUrl(exercise.imageFileId);
+  img.alt = exercise.name;
+  document.getElementById("image-dialog-caption").textContent = `${index + 1}. ${exercise.name}`;
+  imageDialog.showModal();
+}
+
+function expandButton(exercise, index) {
+  const button = document.createElement("button");
+  button.className = "expand-img";
+  button.title = "Expand image";
+  button.textContent = "⤢";
+  button.onclick = () => openImage(exercise, index);
+  return button;
+}
+
+// Any click closes it, so it only takes one click to get back to the picker.
+imageDialog.onclick = () => imageDialog.close();
 
 function renderPicker() {
   pickerConfirm.disabled = !pickerSelected.length;
@@ -283,7 +306,12 @@ function renderPicker() {
     const label = document.createElement("span");
     label.textContent = `${index + 1}. ${exercise.name}` + (option.disabled ? " (already a duplicate)" : "");
     option.append(img, label);
-    pickerGrid.appendChild(option);
+    // Sibling of the option rather than a child, since a button can't contain another button.
+    const cell = document.createElement("div");
+    cell.className = "picker-cell";
+    cell.appendChild(option);
+    if (exercise.imageFileId) cell.appendChild(expandButton(exercise, index));
+    pickerGrid.appendChild(cell);
   });
 }
 
