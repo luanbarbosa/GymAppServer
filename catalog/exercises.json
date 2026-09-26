@@ -864,32 +864,6 @@
     ]
   },
   {
-    "id": "b7b9e7f5-8a9c-4436-abfa-a940f6319121",
-    "imageFileId": "eb51c33f-68a4-4c13-b3a2-a03e9c991993",
-    "legacyImageId": 41,
-    "name": "Treadmill running",
-    "namePT": "Corrida na esteira",
-    "searchAlias": [
-      "Treadmill Run",
-      "Running on Treadmill"
-    ],
-    "searchAliasPT": [
-      "Esteira",
-      "Corrida esteira"
-    ],
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DURATION",
-        "default": true
-      },
-      {
-        "type": "DISTANCE",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "52f80cb0-7e69-4eea-a606-a6c398456869",
     "imageFileId": "182905d6-8acb-4b16-8ae6-722f014b4111",
     "legacyImageId": 42,
@@ -902,32 +876,6 @@
     "searchAliasPT": [
       "Crucifixo declinado no cabo",
       "Cross over declinado"
-    ],
-    "type": "CHEST",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "fc36ab31-fc3d-4cd0-a78a-7743cd359e15",
-    "imageFileId": "9f150baa-d133-49b2-83ca-3317c51e36d7",
-    "legacyImageId": 43,
-    "name": "Flat dumbbell fly",
-    "namePT": "Crucifixo Reto com Halteres",
-    "searchAlias": [
-      "Flat Bench Dumbbell Fly",
-      "Dumbbell Chest Fly"
-    ],
-    "searchAliasPT": [
-      "Crucifixo reto",
-      "Crucifixo com halteres no banco reto"
     ],
     "type": "CHEST",
     "trackedMetrics": [
@@ -1310,32 +1258,6 @@
     ]
   },
   {
-    "id": "a4eaeb5a-2cef-477f-b94b-dad94c7664ab",
-    "imageFileId": "5cdf4aff-df69-4aa7-acad-846767b1b8e9",
-    "legacyImageId": 60,
-    "name": "Elliptical",
-    "namePT": "Elíptico",
-    "searchAlias": [
-      "Elliptical Trainer",
-      "Elliptical Machine"
-    ],
-    "searchAliasPT": [
-      "Elíptica",
-      "Máquina elíptica"
-    ],
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DURATION",
-        "default": true
-      },
-      {
-        "type": "DISTANCE",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "7551e773-5301-4ca4-8339-8a23ea57c5b1",
     "imageFileId": "5aac1830-37e6-4ba9-a0cc-0df7179d22a9",
     "legacyImageId": 61,
@@ -1405,33 +1327,6 @@
       },
       {
         "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "d98322fc-8e16-405f-aadb-4e695115bc8a",
-    "imageFileId": "bbc5af2a-66ed-4a77-9ca1-c31246ef9a79",
-    "legacyImageId": 66,
-    "name": "Bike",
-    "namePT": "Bicicleta",
-    "searchAlias": [
-      "Stationary Bike",
-      "Exercise Bike",
-      "Cycling"
-    ],
-    "searchAliasPT": [
-      "Bike ergométrica",
-      "Bicicleta ergométrica"
-    ],
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DURATION",
-        "default": true
-      },
-      {
-        "type": "DISTANCE",
         "default": true
       }
     ]
@@ -1553,33 +1448,6 @@
     "searchAliasPT": [
       "Caminhada inclinada na esteira",
       "Esteira inclinada"
-    ],
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DURATION",
-        "default": true
-      },
-      {
-        "type": "DISTANCE",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "46026492-66dd-4d47-b5e1-b75d78388f1d",
-    "imageFileId": "fd9b605d-ddf6-485a-bd36-8d66d5a7e59f",
-    "legacyImageId": 74,
-    "name": "Rowing Machine",
-    "namePT": "Máquina de remo",
-    "searchAlias": [
-      "Rowing Ergometer",
-      "Indoor Rower",
-      "Erg"
-    ],
-    "searchAliasPT": [
-      "Remo ergômetro",
-      "Remo indoor"
     ],
     "type": "CARDIO",
     "trackedMetrics": [
@@ -2291,67 +2159,24 @@
     ]
   },
   {
-    "id": "e358a0f6-d14c-442a-a9fe-5e7f4b663d9f",
-    "imageFileId": "35d28db9-f125-46b0-ba89-2de0978b288a",
-    "legacyImageId": null,
-    "name": "Jump rope",
-    "namePT": "Pular corda",
-    "searchAlias": [
-      "Jumping Rope",
-      "Skipping Rope"
-    ],
-    "searchAliasPT": [
-      "Corda"
-    ],
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DURATION",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "0249e732-9332-4b76-89ca-7fc34a5e8b4f",
-    "imageFileId": "1748725e-141e-4097-a759-9f49a83f972c",
-    "legacyImageId": null,
-    "name": "Outdoor running",
-    "namePT": "Corrida ao ar livre",
-    "searchAlias": [
-      "Running Outside",
-      "Road Run",
-      "Run",
-      "Runs"
-    ],
-    "searchAliasPT": [
-      "Corrida na rua",
-      "Corrida",
-      "Corridas"
-    ],
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DURATION",
-        "default": true
-      },
-      {
-        "type": "DISTANCE",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "b79a6ec9-8d77-4b3c-a112-61d0461675c2",
-    "imageFileId": "12a78a63-58e2-40ae-b514-993260d9d5b8",
-    "legacyImageId": null,
+    "imageFileId": "bbc5af2a-66ed-4a77-9ca1-c31246ef9a79",
+    "legacyImageId": 66,
     "name": "Outdoor cycling",
     "namePT": "Ciclismo ao ar livre",
     "searchAlias": [
       "Road Cycling",
-      "Bike Ride Outside"
+      "Bike Ride Outside",
+      "Bike",
+      "Stationary Bike",
+      "Exercise Bike",
+      "Cycling"
     ],
     "searchAliasPT": [
-      "Bicicleta na rua"
+      "Bicicleta na rua",
+      "Bicicleta",
+      "Bike ergométrica",
+      "Bicicleta ergométrica"
     ],
     "type": "CARDIO",
     "trackedMetrics": [
@@ -2389,26 +2214,6 @@
       },
       {
         "type": "DISTANCE",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "520ded27-bece-42e7-95b2-46c705e77948",
-    "imageFileId": "cf3f88bd-16b0-4176-94b3-02b42dcebfac",
-    "legacyImageId": null,
-    "name": "Battle ropes",
-    "namePT": "Corda naval",
-    "searchAlias": [
-      "Battle Rope Waves"
-    ],
-    "searchAliasPT": [
-      "Corda ondulatória"
-    ],
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DURATION",
         "default": true
       }
     ]
@@ -6006,12 +5811,16 @@
       }
     ],
     "searchAlias": [
-      "Battling Rope"
+      "Battling Rope",
+      "Battle ropes",
+      "Battle Rope Waves"
     ],
     "searchAliasPT": [
-      "Corda navals"
+      "Corda navals",
+      "Corda ondulatória"
     ],
-    "imageFileId": "2efb2d75-af47-467a-afcf-255845244078"
+    "imageFileId": "cf3f88bd-16b0-4176-94b3-02b42dcebfac",
+    "legacyImageId": null
   },
   {
     "id": "3f6e705d-211c-46d1-b75c-32040d110c64",
@@ -7680,12 +7489,18 @@
       }
     ],
     "searchAlias": [
-      "Under Jump Rope"
+      "Under Jump Rope",
+      "Jump rope",
+      "Jumping Rope",
+      "Skipping Rope"
     ],
     "searchAliasPT": [
-      "Sob salto corda"
+      "Sob salto corda",
+      "Pular corda",
+      "Corda"
     ],
-    "imageFileId": "ff01cd2c-3099-4137-bdb8-ca2a9314927b"
+    "imageFileId": "35d28db9-f125-46b0-ba89-2de0978b288a",
+    "legacyImageId": null
   },
   {
     "id": "dfbf9a6f-050f-48e2-9758-c920b76bb225",
@@ -7929,12 +7744,19 @@
       }
     ],
     "searchAlias": [
-      "Fly"
+      "Fly",
+      "Flat dumbbell fly",
+      "Flat Bench Dumbbell Fly",
+      "Dumbbell Chest Fly"
     ],
     "searchAliasPT": [
-      "Crucifixo"
+      "Crucifixo",
+      "Crucifixo Reto com Halteres",
+      "Crucifixo reto",
+      "Crucifixo com halteres no banco reto"
     ],
-    "imageFileId": "c4851bcf-c668-4e2f-97d9-b458a5492a70"
+    "imageFileId": "c4851bcf-c668-4e2f-97d9-b458a5492a70",
+    "legacyImageId": 43
   },
   {
     "id": "68973606-2634-4f1e-9cc4-5e8b87c3bed2",
@@ -9233,12 +9055,19 @@
       }
     ],
     "searchAlias": [
-      "Elliptical Walk"
+      "Elliptical Walk",
+      "Elliptical",
+      "Elliptical Trainer",
+      "Elliptical Machine"
     ],
     "searchAliasPT": [
-      "Elliptical caminhada"
+      "Elliptical caminhada",
+      "Elíptico",
+      "Elíptica",
+      "Máquina elíptica"
     ],
-    "imageFileId": "faea7af3-14d3-400c-8081-380e741ad2af"
+    "imageFileId": "5cdf4aff-df69-4aa7-acad-846767b1b8e9",
+    "legacyImageId": 60
   },
   {
     "id": "7f67c91e-ff95-4ed4-8960-dd643a2d7bd0",
@@ -11476,12 +11305,22 @@
       }
     ],
     "searchAlias": [
-      "Long Distance Runnings"
+      "Long Distance Runnings",
+      "Outdoor running",
+      "Running Outside",
+      "Road Run",
+      "Run",
+      "Runs"
     ],
     "searchAliasPT": [
-      "Long distance runnings"
+      "Long distance runnings",
+      "Corrida ao ar livre",
+      "Corrida na rua",
+      "Corrida",
+      "Corridas"
     ],
-    "imageFileId": "2820aea2-5034-4bb8-b15b-5141681f6c8b"
+    "imageFileId": "1748725e-141e-4097-a759-9f49a83f972c",
+    "legacyImageId": null
   },
   {
     "id": "2bbd4ce5-2e0e-4057-8992-2e75aa84e3be",
@@ -12049,14 +11888,22 @@
     "searchAlias": [
       "Rowing Straight Back With Rowing",
       "Rowing With Rowing Machine",
-      "Rowing With Rowing"
+      "Rowing With Rowing",
+      "Rowing Machine",
+      "Rowing Ergometer",
+      "Indoor Rower",
+      "Erg"
     ],
     "searchAliasPT": [
       "Remo reta costas",
       "Remo com remo com máquina",
-      "Remo"
+      "Remo",
+      "Máquina de remo",
+      "Remo ergômetro",
+      "Remo indoor"
     ],
-    "imageFileId": "68fdbc7c-043f-414f-9e2c-ada1d4ae005f"
+    "imageFileId": "fd9b605d-ddf6-485a-bd36-8d66d5a7e59f",
+    "legacyImageId": 74
   },
   {
     "id": "f2f9e48f-95b3-4794-ac8c-96391f2b54bd",
@@ -12076,14 +11923,21 @@
     "searchAlias": [
       "Run Equipments",
       "Run On Treadmill",
-      "Run On Treadmills"
+      "Run On Treadmills",
+      "Treadmill running",
+      "Treadmill Run",
+      "Running on Treadmill"
     ],
     "searchAliasPT": [
       "Corrida equipments",
       "Corrida em treadmill",
-      "Corrida em treadmills"
+      "Corrida em treadmills",
+      "Corrida na esteira",
+      "Esteira",
+      "Corrida esteira"
     ],
-    "imageFileId": "58e5490b-05c8-4bef-87bc-d0bbcdffd93d"
+    "imageFileId": "eb51c33f-68a4-4c13-b3a2-a03e9c991993",
+    "legacyImageId": 41
   },
   {
     "id": "76d82c9c-2369-4a80-9d1b-df631eefdef2",
@@ -13069,29 +12923,6 @@
     "imageFileId": "ffa29b20-bbf5-4ce3-b6d8-e40e293db0f5"
   },
   {
-    "id": "1a90c11f-648f-4795-a887-7bbcf972fb5e",
-    "name": "Stationary Bike Run Version 3",
-    "namePT": "Stationary bicicleta corrida versão 3",
-    "type": "CARDIO",
-    "trackedMetrics": [
-      {
-        "type": "DISTANCE",
-        "default": true
-      },
-      {
-        "type": "DURATION",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Stationary Bike Run"
-    ],
-    "searchAliasPT": [
-      "Stationary bicicleta corrida"
-    ],
-    "imageFileId": "2ce9342e-d9ee-476b-a3b3-e6ed83004a72"
-  },
-  {
     "id": "6ad399c2-2a97-446f-aed0-2c5a3dc7e266",
     "name": "Stationary Bike Run Version 4",
     "namePT": "Stationary bicicleta corrida versão 4",
@@ -13107,12 +12938,14 @@
       }
     ],
     "searchAlias": [
-      "Stationary Bike Run"
+      "Stationary Bike Run",
+      "Stationary Bike Run Version 3"
     ],
     "searchAliasPT": [
-      "Stationary bicicleta corrida"
+      "Stationary bicicleta corrida",
+      "Stationary bicicleta corrida versão 3"
     ],
-    "imageFileId": "684343c8-4cb0-4cea-b12c-0b09658c9397"
+    "imageFileId": "2ce9342e-d9ee-476b-a3b3-e6ed83004a72"
   },
   {
     "id": "33283e40-9be4-483e-a5fb-bdba285c2009",
