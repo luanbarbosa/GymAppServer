@@ -2805,26 +2805,6 @@
     ]
   },
   {
-    "id": "571ac974-add5-45ae-afc6-65bfd261413f",
-    "imageFileId": "6f16540f-f2ee-4cba-8626-4fe48bb50ff0",
-    "legacyImageId": null,
-    "name": "Burpee",
-    "namePT": "Burpee",
-    "searchAlias": [
-      "Burpees"
-    ],
-    "searchAliasPT": [
-      "Burpee"
-    ],
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "05794734-4a6b-4b89-8cdd-dae6ca9d3874",
     "imageFileId": "2ad63cc5-b6c0-4dfb-b9db-53d91f602d2e",
     "legacyImageId": null,
@@ -2849,30 +2829,6 @@
     ]
   },
   {
-    "id": "e81ff52c-3248-4aa5-88ae-06d9675f8c94",
-    "imageFileId": "a8a133ef-bfb9-4ebc-89a1-48ee9b820a71",
-    "legacyImageId": null,
-    "name": "Barbell clean and press",
-    "namePT": "Clean and press com barra",
-    "searchAlias": [
-      "Clean and Press"
-    ],
-    "searchAliasPT": [
-      "Arranco e desenvolvimento"
-    ],
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "a19965dc-ff31-4fe3-97dc-e90a4c8c48c4",
     "imageFileId": "a56560e0-97ea-42f8-8553-462bcd644c78",
     "legacyImageId": null,
@@ -2883,30 +2839,6 @@
     ],
     "searchAliasPT": [
       "Agachamento com desenvolvimento"
-    ],
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "202d0a17-578f-4230-8083-d49297e1f2b4",
-    "imageFileId": "ea88d5d5-5179-49c8-89dc-ccda932e8adb",
-    "legacyImageId": null,
-    "name": "Turkish get-up",
-    "namePT": "Turkish get-up",
-    "searchAlias": [
-      "Kettlebell Turkish Get-up"
-    ],
-    "searchAliasPT": [
-      "Levantar-se turco"
     ],
     "type": "FULL_BODY",
     "trackedMetrics": [
@@ -4744,29 +4676,6 @@
     "imageFileId": "8fdaa9ec-187f-4636-afa0-2aa0f8a448c9"
   },
   {
-    "id": "0e019c6f-2602-416b-ad8b-375a49678c03",
-    "name": "Barbell Clean Pull",
-    "namePT": "Clean pull com barra",
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Clean Pull"
-    ],
-    "searchAliasPT": [
-      "Clean pull"
-    ],
-    "imageFileId": "0d9c8b7d-a4b8-4f8e-84e7-57f8de9d5763"
-  },
-  {
     "id": "c26cb65b-d8f9-4a96-86e4-8b36859d65b1",
     "name": "Barbell Floor Chest Press",
     "namePT": "No chão supino com barra",
@@ -4836,30 +4745,6 @@
     "imageFileId": "a2a7cdb0-af95-4074-a084-346605cd8990"
   },
   {
-    "id": "4b40877b-8c41-4c73-a0f2-954514535c68",
-    "name": "Barbell Full Clean",
-    "namePT": "Completo clean com barra",
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Full Clean"
-    ],
-    "searchAliasPT": [
-      "Completo clean",
-      "Clean com barra"
-    ],
-    "imageFileId": "cb25bdb9-0670-44bf-9220-1b3f3d67e570"
-  },
-  {
     "id": "fc2a572b-b049-4615-bc7f-e7a964bb1852",
     "name": "Barbell Full Zercher Squat",
     "namePT": "Completo zercher agachamento com barra",
@@ -4922,37 +4807,17 @@
       }
     ],
     "searchAlias": [
-      "Hang Clean"
+      "Hang Clean",
+      "Barbell Clean Pull",
+      "Clean Pull"
     ],
     "searchAliasPT": [
       "Suspenso clean",
-      "Clean com barra"
+      "Clean com barra",
+      "Clean pull com barra",
+      "Clean pull"
     ],
     "imageFileId": "0b2935d3-b3bf-4155-8e55-f77d85f22236"
-  },
-  {
-    "id": "e89b21d9-6b85-4ea9-b192-7eb2938982d1",
-    "name": "Barbell Hang Snatch",
-    "namePT": "Suspenso snatch com barra",
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Hang Snatch"
-    ],
-    "searchAliasPT": [
-      "Suspenso snatch",
-      "Snatch com barra"
-    ],
-    "imageFileId": "9108c519-5e09-4fd0-b377-d0c007197558"
   },
   {
     "id": "88f69252-f524-4df7-bd92-556e079ea533",
@@ -4970,11 +4835,16 @@
       }
     ],
     "searchAlias": [
-      "Hang Snatch Below The Knees"
+      "Hang Snatch Below The Knees",
+      "Barbell Hang Snatch",
+      "Hang Snatch"
     ],
     "searchAliasPT": [
       "Suspenso snatch abaixo o joelhos",
-      "Snatch abaixo o joelhos com barra"
+      "Snatch abaixo o joelhos com barra",
+      "Suspenso snatch com barra",
+      "Suspenso snatch",
+      "Snatch com barra"
     ],
     "imageFileId": "986cfe45-a5b0-4a23-a342-091fe0e5e132"
   },
@@ -5228,29 +5098,6 @@
       "Remada pendlay"
     ],
     "imageFileId": "0a103629-91e0-4edb-8ae4-5d6c7d4937a4"
-  },
-  {
-    "id": "8f67387d-60aa-4fa6-88e5-c35a8e8b1a1d",
-    "name": "Barbell Power Clean",
-    "namePT": "Potência clean com barra",
-    "type": "FULL_BODY",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Power Clean"
-    ],
-    "searchAliasPT": [
-      "Potência clean"
-    ],
-    "imageFileId": "a840cd73-6960-414f-979b-fab30bbb4ef4"
   },
   {
     "id": "23c5b8e0-db5f-44d3-859d-adef2e9dc2e6",
@@ -6067,12 +5914,15 @@
       }
     ],
     "searchAlias": [
-      "Burpee Long Jump With Push-Up"
+      "Burpee Long Jump With Push-Up",
+      "Burpee",
+      "Burpees"
     ],
     "searchAliasPT": [
-      "Burpee long salto"
+      "Burpee long salto",
+      "Burpee"
     ],
-    "imageFileId": "a05658ef-ab5e-4ea4-a252-989ed5dd3d9b"
+    "imageFileId": "6f16540f-f2ee-4cba-8626-4fe48bb50ff0"
   },
   {
     "id": "c7993d80-861b-406e-a5ad-53a5c6cf5f59",
@@ -9946,12 +9796,16 @@
       }
     ],
     "searchAlias": [
-      "Turkish Getup Squat Style"
+      "Turkish Getup Squat Style",
+      "Turkish get-up",
+      "Kettlebell Turkish Get-up"
     ],
     "searchAliasPT": [
-      "Turkish getup agachamento style"
+      "Turkish getup agachamento style",
+      "Turkish get-up",
+      "Levantar-se turco"
     ],
-    "imageFileId": "4d103f25-8743-48ec-aca1-81a512e31429"
+    "imageFileId": "ea88d5d5-5179-49c8-89dc-ccda932e8adb"
   },
   {
     "id": "3b68be17-9e52-46f4-a61e-6d9a819b30c0",
@@ -11515,12 +11369,23 @@
       }
     ],
     "searchAlias": [
-      "Power Cleans"
+      "Power Cleans",
+      "Barbell clean and press",
+      "Clean and Press",
+      "Barbell Full Clean",
+      "Full Clean",
+      "Barbell Power Clean"
     ],
     "searchAliasPT": [
-      "Potência cleans"
+      "Potência cleans",
+      "Clean and press com barra",
+      "Arranco e desenvolvimento",
+      "Completo clean com barra",
+      "Completo clean",
+      "Clean com barra",
+      "Potência clean com barra"
     ],
-    "imageFileId": "064ca1f1-bc19-44a2-8be2-9acef1804f33"
+    "imageFileId": "a8a133ef-bfb9-4ebc-89a1-48ee9b820a71"
   },
   {
     "id": "e4f53e65-0bff-4c81-b662-08eba6cbb74b",
