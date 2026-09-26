@@ -555,8 +555,8 @@
     "id": "95b88058-0660-45f1-879a-ca9dd3bb3855",
     "imageFileId": "7b363a8a-9808-440e-a0ad-777f5009f25b",
     "legacyImageId": 25,
-    "name": "Seated row",
-    "namePT": "Remada baixa sentada",
+    "name": "Cable seated row",
+    "namePT": "Remada baixa sentada na polia",
     "searchAlias": [
       "Cable Seated Row",
       "Low Cable Row",
@@ -826,33 +826,6 @@
       "Encolhimento de ombros com halteres"
     ],
     "type": "SHOULDERS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "53390d76-32a5-4076-86d2-8040cd7d40d3",
-    "imageFileId": "01315b81-e8d9-4431-801c-08b67a823030",
-    "legacyImageId": 39,
-    "name": "Barbell bent over pronated row",
-    "namePT": "Remada Curvada Pronada com Barra",
-    "searchAlias": [
-      "Bent Over Barbell Row",
-      "Pronated Grip Bent Over Row",
-      "Barbell Row"
-    ],
-    "searchAliasPT": [
-      "Remada curvada com barra",
-      "Remada com barra pegada pronada"
-    ],
-    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -1243,58 +1216,6 @@
       "Terra com barra"
     ],
     "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "f66c1584-7c0a-4ab0-9733-fdb14f4c4e31",
-    "imageFileId": "b2c68874-b712-4f1a-bda8-d021b730ffec",
-    "legacyImageId": 55,
-    "name": "Wide grip pronated row",
-    "namePT": "Remada aberta pronada",
-    "searchAlias": [
-      "Wide Grip Barbell Row",
-      "Wide Pronated Row"
-    ],
-    "searchAliasPT": [
-      "Remada pronada aberta",
-      "Remada aberta com barra"
-    ],
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "70fb0869-9628-4a07-afd9-00503cbcc49e",
-    "imageFileId": "7686b57c-5527-4e3c-874e-9d431daf7a13",
-    "legacyImageId": 56,
-    "name": "Close grip T-bar row",
-    "namePT": "Remada cavalinho fechado",
-    "searchAlias": [
-      "T-Bar Row Close Grip",
-      "Close Grip Landmine Row"
-    ],
-    "searchAliasPT": [
-      "Remada cavalinho pegada fechada",
-      "T-bar remada fechada"
-    ],
-    "type": "BACK",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -1838,10 +1759,15 @@
     "name": "Spider curl",
     "namePT": "Rosca aranha",
     "searchAlias": [
-      "Spider Curl"
+      "Spider Curl",
+      "Barbell Prone Incline Curl",
+      "Prone Incline Curl"
     ],
     "searchAliasPT": [
-      "Rosca aranha no banco"
+      "Rosca aranha no banco",
+      "Prono inclinado rosca com barra",
+      "Prono inclinado rosca",
+      "Inclinado rosca com barra"
     ],
     "type": "ARMS",
     "trackedMetrics": [
@@ -2131,6 +2057,33 @@
     ]
   },
   {
+    "id": "4c023184-a0d8-48de-8e5c-be8f9eac724f",
+    "imageFileId": "636ee7ff-0ce2-41eb-8c67-aa1785cc9fd2",
+    "legacyImageId": null,
+    "name": "Neutral grip pull-up",
+    "namePT": "Barra fixa pegada neutra",
+    "searchAlias": [
+      "Neutral Grip Pullup",
+      "Parallel Grip Pull-up",
+      "Hammer Grip Pull-up"
+    ],
+    "searchAliasPT": [
+      "Barra fixa neutra",
+      "Barra fixa pegada paralela"
+    ],
+    "type": "BACK",
+    "trackedMetrics": [
+      {
+        "type": "REPS",
+        "default": true
+      },
+      {
+        "type": "WEIGHT",
+        "default": false
+      }
+    ]
+  },
+  {
     "id": "39cacb7e-30da-4d4d-b471-d3abcfedf5d6",
     "imageFileId": "cf3bb924-1c33-421b-beef-ab97e85c3d3e",
     "legacyImageId": null,
@@ -2180,32 +2133,6 @@
     ]
   },
   {
-    "id": "d3790c4f-9efb-49f7-b272-9359a8a0b8ea",
-    "imageFileId": "17b6169f-4758-42ab-9e6c-dad227e41ca6",
-    "legacyImageId": null,
-    "name": "Single arm dumbbell row",
-    "namePT": "Remada unilateral com halter",
-    "searchAlias": [
-      "One Arm Dumbbell Row",
-      "Kroc Row"
-    ],
-    "searchAliasPT": [
-      "Remada serrote",
-      "Remada unilateral"
-    ],
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "20666e2d-850b-4ec6-96b2-acb879252a1f",
     "imageFileId": "fcaa84f3-b124-46a5-aa11-ce7b9c30443a",
     "legacyImageId": null,
@@ -2217,62 +2144,6 @@
     ],
     "searchAliasPT": [
       "Remada curvada pegada supinada"
-    ],
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "d0619061-42f1-4f64-b26e-3115d57af3eb",
-    "imageFileId": "42ac25f3-ef69-4aa8-8bbb-a8842eb30df8",
-    "legacyImageId": null,
-    "name": "Chest supported T-bar row",
-    "namePT": "Remada cavalinho apoiado",
-    "searchAlias": [
-      "Chest Supported T-Bar Row",
-      "Lever T Barrow Plate Loaded",
-      "Lever T Barrow Loaded",
-      "Machine T Barrow Plate Loaded",
-      "Machine T Barrow Loaded",
-      "Leverage T Barrow Plate Loaded"
-    ],
-    "searchAliasPT": [
-      "Remada cavalinho no banco",
-      "T barrow carregado com alavanca",
-      "T barrow carregado",
-      "T barrow carregado com máquina"
-    ],
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "96e23834-8937-4d88-96eb-2c759a539b44",
-    "imageFileId": "4f63f3a4-0333-4652-a134-8303b666bb86",
-    "legacyImageId": null,
-    "name": "Meadows row",
-    "namePT": "Remada Meadows",
-    "searchAlias": [
-      "Landmine Row"
-    ],
-    "searchAliasPT": [
-      "Remada no landmine unilateral"
     ],
     "type": "BACK",
     "trackedMetrics": [
@@ -2312,15 +2183,21 @@
   },
   {
     "id": "4c8828e8-e7a8-45da-bcb0-40691a468cf4",
-    "imageFileId": "d6c9404b-c9e3-465c-ad0c-40f50534d732",
+    "imageFileId": "b2c68874-b712-4f1a-bda8-d021b730ffec",
     "legacyImageId": null,
     "name": "Cable seated wide grip row",
     "namePT": "Remada baixa pegada aberta no cabo",
     "searchAlias": [
-      "Wide Grip Seated Cable Row"
+      "Wide Grip Seated Cable Row",
+      "Cable wide grip row",
+      "Wide Grip Barbell Row",
+      "Wide Pronated Row"
     ],
     "searchAliasPT": [
-      "Remada baixa aberta"
+      "Remada baixa aberta",
+      "Remada aberta pronada",
+      "Remada pronada aberta",
+      "Remada aberta com barra"
     ],
     "type": "BACK",
     "trackedMetrics": [
@@ -2345,31 +2222,6 @@
     ],
     "searchAliasPT": [
       "Pullover halteres"
-    ],
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "e5274be9-23dc-4436-8fa0-ee161af07f6d",
-    "imageFileId": "82e35068-1ef6-4357-96d4-ebd73cb9d55c",
-    "legacyImageId": null,
-    "name": "Rack pull",
-    "namePT": "Rack pull",
-    "searchAlias": [
-      "Partial Deadlift",
-      "Block Pull"
-    ],
-    "searchAliasPT": [
-      "Levantamento terra parcial"
     ],
     "type": "BACK",
     "trackedMetrics": [
@@ -5114,12 +4966,19 @@
       }
     ],
     "searchAlias": [
-      "Bent Over Row"
+      "Bent Over Row",
+      "Barbell bent over pronated row",
+      "Bent Over Barbell Row",
+      "Pronated Grip Bent Over Row",
+      "Barbell Row"
     ],
     "searchAliasPT": [
-      "Remada curvada"
+      "Remada curvada",
+      "Remada Curvada Pronada com Barra",
+      "Remada com barra pegada pronada"
     ],
-    "imageFileId": "7da64a32-1c6a-4d84-bee8-12a55271b0cc"
+    "imageFileId": "7da64a32-1c6a-4d84-bee8-12a55271b0cc",
+    "legacyImageId": 39
   },
   {
     "id": "d8a69788-f0cf-4f1d-bcce-bc7c3c5a3bdf",
@@ -5677,30 +5536,6 @@
     "imageFileId": "76976cc0-b4b9-4060-b949-eeffcbdd1309"
   },
   {
-    "id": "90ffa944-5157-40b3-b34c-649fe325c075",
-    "name": "Barbell Prone Incline Curl",
-    "namePT": "Prono inclinado rosca com barra",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Prone Incline Curl"
-    ],
-    "searchAliasPT": [
-      "Prono inclinado rosca",
-      "Inclinado rosca com barra"
-    ],
-    "imageFileId": "59623989-4bc3-4a0f-9889-6ce9a168345a"
-  },
-  {
     "id": "13fe4a99-fba4-420a-a834-05b382ac20e1",
     "name": "Barbell Rack Pull",
     "namePT": "Suporte pull com barra",
@@ -5716,12 +5551,17 @@
       }
     ],
     "searchAlias": [
-      "Rack Pull"
+      "Rack Pull",
+      "Partial Deadlift",
+      "Block Pull"
     ],
     "searchAliasPT": [
-      "Suporte pull"
+      "Suporte pull",
+      "Rack pull",
+      "Levantamento terra parcial"
     ],
-    "imageFileId": "e92b580c-96b8-4fe7-99c5-5d41a5e3cd9f"
+    "imageFileId": "e92b580c-96b8-4fe7-99c5-5d41a5e3cd9f",
+    "legacyImageId": null
   },
   {
     "id": "3cbab336-cc2a-441b-afd0-7b6d36098579",
@@ -6887,7 +6727,7 @@
   },
   {
     "id": "83283610-09f7-4ba4-8d21-c05d17db4971",
-    "name": "Cable Neutral Grip Kickback",
+    "name": "Low dumbbell triceps kickback",
     "namePT": "Neutro pegada kickback com cabo",
     "type": "ARMS",
     "trackedMetrics": [
@@ -8478,12 +8318,19 @@
       }
     ],
     "searchAlias": [
-      "One Arm Bent Over Row"
+      "One Arm Bent Over Row",
+      "Single arm dumbbell row",
+      "One Arm Dumbbell Row",
+      "Kroc Row"
     ],
     "searchAliasPT": [
-      "Um braço remada curvada"
+      "Um braço remada curvada",
+      "Remada unilateral com halter",
+      "Remada serrote",
+      "Remada unilateral"
     ],
-    "imageFileId": "7df92c2f-87d6-4180-860b-5aa1734057ef"
+    "imageFileId": "7df92c2f-87d6-4180-860b-5aa1734057ef",
+    "legacyImageId": null
   },
   {
     "id": "4d670da2-dbf3-4380-a2cb-82ed4ad62d75",
@@ -8856,8 +8703,8 @@
   },
   {
     "id": "0052594a-b022-4fea-b312-8fa81f1849b5",
-    "name": "Dumbbell Seated Reverse Grip Concentration Curl",
-    "namePT": "Sentado invertido pegada rosca concentrada com halteres",
+    "name": "Dumbbell Seated Reverse Grip Curl",
+    "namePT": "Sentado invertido pegada rosca com halteres",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -9494,8 +9341,8 @@
   },
   {
     "id": "04054439-dc9c-4fd2-9ddb-ccfbebaeeca1",
-    "name": "Ez barbell Standing Wide Grip Biceps Curl",
-    "namePT": "Em pé aberto pegada rosca bíceps com barra EZ",
+    "name": "Standing Wide Grip Biceps Curl",
+    "namePT": "Rosca Direta Pegada Aberta",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -10476,12 +10323,17 @@
       }
     ],
     "searchAlias": [
-      "Landmine One Arm Bent Over Rows"
+      "Landmine One Arm Bent Over Rows",
+      "Meadows row",
+      "Landmine Row"
     ],
     "searchAliasPT": [
-      "Um braço remada curvada"
+      "Um braço remada curvada",
+      "Remada Meadows",
+      "Remada no landmine unilateral"
     ],
-    "imageFileId": "7d7911b7-20ee-4dc3-9eb6-1a4fe75e04ff"
+    "imageFileId": "7d7911b7-20ee-4dc3-9eb6-1a4fe75e04ff",
+    "legacyImageId": null
   },
   {
     "id": "839b01f0-ad57-40d9-9ebd-b9b1b1f4ef1d",
@@ -10661,16 +10513,23 @@
       "Lever Bent Over Row Loaded",
       "Machine Bent Over Row Plate Loaded",
       "Machine Bent Over Row Loaded",
-      "Leverage Bent Over Row Plate Loaded"
+      "Leverage Bent Over Row Plate Loaded",
+      "Close grip bar row",
+      "T-Bar Row Close Grip",
+      "Close Grip Landmine Row"
     ],
     "searchAliasPT": [
       "Remada curvada com v-bar carregado",
       "Remada curvada com v-bar carregado com máquina",
       "Remada curvada carregado com alavanca",
       "Remada curvada carregado",
-      "Remada curvada carregado com máquina"
+      "Remada curvada carregado com máquina",
+      "Remada cavalinho fechado",
+      "Remada cavalinho pegada fechada",
+      "T-bar remada fechada"
     ],
-    "imageFileId": "96ead9f0-2256-4cee-a28d-34b75724f18a"
+    "imageFileId": "7686b57c-5527-4e3c-874e-9d431daf7a13",
+    "legacyImageId": 56
   },
   {
     "id": "d3e830d1-9927-4df9-8f39-b4b9caf07ae4",
@@ -10988,14 +10847,26 @@
     "searchAlias": [
       "Lying T Barrow",
       "Machine Lying T Barrow",
-      "Leverage Lying T Barrow"
+      "Leverage Lying T Barrow",
+      "Chest supported T-bar row",
+      "Lever T Barrow Plate Loaded",
+      "Lever T Barrow Loaded",
+      "Machine T Barrow Plate Loaded",
+      "Machine T Barrow Loaded",
+      "Leverage T Barrow Plate Loaded"
     ],
     "searchAliasPT": [
       "Deitado T barrow",
       "T barrow com alavanca",
-      "Deitado T barrow com máquina"
+      "Deitado T barrow com máquina",
+      "Remada cavalinho apoiado",
+      "Remada cavalinho no banco",
+      "T barrow carregado com alavanca",
+      "T barrow carregado",
+      "T barrow carregado com máquina"
     ],
-    "imageFileId": "b8310a13-8c04-4e69-a3c0-56a80fb27da4"
+    "imageFileId": "42ac25f3-ef69-4aa8-8bbb-a8842eb30df8",
+    "legacyImageId": null
   },
   {
     "id": "ec6f6fd8-dde8-469b-85b1-8074518c662d",
@@ -11592,33 +11463,6 @@
     "imageFileId": "c34d55dd-f26c-4d6f-a73b-17fa688eb261"
   },
   {
-    "id": "288e73d9-888a-4c52-b35d-d0c303630157",
-    "name": "Lever Triceps Dip Plate Loaded",
-    "namePT": "Triceps mergulho carregado com alavanca",
-    "type": "ARMS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Lever Triceps Dip Loaded",
-      "Lever Tricep Dip Plate Loaded",
-      "Lever Tricep Dip Loaded",
-      "Machine Triceps Dip Plate Loaded"
-    ],
-    "searchAliasPT": [
-      "Triceps mergulho carregado",
-      "Triceps mergulho carregado com máquina"
-    ],
-    "imageFileId": "46aeee5d-a9ad-4e4a-8f5c-66bc0ced5e90"
-  },
-  {
     "id": "4fbae9b7-3b38-479d-a527-bf1fdac34d4c",
     "name": "Lever Triceps Extension",
     "namePT": "Extensão de tríceps com alavanca",
@@ -11641,7 +11485,12 @@
       "Lever Seated Dip",
       "Seated Dip",
       "Machine Seated Dip",
-      "Leverage Seated Dip"
+      "Leverage Seated Dip",
+      "Lever Triceps Dip Plate Loaded",
+      "Lever Triceps Dip Loaded",
+      "Lever Tricep Dip Plate Loaded",
+      "Lever Tricep Dip Loaded",
+      "Machine Triceps Dip Plate Loaded"
     ],
     "searchAliasPT": [
       "Extensão de tríceps",
@@ -11651,7 +11500,10 @@
       "Sentado mergulho com alavanca",
       "Sentado mergulho",
       "Mergulho com alavanca",
-      "Sentado mergulho com máquina"
+      "Sentado mergulho com máquina",
+      "Triceps mergulho carregado com alavanca",
+      "Triceps mergulho carregado",
+      "Triceps mergulho carregado com máquina"
     ],
     "imageFileId": "6bcec4cc-bdfe-4d77-8931-8215caac9a7a"
   },
