@@ -200,11 +200,14 @@
     text-align: left;
     font-size: 12px;
   }
+  .picker-option:disabled:hover { border-color: var(--border); box-shadow: none; }
   .picker-option:hover { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
   .picker-option img { flex: none; width: 100%; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; }
   .picker-option span { padding: 0 8px; }
   .card.duplicate { border-color: #f5a524; box-shadow: 0 0 0 2px #f5a524; }
   .card.duplicate button.dup { background: #f5a524; border-color: #f5a524; color: #000; }
+  .card.fixed { border-color: #30a46c; box-shadow: 0 0 0 2px #30a46c; }
+  .card.fixed button.fix { background: #30a46c; border-color: #30a46c; color: #fff; }
   .card .duplicate-of { color: #f5a524; font-size: 12px; margin-top: 4px; }
   #problems-dialog .dialog-header, #picker-dialog .dialog-header, #fix-dialog .dialog-header {
     display: flex;
@@ -246,6 +249,7 @@
       <option>6</option><option>8</option><option>12</option><option>16</option><option>24</option>
     </select>
   </label>
+  <label><input id="show-fixed" type="checkbox"> <span id="show-fixed-label">Show fixed (0)</span></label>
   <button id="show-problems">Show problems</button>
   <button id="export">Export problems (0)</button>
   <button id="import">Import problems</button>
@@ -269,6 +273,7 @@
   <div class="dialog-header">
     <h2 id="picker-title">Duplicate of…</h2>
     <input id="picker-search" type="search" placeholder="Search name, alias or #">
+    <label>Type <select id="picker-type-filter"></select></label>
     <button id="picker-confirm" class="primary" disabled>Mark as duplicates</button>
     <button id="close-picker">Close</button>
   </div>
@@ -285,6 +290,7 @@
 <dialog id="fix-dialog">
   <div class="dialog-header">
     <h2 id="fix-title">Fix duplicates</h2>
+    <label>Type <select id="fix-type-filter"></select></label>
     <button id="fix-generate" class="primary">Generate prompt</button>
     <button id="close-fix">Close</button>
   </div>

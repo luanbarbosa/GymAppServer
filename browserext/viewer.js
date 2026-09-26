@@ -1,4 +1,5 @@
-const CATALOG_URL = "https://gymnerd-catalog.pages.dev";
+// Local catalog/ from the repo, reached through the browserext/catalog symlink.
+const CATALOG_URL = chrome.runtime.getURL("catalog");
 const PAGE_SIZE_KEY = "gymnerd.pageSize";
 const OFFSET_KEY = "gymnerd.offset";
 let pageSize = 4;
@@ -15,8 +16,18 @@ try {
   typeFilter = localStorage.getItem(TYPE_FILTER_KEY) || "";
 } catch {}
 
+// Exercises marked as a duplicate of another one are hidden from the grid, as are fixed ones unless "Show fixed" is on.
 function visibleExercises() {
-  return typeFilter ? exercises.filter((e) => e.type === typeFilter) : exercises;
+  return exercises.filter(
+    (e) => !duplicates[e.id] && (showFixed || !fixed.includes(e.id)) && (!typeFilter || e.type === typeFilter),
+  );
+}
+
+// Why an exercise is left out of the grid regardless of the type filter, or null when it can be shown.
+function hiddenReason(exercise) {
+  if (duplicates[exercise.id]) return "Exercise is marked as a duplicate and hidden";
+  if (!showFixed && fixed.includes(exercise.id)) return "Exercise is marked as fixed and hidden";
+  return null;
 }
 // Bumped by "Reset" so every image URL changes and the browser refetches it instead of using its cache.
 // Persisted so a later page load keeps using the fresh copies rather than older cached ones.
@@ -41,6 +52,8 @@ const typeFilterSelect = document.getElementById("type-filter");
 const exportDuplicatesBtn = document.getElementById("export-duplicates");
 const toast = document.getElementById("toast");
 const pageSizeSelect = document.getElementById("page-size");
+const showFixedInput = document.getElementById("show-fixed");
+const showFixedLabel = document.getElementById("show-fixed-label");
 
 const PROBLEMS_KEY = "gymnerd.problemExerciseIds";
 let problems = loadProblems();
@@ -87,7 +100,7 @@ function setDuplicate(id, originalId) {
   if (originalId) duplicates[id] = originalId;
   else delete duplicates[id];
   saveDuplicates();
-  render();
+  goTo(offset);
 }
 
 // Follows duplicate links from id to the end of its chain (an exercise not marked as a duplicate).
@@ -105,6 +118,31 @@ function linkDuplicates(a, b) {
   const rootA = duplicateRoot(a);
   const rootB = duplicateRoot(b);
   if (rootA !== rootB) duplicates[rootA] = rootB;
+}
+
+// Exercises already fixed; hidden from the grid unless "Show fixed" is on. Kept across "Reset".
+const FIXED_KEY = "gymnerd.fixedExerciseIds";
+const SHOW_FIXED_KEY = "gymnerd.showFixed";
+let fixed = [];
+let showFixed = false;
+try {
+  fixed = JSON.parse(localStorage.getItem(FIXED_KEY)) || [];
+  showFixed = localStorage.getItem(SHOW_FIXED_KEY) === "true";
+} catch {}
+
+function saveFixed() {
+  try {
+    localStorage.setItem(FIXED_KEY, JSON.stringify(fixed));
+  } catch {
+    showToast("Could not save to localStorage");
+  }
+  showFixedLabel.textContent = `Show fixed (${fixed.length})`;
+}
+
+function toggleFixed(id) {
+  fixed = fixed.includes(id) ? fixed.filter((x) => x !== id) : [...fixed, id];
+  saveFixed();
+  goTo(offset);
 }
 
 function toggleProblem(id) {
@@ -192,6 +230,7 @@ const pickerTitle = document.getElementById("picker-title");
 const pickerSearch = document.getElementById("picker-search");
 const pickerGrid = document.getElementById("picker-grid");
 const pickerConfirm = document.getElementById("picker-confirm");
+const pickerTypeFilter = document.getElementById("picker-type-filter");
 let pickerSource = null;
 let pickerSelected = [];
 
@@ -206,6 +245,9 @@ function openDuplicatePicker(exercise) {
   document.getElementById("picker-source-name").textContent = `${index + 1}. ${exercise.name}`;
   document.getElementById("picker-source-id").textContent = exercise.id;
   pickerSearch.value = "";
+  // Starts with the main view's type filter.
+  pickerTypeFilter.replaceChildren(...[...typeFilterSelect.options].map((o) => new Option(o.text, o.value)));
+  pickerTypeFilter.value = typeFilter;
   renderPicker();
   pickerDialog.showModal();
   pickerSearch.focus();
@@ -218,12 +260,15 @@ function renderPicker() {
   pickerGrid.innerHTML = "";
   exercises.forEach((exercise, index) => {
     if (exercise.id === pickerSource.id) return;
+    if (pickerTypeFilter.value && exercise.type !== pickerTypeFilter.value) return;
     const haystack = [exercise.name, exercise.namePT, ...(exercise.searchAlias || []), ...(exercise.searchAliasPT || [])]
       .join(" ")
       .toLowerCase();
     if (query && !haystack.includes(query) && String(index + 1) !== query) return;
 
     const option = document.createElement("button");
+    // Already marked as a duplicate of another exercise, so it can't be picked again.
+    option.disabled = Boolean(duplicates[exercise.id]);
     option.className = pickerSelected.includes(exercise.id) ? "picker-option selected" : "picker-option";
     option.onclick = () => {
       pickerSelected = pickerSelected.includes(exercise.id)
@@ -236,7 +281,7 @@ function renderPicker() {
     img.alt = exercise.name;
     if (exercise.imageFileId) img.src = imageUrl(exercise.imageFileId);
     const label = document.createElement("span");
-    label.textContent = `${index + 1}. ${exercise.name}`;
+    label.textContent = `${index + 1}. ${exercise.name}` + (option.disabled ? " (already a duplicate)" : "");
     option.append(img, label);
     pickerGrid.appendChild(option);
   });
@@ -250,7 +295,10 @@ function render() {
     const card = document.createElement("div");
     const isProblem = problems.includes(exercise.id);
     const originalId = duplicates[exercise.id];
-    card.className = ["card", isProblem && "problem", originalId && "duplicate"].filter(Boolean).join(" ");
+    const isFixed = fixed.includes(exercise.id);
+    card.className = ["card", isProblem && "problem", originalId && "duplicate", isFixed && "fixed"]
+      .filter(Boolean)
+      .join(" ");
 
     const imgWrap = document.createElement("div");
     imgWrap.className = "img-wrap";
@@ -294,6 +342,7 @@ function render() {
         () => (originalId ? setDuplicate(exercise.id, null) : openDuplicatePicker(exercise)),
         "dup",
       ),
+      actionButton(isFixed ? "Fixed ✓" : "Fixed", () => toggleFixed(exercise.id), "fix"),
     );
 
     card.append(imgWrap, info, actions);
@@ -318,6 +367,11 @@ function goTo(newOffset) {
 
 // Shows the page containing the exercise, clearing the type filter when it hides the exercise.
 function goToExercise(exercise) {
+  const reason = hiddenReason(exercise);
+  if (reason) {
+    showToast(reason);
+    return;
+  }
   if (typeFilter && exercise.type !== typeFilter) setTypeFilter("");
   const index = visibleExercises().indexOf(exercise);
   goTo(index - (index % pageSize));
@@ -369,6 +423,11 @@ nextBtn.onclick = () => goTo(offset + pageSize);
 jumpInput.onchange = () => {
   const exercise = exercises[Number(jumpInput.value) - 1];
   if (!exercise) return;
+  const reason = hiddenReason(exercise);
+  if (reason) {
+    showToast(reason);
+    return;
+  }
   if (typeFilter && exercise.type !== typeFilter) setTypeFilter("");
   goTo(visibleExercises().indexOf(exercise));
 };
@@ -383,10 +442,11 @@ document.getElementById("copy-all").onclick = () => {
   if (imageIds.length) copy(imageIds.join(","), `${imageIds.length} image ids`);
 };
 pickerSearch.oninput = renderPicker;
+pickerTypeFilter.onchange = renderPicker;
 pickerConfirm.onclick = () => {
   pickerSelected.forEach((id) => linkDuplicates(pickerSource.id, id));
   saveDuplicates();
-  render();
+  goTo(offset);
   pickerDialog.close();
   showToast(`Marked ${pickerSelected.length + 1} exercises as duplicates`);
 };
@@ -435,10 +495,19 @@ clearBtn.onclick = () => {
   saveProblems();
   render();
 };
+showFixedInput.checked = showFixed;
+showFixedInput.onchange = () => {
+  showFixed = showFixedInput.checked;
+  try {
+    localStorage.setItem(SHOW_FIXED_KEY, String(showFixed));
+  } catch {}
+  goTo(offset);
+};
 saveProblems();
 saveDuplicates();
+saveFixed();
 document.addEventListener("keydown", (e) => {
-  if (e.target === jumpInput || e.target === pageSizeSelect || e.target === typeFilterSelect || document.querySelector("dialog[open]")) return;
+  if (e.target === jumpInput || e.target === pageSizeSelect || e.target === typeFilterSelect || e.target === showFixedInput || document.querySelector("dialog[open]")) return;
   if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); if (!nextBtn.disabled) nextBtn.click(); }
   if (e.key === "ArrowLeft") { e.preventDefault(); if (!prevBtn.disabled) prevBtn.click(); }
 });

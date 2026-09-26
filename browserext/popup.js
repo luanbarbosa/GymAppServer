@@ -67,19 +67,20 @@ pasteBtn.addEventListener("click", async () => {
   await loadCatalog(text);
 });
 
-const REMOTE_CATALOG_URL = "https://gymnerd-catalog.pages.dev/exercises.json";
+// Local catalog/exercises.json from the repo, reached through the browserext/catalog symlink.
+const LOCAL_CATALOG_URL = chrome.runtime.getURL("catalog/exercises.json");
 const imageIdInput = document.getElementById("imageIdInput");
 const lookupBtn = document.getElementById("lookupBtn");
 const sourcePicker = document.getElementById("sourcePicker");
 const sourceStatusEl = document.getElementById("sourceStatus");
 
-// Uploaded exercises.json wins over the deployed one, since local edits may not be deployed yet.
+// Uploaded exercises.json wins over the local catalog one.
 async function getSourceCatalog() {
   const { sourceCatalog } = await chrome.storage.session.get("sourceCatalog");
   if (sourceCatalog) return sourceCatalog;
 
-  const response = await fetch(REMOTE_CATALOG_URL, { cache: "no-store" });
-  if (!response.ok) throw new Error(`fetch ${REMOTE_CATALOG_URL} failed: ${response.status}. Upload exercises.json instead.`);
+  const response = await fetch(LOCAL_CATALOG_URL, { cache: "no-store" });
+  if (!response.ok) throw new Error(`fetch ${LOCAL_CATALOG_URL} failed: ${response.status}. Upload exercises.json instead.`);
   return response.json();
 }
 
@@ -87,7 +88,7 @@ async function renderSourceStatus() {
   const { sourceCatalog, sourceName } = await chrome.storage.session.get(["sourceCatalog", "sourceName"]);
   sourceStatusEl.textContent = sourceCatalog
     ? `Using uploaded ${sourceName} (${sourceCatalog.length} exercises)`
-    : `Using ${REMOTE_CATALOG_URL}`;
+    : "Using local catalog/exercises.json";
 }
 
 sourcePicker.addEventListener("change", async (e) => {
