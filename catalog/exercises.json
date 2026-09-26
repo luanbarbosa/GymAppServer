@@ -10007,25 +10007,6 @@
     "imageFileId": "4d103f25-8743-48ec-aca1-81a512e31429"
   },
   {
-    "id": "6683693e-b9c0-4320-b70e-e073db0a1615",
-    "name": "Kneeling Pushup",
-    "namePT": "Ajoelhado flexão de braço",
-    "type": "CHEST",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Kneeling Push-Up"
-    ],
-    "searchAliasPT": [
-      "Flexão de braço"
-    ],
-    "imageFileId": "18e10a80-89c3-4fa4-bcbb-4c1f1dbea18b"
-  },
-  {
     "id": "3b68be17-9e52-46f4-a61e-6d9a819b30c0",
     "name": "L Sit",
     "namePT": "L sentar",
@@ -11699,10 +11680,14 @@
     ],
     "searchAlias": [
       "Pushup On Knees",
-      "Push Up On Knees"
+      "Push Up On Knees",
+      "Kneeling Pushup",
+      "Kneeling Push-Up"
     ],
     "searchAliasPT": [
-      "Push-up em joelho"
+      "Push-up em joelho",
+      "Ajoelhado flexão de braço",
+      "Flexão de braço"
     ],
     "imageFileId": "39298e7c-932b-434d-bb1b-6aa69fd98938"
   },
