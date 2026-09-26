@@ -2791,10 +2791,14 @@
     "name": "Wall sit",
     "namePT": "Cadeira na parede",
     "searchAlias": [
-      "Wall Squat Hold"
+      "Wall Squat Hold",
+      "Sit Wall",
+      "Sit Walls"
     ],
     "searchAliasPT": [
-      "Cadeirinha na parede"
+      "Cadeirinha na parede",
+      "Sentar parede",
+      "Sentar paredes"
     ],
     "type": "LEGS",
     "trackedMetrics": [
@@ -7936,30 +7940,6 @@
     "legacyImageId": null
   },
   {
-    "id": "4ee55f18-0041-41e2-be6b-b74913b99726",
-    "name": "Dumbbell Single Leg Split Squat",
-    "namePT": "Unilateral perna afundo búlgaro com halteres",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Single Leg Split Squat"
-    ],
-    "searchAliasPT": [
-      "Unilateral perna afundo búlgaro",
-      "Perna afundo búlgaro com halteres"
-    ],
-    "imageFileId": "b66fe678-389e-4419-8a36-5994479764e6"
-  },
-  {
     "id": "2aa343dc-bdb7-4ab5-974d-c8ec0070a80b",
     "name": "Dumbbell Situp",
     "namePT": "Abdominal supra com halteres",
@@ -8000,10 +7980,15 @@
       }
     ],
     "searchAlias": [
-      "Split Squat"
+      "Split Squat",
+      "Dumbbell Single Leg Split Squat",
+      "Single Leg Split Squat"
     ],
     "searchAliasPT": [
-      "Afundo búlgaro"
+      "Afundo búlgaro",
+      "Unilateral perna afundo búlgaro com halteres",
+      "Unilateral perna afundo búlgaro",
+      "Perna afundo búlgaro com halteres"
     ],
     "imageFileId": "c89a4dbf-d2dd-4d1b-96e7-6cda49b56bb7"
   },
@@ -8576,10 +8561,14 @@
       }
     ],
     "searchAlias": [
-      "Hamstring Bridge"
+      "Hamstring Bridge",
+      "Rear Decline Bridge",
+      "Decline Bridge"
     ],
     "searchAliasPT": [
-      "Hamstring ponte"
+      "Hamstring ponte",
+      "Posterior declinado ponte",
+      "Declinado ponte"
     ],
     "imageFileId": "55341111-4bda-4eb9-bdd7-f28423fe0f8e"
   },
@@ -8806,8 +8795,8 @@
   },
   {
     "id": "afe76018-0c54-463d-a06c-08813789f55b",
-    "name": "Hyperextension Version 2",
-    "namePT": "Hiperextensão versão 2",
+    "name": "Hyperextension",
+    "namePT": "Hiperextensão",
     "type": "LEGS",
     "trackedMetrics": [
       {
@@ -11031,25 +11020,6 @@
     "imageFileId": "39298e7c-932b-434d-bb1b-6aa69fd98938"
   },
   {
-    "id": "bf333bde-5805-40ba-93fc-57d2520ed75a",
-    "name": "Rear Decline Bridge",
-    "namePT": "Posterior declinado ponte",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Decline Bridge"
-    ],
-    "searchAliasPT": [
-      "Declinado ponte"
-    ],
-    "imageFileId": "48e5aa28-2378-4bbe-853a-8dfe5bf1ed39"
-  },
-  {
     "id": "292f1b9f-8442-40e1-a774-c0963ec70e7a",
     "name": "Resistance Band Hammer Curl",
     "namePT": "Resistência rosca martelo com elástico",
@@ -11580,30 +11550,6 @@
     "legacyImageId": null
   },
   {
-    "id": "37cd7139-9e91-41c1-bfc5-8ca2c789093c",
-    "name": "Single Leg Squat With Support",
-    "namePT": "Unilateral perna agachamento com support",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Leg Squat With Support"
-    ],
-    "searchAliasPT": [
-      "Unilateral perna agachamento",
-      "Perna agachamento com support"
-    ],
-    "imageFileId": "eaa092fb-3cfe-4e2a-bfc8-8afb1e08288a"
-  },
-  {
     "id": "ed808aa5-ec1d-4faa-9d60-bbd5bb8a16f9",
     "name": "Single Leg Squat With Support Pistol",
     "namePT": "Unilateral perna agachamento com support pistol",
@@ -11619,13 +11565,17 @@
       }
     ],
     "searchAlias": [
-      "Leg Squat With Support Pistol"
+      "Leg Squat With Support Pistol",
+      "Single Leg Squat With Support",
+      "Leg Squat With Support"
     ],
     "searchAliasPT": [
       "Unilateral perna agachamento",
-      "Perna agachamento com support pistol"
+      "Perna agachamento com support pistol",
+      "Unilateral perna agachamento com support",
+      "Perna agachamento com support"
     ],
-    "imageFileId": "bc8d1301-9f3f-4528-9c8d-a07f90f6d85c"
+    "imageFileId": "eaa092fb-3cfe-4e2a-bfc8-8afb1e08288a"
   },
   {
     "id": "3f9b622b-d5d6-4198-9a83-b83404da93e7",
@@ -11668,29 +11618,6 @@
       "Reta perna ponte de glúteo isometria esquerda"
     ],
     "imageFileId": "e62a98a6-c2b8-4053-b47a-db7784f4f730"
-  },
-  {
-    "id": "f914eebb-da7e-410c-9bc7-a2d5000b3d54",
-    "name": "Sit Wall",
-    "namePT": "Sentar parede",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Sit Walls"
-    ],
-    "searchAliasPT": [
-      "Sentar paredes"
-    ],
-    "imageFileId": "142fa1bc-72b4-4b41-8d87-5a3151ae48f0"
   },
   {
     "id": "a3a09624-495e-473e-8e3f-1c8aeb98b499",
