@@ -1228,36 +1228,6 @@
     ]
   },
   {
-    "id": "51d57c79-c503-4408-a817-293efdd714b4",
-    "imageFileId": "98dd53fd-968b-4a57-8d4d-2d2f27d7fb40",
-    "legacyImageId": 59,
-    "name": "Plank",
-    "namePT": "Prancha",
-    "searchAlias": [
-      "Forearm Plank",
-      "Front Plank"
-    ],
-    "searchAliasPT": [
-      "Prancha abdominal",
-      "Prancha isométrica"
-    ],
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "DURATION",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ]
-  },
-  {
     "id": "7551e773-5301-4ca4-8339-8a23ea57c5b1",
     "imageFileId": "5aac1830-37e6-4ba9-a0cc-0df7179d22a9",
     "legacyImageId": 61,
@@ -9030,14 +9000,21 @@
     "searchAlias": [
       "Elbow Up And Down Dynamic Planks",
       "Front Elbow Plank",
-      "Elbow Plank"
+      "Elbow Plank",
+      "Plank",
+      "Forearm Plank",
+      "Front Plank"
     ],
     "searchAliasPT": [
       "Cotovelo para cima e para baixo dynamic pranchas",
       "Frontal cotovelo prancha",
-      "Cotovelo prancha"
+      "Cotovelo prancha",
+      "Prancha",
+      "Prancha abdominal",
+      "Prancha isométrica"
     ],
-    "imageFileId": "fdd050b1-02b3-495a-be6a-d0f17f0f8041"
+    "imageFileId": "98dd53fd-968b-4a57-8d4d-2d2f27d7fb40",
+    "legacyImageId": 59
   },
   {
     "id": "489b93e9-d9a5-49aa-8327-0fd438c6e33c",
@@ -9343,25 +9320,6 @@
     "imageFileId": "1252bb93-a188-4567-944d-9cfe2f03c274"
   },
   {
-    "id": "5bbf32cf-7516-4aff-beb0-a2f1954d224b",
-    "name": "Hanging Knee Raise",
-    "namePT": "Elevação de joelhos suspenso",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Knee Raise"
-    ],
-    "searchAliasPT": [
-      "Elevação de joelhos suspensos"
-    ],
-    "imageFileId": "d87e96d5-a7c9-49f0-8450-72625c89d1ee"
-  },
-  {
     "id": "7474138e-ee9a-4368-b184-e283367b8dbc",
     "name": "Hanging Leg Hip Raise",
     "namePT": "Suspenso perna quadril elevação",
@@ -9373,31 +9331,16 @@
       }
     ],
     "searchAlias": [
-      "Leg Hip Raise"
+      "Leg Hip Raise",
+      "Hanging Knee Raise",
+      "Knee Raise"
     ],
     "searchAliasPT": [
-      "Perna quadril elevação"
+      "Perna quadril elevação",
+      "Elevação de joelhos suspenso",
+      "Elevação de joelhos suspensos"
     ],
-    "imageFileId": "25a57379-ee68-44c1-94b3-a35316b1c126"
-  },
-  {
-    "id": "ff9380c2-9b7b-4ce1-89ea-916312a55947",
-    "name": "Hanging Straight Leg Hip Raise",
-    "namePT": "Suspenso reta perna quadril elevação",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Straight Leg Hip Raise"
-    ],
-    "searchAliasPT": [
-      "Reta perna quadril elevação"
-    ],
-    "imageFileId": "e98fe79e-0548-451e-b8e4-5f7b56b40f83"
+    "imageFileId": "d87e96d5-a7c9-49f0-8450-72625c89d1ee"
   },
   {
     "id": "560e3965-4945-4007-b2df-cf993b564657",
@@ -9415,12 +9358,16 @@
       }
     ],
     "searchAlias": [
-      "Straight Leg Raise"
+      "Straight Leg Raise",
+      "Hanging Straight Leg Hip Raise",
+      "Straight Leg Hip Raise"
     ],
     "searchAliasPT": [
-      "Reta elevação de pernas"
+      "Reta elevação de pernas",
+      "Suspenso reta perna quadril elevação",
+      "Reta perna quadril elevação"
     ],
-    "imageFileId": "67e02eb7-e11e-44a2-af5f-52c34090e3f5"
+    "imageFileId": "e98fe79e-0548-451e-b8e4-5f7b56b40f83"
   },
   {
     "id": "fa45a2f9-8c88-4d01-b67a-0b31755c2073",
@@ -11511,25 +11458,6 @@
     "imageFileId": "533b9951-975b-47ab-b955-43da8d7a361c"
   },
   {
-    "id": "f37f9bbf-2765-4b97-9064-f0455490dec0",
-    "name": "Oblique Crunches Floor",
-    "namePT": "Oblique crunches no chão",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Oblique Crunches Floors"
-    ],
-    "searchAliasPT": [
-      "Oblique crunches no chãos"
-    ],
-    "imageFileId": "4fbd8810-5ef5-4302-8bdb-de1064205d00"
-  },
-  {
     "id": "7b922cc5-f3e7-47ba-bdc1-6dfa8508a43a",
     "name": "Pike Pushup",
     "namePT": "Pike flexão de braço",
@@ -12066,12 +11994,16 @@
       }
     ],
     "searchAlias": [
-      "Side Crunch"
+      "Side Crunch",
+      "Oblique Crunches Floor",
+      "Oblique Crunches Floors"
     ],
     "searchAliasPT": [
-      "Lateral abdominal"
+      "Lateral abdominal",
+      "Oblique crunches no chão",
+      "Oblique crunches no chãos"
     ],
-    "imageFileId": "889da6f9-58c7-4976-b5af-b64c9999bee4"
+    "imageFileId": "4fbd8810-5ef5-4302-8bdb-de1064205d00"
   },
   {
     "id": "a214f643-e0f5-4383-91b6-e0417b81e895",
@@ -12724,29 +12656,6 @@
     "imageFileId": "64727abb-3464-40a0-950e-9ecefbcdf578"
   },
   {
-    "id": "eba0eb58-bfd2-4e85-aa34-da57c2cbb114",
-    "name": "Spider Plank",
-    "namePT": "Spider prancha",
-    "type": "CORE",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ],
-    "searchAlias": [
-      "Spider Planks"
-    ],
-    "searchAliasPT": [
-      "Spider pranchas"
-    ],
-    "imageFileId": "04a7afe6-8ef3-4080-a922-a7804054ed41"
-  },
-  {
     "id": "21a958d0-21f5-4b46-9d85-6a72f75ed136",
     "name": "Spiderman Plank",
     "namePT": "Spiderman prancha",
@@ -12758,10 +12667,14 @@
       }
     ],
     "searchAlias": [
-      "Spiderman Planks"
+      "Spiderman Planks",
+      "Spider Plank",
+      "Spider Planks"
     ],
     "searchAliasPT": [
-      "Spiderman pranchas"
+      "Spiderman pranchas",
+      "Spider prancha",
+      "Spider pranchas"
     ],
     "imageFileId": "49b50b4c-e6e2-4068-ab29-a0332194f541"
   },
