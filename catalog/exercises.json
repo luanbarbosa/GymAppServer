@@ -2236,26 +2236,6 @@
     ]
   },
   {
-    "id": "5e9606a7-6c37-422c-a4f4-df2f6cff4168",
-    "imageFileId": "a02cc7a0-d892-4886-beb1-1dcc21f2c3bc",
-    "legacyImageId": null,
-    "name": "Superman",
-    "namePT": "Superman",
-    "searchAlias": [
-      "Superman Back Extension"
-    ],
-    "searchAliasPT": [
-      "Extensão lombar superman"
-    ],
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "f70852a2-7ecc-4a92-9222-44e43985522a",
     "imageFileId": "98e81bd3-0be1-44d8-9438-fdc12067415f",
     "legacyImageId": null,
@@ -4590,25 +4570,6 @@
     "imageFileId": "31b1fcae-27a4-4ea5-b0df-2de66a87fa88"
   },
   {
-    "id": "d86b1867-9249-49f3-a9ff-4260be1ec353",
-    "name": "Assisted Chinup",
-    "namePT": "Assistido barra supinada",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Assisted Chin-Up"
-    ],
-    "searchAliasPT": [
-      "Barra supinada"
-    ],
-    "imageFileId": "6f14b066-2c04-4c87-8249-518ed8a6f650"
-  },
-  {
     "id": "b62900ca-0f9c-4a6c-a899-523251a22ca1",
     "name": "Assisted Close Grip Underhand Chinup",
     "namePT": "Assistido fechado pegada supinado barra supinada",
@@ -4625,12 +4586,16 @@
     ],
     "searchAlias": [
       "Assisted Close Grip Underhand Chin-Up",
-      "Close Grip Underhand Chinup"
+      "Close Grip Underhand Chinup",
+      "Assisted Chinup",
+      "Assisted Chin-Up"
     ],
     "searchAliasPT": [
-      "Fechado pegada supinado barra supinada"
+      "Fechado pegada supinado barra supinada",
+      "Assistido barra supinada",
+      "Barra supinada"
     ],
-    "imageFileId": "99b28de1-0791-44b4-849d-260ec95047c6"
+    "imageFileId": "6f14b066-2c04-4c87-8249-518ed8a6f650"
   },
   {
     "id": "db1f2ea8-dff7-44ea-8853-455cb83a8160",
@@ -4659,8 +4624,8 @@
   },
   {
     "id": "2e4acf2c-9929-455e-ad93-bd2f6551c4c5",
-    "name": "Band Assisted Pullup Version 3",
-    "namePT": "Assistido barra fixa versão 3 com elástico",
+    "name": "Band Assisted Pull-Up",
+    "namePT": "Barra Fixa Assistida com Elástico",
     "type": "BACK",
     "trackedMetrics": [
       {
@@ -6981,32 +6946,6 @@
     "imageFileId": "cd0e3843-dcf0-4c65-adb9-ee7a93d67d6d"
   },
   {
-    "id": "5b86bce6-edf4-4ce8-b4a4-efebb833ede8",
-    "name": "Cable Reverse Grip Pulldown",
-    "namePT": "Invertido pegada puxada com cabo",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Reverse Grip Pulldown"
-    ],
-    "searchAliasPT": [
-      "Invertido pegada puxada",
-      "Pegada puxada com cabo",
-      "Invertido pegada pulldown com cabo",
-      "Invertido pegada pulldown"
-    ],
-    "imageFileId": "83ead005-e579-46fb-8ffe-fe9bbd152356"
-  },
-  {
     "id": "62daba3b-6e5f-4404-8468-a619097d5b1b",
     "name": "Cable Reverse Grip Straight Back Seated High Row",
     "namePT": "Invertido pegada reta costas sentado alto remada com cabo",
@@ -7022,13 +6961,20 @@
       }
     ],
     "searchAlias": [
-      "Reverse Grip Straight Back Seated High Row"
+      "Reverse Grip Straight Back Seated High Row",
+      "Cable Reverse Grip Pulldown",
+      "Reverse Grip Pulldown"
     ],
     "searchAliasPT": [
       "Invertido pegada reta costas sentado alto remada",
-      "Pegada reta costas sentado alto remada com cabo"
+      "Pegada reta costas sentado alto remada com cabo",
+      "Invertido pegada puxada com cabo",
+      "Invertido pegada puxada",
+      "Pegada puxada com cabo",
+      "Invertido pegada pulldown com cabo",
+      "Invertido pegada pulldown"
     ],
-    "imageFileId": "c9d8ba61-80a1-4cb6-a2a5-4bbb7ac47cda"
+    "imageFileId": "83ead005-e579-46fb-8ffe-fe9bbd152356"
   },
   {
     "id": "7cdad072-d311-4db6-80bf-a094c34dce1a",
@@ -8231,30 +8177,6 @@
     "imageFileId": "009dcbd8-661f-4d63-ab3d-91423535917f"
   },
   {
-    "id": "efb964c0-4176-4e01-8a7f-290fc41e3480",
-    "name": "Dumbbell Lying Neutral Grip Row On Rack",
-    "namePT": "Deitado neutro pegada remada em suporte com halteres",
-    "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Lying Neutral Grip Row On Rack"
-    ],
-    "searchAliasPT": [
-      "Deitado neutro pegada remada em suporte",
-      "Neutro pegada remada em suporte com halteres"
-    ],
-    "imageFileId": "6adb6ef7-49cd-4489-9437-50d123ef1548"
-  },
-  {
     "id": "7a4c7d92-7e3e-4d36-9514-02b8d4dca96c",
     "name": "Dumbbell Lying On Floor Chest Press",
     "namePT": "Deitado em no chão supino com halteres",
@@ -8294,11 +8216,16 @@
       }
     ],
     "searchAlias": [
-      "Lying Seal Row On Rack"
+      "Lying Seal Row On Rack",
+      "Dumbbell Lying Neutral Grip Row On Rack",
+      "Lying Neutral Grip Row On Rack"
     ],
     "searchAliasPT": [
       "Deitado remada foca em suporte",
-      "Remada foca em suporte com halteres"
+      "Remada foca em suporte com halteres",
+      "Deitado neutro pegada remada em suporte com halteres",
+      "Deitado neutro pegada remada em suporte",
+      "Neutro pegada remada em suporte com halteres"
     ],
     "imageFileId": "61210e88-4136-4c6c-a34e-7bb704253d37"
   },
@@ -13268,12 +13195,17 @@
       }
     ],
     "searchAlias": [
-      "Superman Holds"
+      "Superman Holds",
+      "Superman",
+      "Superman Back Extension"
     ],
     "searchAliasPT": [
-      "Superman isometrias"
+      "Superman isometrias",
+      "Superman",
+      "Extensão lombar superman"
     ],
-    "imageFileId": "57af8d41-c24d-41fd-bba5-038c24240d9e"
+    "imageFileId": "a02cc7a0-d892-4886-beb1-1dcc21f2c3bc",
+    "legacyImageId": null
   },
   {
     "id": "48422737-9ae6-4e6d-a562-11f014d4e5e1",
