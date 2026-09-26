@@ -5521,8 +5521,8 @@
   },
   {
     "id": "fed4f14a-c3b2-4a7b-8515-279828575f43",
-    "name": "Barbell Lying Triceps Extension Skullcrusher",
-    "namePT": "Deitado extensão de tríceps extensão de tríceps testa com barra",
+    "name": "Barbell Skullcrusher",
+    "namePT": "Tríceps Testa com Barra",
     "type": "ARMS",
     "trackedMetrics": [
       {
@@ -5535,19 +5535,28 @@
       }
     ],
     "searchAlias": [
-      "Lying Triceps Extension Skullcrusher",
-      "Barbell Lying Tricep Extension Skullcrusher",
-      "Lying Tricep Extension Skullcrusher",
-      "Barbell skullcrusher",
-      "Barbell Lying Triceps Extension"
+      "skullcrusher",
+      "skull crusher",
+      "barbell skull crusher",
+      "lying triceps extension",
+      "barbell lying triceps extension",
+      "EZ bar skullcrusher",
+      "french press",
+      "lying french press",
+      "nose breaker",
+      "triceps extension"
     ],
     "searchAliasPT": [
-      "Deitado extensão de tríceps extensão de tríceps testa",
-      "Extensão de tríceps extensão de tríceps testa com barra",
-      "Deitado extensão de triceps extensão de triceps testa com barra",
-      "Deitado extensão de triceps extensão de triceps testa",
-      "Tríceps testa com barra",
-      "Tríceps francês com barra"
+      "tríceps testa",
+      "triceps testa",
+      "tríceps testa com barra",
+      "testa com barra",
+      "tríceps testa barra W",
+      "tríceps francês deitado",
+      "extensão de tríceps deitado",
+      "extensão de tríceps com barra",
+      "rosca francesa deitado",
+      "tríceps deitado"
     ],
     "imageFileId": "99593325-f454-4533-b98e-1aad4fdf8c4a",
     "legacyImageId": null
@@ -6755,8 +6764,8 @@
   },
   {
     "id": "6fd1e9d9-257a-47cd-9cef-1704d5ef9326",
-    "name": "Cable Kickback II",
-    "namePT": "Kickback ii com cabo",
+    "name": "Cable Tricep Kickback",
+    "namePT": "Tríceps Coice na Polia",
     "type": "ARMS",
     "trackedMetrics": [
       {
