@@ -1,60 +1,5 @@
 [
   {
-    "id": "a28709fb-2059-4de6-983c-b2eac1bb4457",
-    "imageFileId": "dd0c9287-ae6e-40c0-ac8c-a241eb099f37",
-    "legacyImageId": 1,
-    "name": "Sled 45 degrees",
-    "namePT": "Leg press 45 graus",
-    "searchAlias": [
-      "45 Degree Leg Press",
-      "Leg Press",
-      "Sled Leg Press"
-    ],
-    "searchAliasPT": [
-      "Leg press 45",
-      "Prensa de pernas 45 graus",
-      "Agachamento no leg press"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "8652c815-9e52-4e70-8959-cf35748da65d",
-    "imageFileId": "12c130eb-44ae-4c46-8d8f-58a46aaa9337",
-    "legacyImageId": 2,
-    "name": "Lever leg extension",
-    "namePT": "Cadeira extensora",
-    "searchAlias": [
-      "Leg Extension Machine",
-      "Machine Leg Extension",
-      "Quad Extension"
-    ],
-    "searchAliasPT": [
-      "Extensora",
-      "Mesa extensora"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "749732d6-43fc-4ada-a29e-e2c6d3450d38",
     "imageFileId": "0d1c253a-224e-41f2-8ca3-edfc29a9e99f",
     "legacyImageId": 3,
@@ -993,32 +938,6 @@
     ]
   },
   {
-    "id": "e6461d37-51ee-4b9a-a96c-0b45e1e0e35f",
-    "imageFileId": "37cb619a-4158-4c87-92e3-16929c0eddae",
-    "legacyImageId": 48,
-    "name": "Single leg extension",
-    "namePT": "Cadeira extensora unilateral",
-    "searchAlias": [
-      "Unilateral Leg Extension",
-      "One Leg Extension"
-    ],
-    "searchAliasPT": [
-      "Extensora unilateral",
-      "Cadeira extensora uma perna"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "0904e1fa-eac1-4916-8d23-9f01c45ae944",
     "imageFileId": "59a87a4d-467b-451c-a529-111bef131b26",
     "legacyImageId": 49,
@@ -1057,85 +976,6 @@
     "searchAliasPT": [
       "Panturrilha em pé",
       "Panturrilha na máquina articulada"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "aab5c137-39f7-45ff-a438-a8cef3afaff8",
-    "imageFileId": "c9ef3862-87b6-470e-bfe0-324ed5f85d0b",
-    "legacyImageId": 51,
-    "name": "Bulgarian split squat",
-    "namePT": "Agachamento búlgaro",
-    "searchAlias": [
-      "Rear Foot Elevated Split Squat",
-      "RFESS",
-      "Bulgarian Squat"
-    ],
-    "searchAliasPT": [
-      "Afundo búlgaro",
-      "Agachamento búlgaro unilateral"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "429f0124-edde-421c-a99e-37dec9232afa",
-    "imageFileId": "10c87739-178f-4d6a-a32d-965b7cc8ece4",
-    "legacyImageId": 52,
-    "name": "Barbell back squat",
-    "namePT": "Agachamento livre",
-    "searchAlias": [
-      "Back Squat",
-      "Barbell Squat"
-    ],
-    "searchAliasPT": [
-      "Agachamento com barra",
-      "Agachamento livre com barra"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "4a387118-9424-4f61-a943-54d494d31662",
-    "imageFileId": "d33bb71d-56c4-49f5-88a1-b5411e2dd2c6",
-    "legacyImageId": 53,
-    "name": "Horizontal leg press",
-    "namePT": "Leg horizontal",
-    "searchAlias": [
-      "Horizontal Leg Press Machine",
-      "Leg Press Horizontal"
-    ],
-    "searchAliasPT": [
-      "Leg press horizontal",
-      "Prensa de pernas horizontal"
     ],
     "type": "LEGS",
     "trackedMetrics": [
@@ -1328,32 +1168,6 @@
     ]
   },
   {
-    "id": "3f2a00b8-d1db-440e-890c-100007f1d548",
-    "imageFileId": "e83253a5-d1b0-48af-a2aa-7b0f353533f9",
-    "legacyImageId": 69,
-    "name": "Lying leg curl",
-    "namePT": "Flexora deitado",
-    "searchAlias": [
-      "Prone Leg Curl",
-      "Lying Hamstring Curl"
-    ],
-    "searchAliasPT": [
-      "Mesa flexora deitado",
-      "Flexora de pernas deitado"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "4e15ef91-7b44-48b6-92e2-d8cfc5aada14",
     "imageFileId": "b7b30290-dcf1-4c92-81a7-7178cb5cd09e",
     "legacyImageId": 70,
@@ -1368,32 +1182,6 @@
       "Puxada com barra neutra"
     ],
     "type": "BACK",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "3cb4e98c-92a2-4015-89e8-42e4ce5f0aea",
-    "imageFileId": "1ebfebcb-c0b8-4fc2-8f15-618e138498fc",
-    "legacyImageId": 72,
-    "name": "Machine Hack Squat",
-    "namePT": "Agachamento na máquina hack",
-    "searchAlias": [
-      "Hack Squat",
-      "Hack Squat Machine"
-    ],
-    "searchAliasPT": [
-      "Hack squat",
-      "Agachamento hack"
-    ],
-    "type": "LEGS",
     "trackedMetrics": [
       {
         "type": "WEIGHT",
@@ -2070,32 +1858,6 @@
       {
         "type": "REPS",
         "default": true
-      }
-    ]
-  },
-  {
-    "id": "f70852a2-7ecc-4a92-9222-44e43985522a",
-    "imageFileId": "98e81bd3-0be1-44d8-9438-fdc12067415f",
-    "legacyImageId": null,
-    "name": "Hyperextension",
-    "namePT": "Extensão lombar no banco romano",
-    "searchAlias": [
-      "Back Extension",
-      "Roman Chair Extension"
-    ],
-    "searchAliasPT": [
-      "Banco romano",
-      "Extensão de lombar"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
       }
     ]
   },
@@ -2973,78 +2735,6 @@
     ]
   },
   {
-    "id": "b469c910-ab84-47f4-b720-671e3d30233b",
-    "imageFileId": "ec678036-bdbd-40fd-abc0-07c0b1354f45",
-    "legacyImageId": null,
-    "name": "Goblet squat",
-    "namePT": "Agachamento goblet",
-    "searchAlias": [
-      "Dumbbell Goblet Squat"
-    ],
-    "searchAliasPT": [
-      "Agachamento com halter no peito"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "b94b62fa-3521-481f-bfa5-3f80e982118a",
-    "imageFileId": "164c65de-ec2f-4e8a-ab0d-dad2de8f9514",
-    "legacyImageId": null,
-    "name": "Walking dumbbell lunge",
-    "namePT": "Passada com halteres",
-    "searchAlias": [
-      "Walking Lunge"
-    ],
-    "searchAliasPT": [
-      "Afundo caminhando"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "fe4c9b55-d81f-4d7e-8e04-b26190fb2479",
-    "imageFileId": "43d056eb-1ba0-4911-b280-83da399b3a25",
-    "legacyImageId": null,
-    "name": "Barbell reverse lunge",
-    "namePT": "Afundo reverso com barra",
-    "searchAlias": [
-      "Reverse Lunge"
-    ],
-    "searchAliasPT": [
-      "Passada reversa com barra"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
     "id": "e6a1ccff-8f51-4f81-90b7-4a72ae881a61",
     "imageFileId": "f8346042-56dd-4aff-9a59-4a98a4b51d2b",
     "legacyImageId": null,
@@ -3057,54 +2747,6 @@
     "searchAliasPT": [
       "Step up",
       "Subida no banco"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "50a8647c-9f09-4d0d-8842-247808bdecf5",
-    "imageFileId": "98350838-53c3-420c-b762-15abf882c325",
-    "legacyImageId": null,
-    "name": "Box jump",
-    "namePT": "Salto na caixa",
-    "searchAlias": [
-      "Plyo Box Jump",
-      "Lateral Box Jump",
-      "Lateral Box Jumps"
-    ],
-    "searchAliasPT": [
-      "Salto no box",
-      "Lateral salto no caixote",
-      "Lateral salto no caixotes"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "b06a7dc3-4fcb-4bfe-b8bb-5f3828e51679",
-    "imageFileId": "d396b7c1-f1b2-419e-adbd-77baa9a8e62e",
-    "legacyImageId": null,
-    "name": "Barbell glute bridge",
-    "namePT": "Elevação pélvica com barra",
-    "searchAlias": [
-      "Glute Bridge"
-    ],
-    "searchAliasPT": [
-      "Ponte de glúteo com barra"
     ],
     "type": "LEGS",
     "trackedMetrics": [
@@ -3191,54 +2833,6 @@
     ]
   },
   {
-    "id": "50e66007-97b7-4a01-a4d4-85a1e95b5c75",
-    "imageFileId": "ec76d056-9a18-46d0-9c8e-c0d8e492ae1d",
-    "legacyImageId": null,
-    "name": "Zercher squat",
-    "namePT": "Agachamento Zercher",
-    "searchAlias": [
-      "Zercher Squat"
-    ],
-    "searchAliasPT": [
-      "Agachamento Zercher com barra"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "a3c20ac1-9bcb-425e-bbd9-d8f098997456",
-    "imageFileId": "696dc9b4-6116-4ec9-9c5e-8189d4e28b56",
-    "legacyImageId": null,
-    "name": "Pistol squat",
-    "namePT": "Agachamento pistol",
-    "searchAlias": [
-      "Single Leg Squat"
-    ],
-    "searchAliasPT": [
-      "Agachamento unilateral pistol"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": false
-      }
-    ]
-  },
-  {
     "id": "ed369036-2531-4d94-9ba1-973d0b39f0eb",
     "imageFileId": "d97b460a-0a71-4945-a0c7-09c42357536b",
     "legacyImageId": null,
@@ -3321,30 +2915,6 @@
     ],
     "searchAliasPT": [
       "Panturrilha em pé barra nas costas"
-    ],
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "WEIGHT",
-        "default": true
-      },
-      {
-        "type": "REPS",
-        "default": true
-      }
-    ]
-  },
-  {
-    "id": "1e3011df-6a4b-4db3-8ecb-bfb6e53a5ba0",
-    "imageFileId": "90c1af63-8526-4b36-80f8-f6de996e82e7",
-    "legacyImageId": null,
-    "name": "Single leg dumbbell Romanian deadlift",
-    "namePT": "Levantamento terra romeno unilateral com halteres",
-    "searchAlias": [
-      "Single Leg RDL"
-    ],
-    "searchAliasPT": [
-      "Terra romeno unilateral"
     ],
     "type": "LEGS",
     "trackedMetrics": [
@@ -4760,13 +4330,17 @@
       }
     ],
     "searchAlias": [
-      "Full Zercher Squat"
+      "Full Zercher Squat",
+      "Zercher squat"
     ],
     "searchAliasPT": [
       "Completo zercher agachamento",
-      "Zercher agachamento com barra"
+      "Zercher agachamento com barra",
+      "Agachamento Zercher",
+      "Agachamento Zercher com barra"
     ],
-    "imageFileId": "e149d038-d647-4fa4-bf1e-832d245f2898"
+    "imageFileId": "ec76d056-9a18-46d0-9c8e-c0d8e492ae1d",
+    "legacyImageId": null
   },
   {
     "id": "53ef0206-37b4-4017-a84e-03507b58270f",
@@ -4784,12 +4358,17 @@
       }
     ],
     "searchAlias": [
-      "Glute Bridge Hands On Bar"
+      "Glute Bridge Hands On Bar",
+      "Barbell glute bridge",
+      "Glute Bridge"
     ],
     "searchAliasPT": [
-      "Ponte de glúteo mãos em barra"
+      "Ponte de glúteo mãos em barra",
+      "Elevação pélvica com barra",
+      "Ponte de glúteo com barra"
     ],
-    "imageFileId": "cd0f51e3-33d4-487e-a027-b6eb9542a5ef"
+    "imageFileId": "d396b7c1-f1b2-419e-adbd-77baa9a8e62e",
+    "legacyImageId": null
   },
   {
     "id": "52be16de-f2ff-4a9e-91a7-1e9706060bbc",
@@ -4957,12 +4536,17 @@
       }
     ],
     "searchAlias": [
-      "Lunge"
+      "Lunge",
+      "Barbell reverse lunge",
+      "Reverse Lunge"
     ],
     "searchAliasPT": [
-      "Afundo"
+      "Afundo",
+      "Afundo reverso com barra",
+      "Passada reversa com barra"
     ],
-    "imageFileId": "03bca0f6-2875-4013-bfd8-695c217f0d46"
+    "imageFileId": "03bca0f6-2875-4013-bfd8-695c217f0d46",
+    "legacyImageId": null
   },
   {
     "id": "138487a2-a326-472b-9cd4-bb42e87b63e5",
@@ -5400,32 +4984,6 @@
     "imageFileId": "baa17499-31b4-40c1-a584-9cd5b607fabe"
   },
   {
-    "id": "4523cd69-e72e-4596-8fe8-dd706dd3d016",
-    "name": "Barbell Standing Leg Calf Raise",
-    "namePT": "Em pé perna elevação de panturrilha com barra",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Standing Leg Calf Raise"
-    ],
-    "searchAliasPT": [
-      "Em pé perna elevação de panturrilha",
-      "Perna elevação de panturrilha com barra",
-      "De pé perna elevação de panturrilha com barra",
-      "De pé perna elevação de panturrilha"
-    ],
-    "imageFileId": "4b64dd30-66f8-4610-87b0-6b8f738bea9f"
-  },
-  {
     "id": "04881914-a610-4298-83b6-609527475005",
     "name": "Barbell Standing Military Press Without Rack",
     "namePT": "Em pé desenvolvimento militar sem suporte com barra",
@@ -5467,13 +5025,20 @@
       }
     ],
     "searchAlias": [
-      "Standing Single Leg Calf Raise"
+      "Standing Single Leg Calf Raise",
+      "Barbell Standing Leg Calf Raise",
+      "Standing Leg Calf Raise"
     ],
     "searchAliasPT": [
       "Em pé unilateral perna elevação de panturrilha",
       "Unilateral perna elevação de panturrilha com barra",
       "De pé unilateral perna elevação de panturrilha com barra",
-      "De pé unilateral perna elevação de panturrilha"
+      "De pé unilateral perna elevação de panturrilha",
+      "Em pé perna elevação de panturrilha com barra",
+      "Em pé perna elevação de panturrilha",
+      "Perna elevação de panturrilha com barra",
+      "De pé perna elevação de panturrilha com barra",
+      "De pé perna elevação de panturrilha"
     ],
     "imageFileId": "6799763d-87d1-4b43-a80c-34e82b25190e"
   },
@@ -5524,29 +5089,6 @@
     "imageFileId": "7f696cca-52f6-405d-8222-7a4006216900"
   },
   {
-    "id": "026b6e1a-79d3-4e9f-894d-3b78fb147689",
-    "name": "Barbell Sumo Deadlift",
-    "namePT": "Levantamento terra sumô com barra",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Sumo Deadlift"
-    ],
-    "searchAliasPT": [
-      "Levantamento terra sumô"
-    ],
-    "imageFileId": "1bf7532c-be22-4d3f-9cad-eeeb5ea619c1"
-  },
-  {
     "id": "a7a9d1f4-4fce-48ba-a25d-413333dc820b",
     "name": "Barbell Sumo Squat",
     "namePT": "Agachamento sumô com barra",
@@ -5562,10 +5104,14 @@
       }
     ],
     "searchAlias": [
-      "Sumo Squat"
+      "Sumo Squat",
+      "Barbell Sumo Deadlift",
+      "Sumo Deadlift"
     ],
     "searchAliasPT": [
-      "Agachamento sumô"
+      "Agachamento sumô",
+      "Levantamento terra sumô com barra",
+      "Levantamento terra sumô"
     ],
     "imageFileId": "51c2fa04-da08-4377-bb55-9d599338b27f"
   },
@@ -6125,30 +5671,6 @@
     ],
     "imageFileId": "86e09208-8fb9-4c03-88dd-38b41d697328",
     "legacyImageId": 63
-  },
-  {
-    "id": "95656496-c946-40d9-989e-d62384a9ec40",
-    "name": "Cable Hip Abduction Version 2",
-    "namePT": "Quadril abdução versão 2 com cabo",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Hip Abduction Version 2",
-      "Cable Hip Abduction"
-    ],
-    "searchAliasPT": [
-      "Quadril abdução versão 2"
-    ],
-    "imageFileId": "0fd050fc-95ba-4728-bb09-635bffcbf163"
   },
   {
     "id": "559ca415-2428-4b99-a2bf-335df15acb18",
@@ -6821,13 +6343,18 @@
     ],
     "searchAlias": [
       "Standing Hip Abduction Version 3",
-      "Cable Standing Hip Abduction"
+      "Cable Standing Hip Abduction",
+      "Cable Hip Abduction Version 2",
+      "Hip Abduction Version 2",
+      "Cable Hip Abduction"
     ],
     "searchAliasPT": [
       "Em pé quadril abdução versão 3",
       "Quadril abdução versão 3 com cabo",
       "De pé quadril abdução versão 3 com cabo",
-      "De pé quadril abdução versão 3"
+      "De pé quadril abdução versão 3",
+      "Quadril abdução versão 2 com cabo",
+      "Quadril abdução versão 2"
     ],
     "imageFileId": "5850162b-4b31-44c6-9944-bac8a13f52f4"
   },
@@ -7441,12 +6968,19 @@
       }
     ],
     "searchAlias": [
-      "Bulgarian Split Squat"
+      "Bulgarian Split Squat",
+      "Rear Foot Elevated Split Squat",
+      "RFESS",
+      "Bulgarian Squat"
     ],
     "searchAliasPT": [
-      "Búlgaro afundo búlgaro"
+      "Búlgaro afundo búlgaro",
+      "Agachamento búlgaro",
+      "Afundo búlgaro",
+      "Agachamento búlgaro unilateral"
     ],
-    "imageFileId": "14dc3bb2-3d28-420f-86d0-7b99a2ac4b42"
+    "imageFileId": "14dc3bb2-3d28-420f-86d0-7b99a2ac4b42",
+    "legacyImageId": 51
   },
   {
     "id": "bee9bdc4-ff05-49f2-9f6b-630376ec1bbe",
@@ -7577,29 +7111,6 @@
     ],
     "imageFileId": "c4851bcf-c668-4e2f-97d9-b458a5492a70",
     "legacyImageId": 43
-  },
-  {
-    "id": "68973606-2634-4f1e-9cc4-5e8b87c3bed2",
-    "name": "Dumbbell Frog Hip Thrust",
-    "namePT": "Frog elevação de quadril com halteres",
-    "type": "LEGS",
-    "trackedMetrics": [
-      {
-        "type": "REPS",
-        "default": true
-      },
-      {
-        "type": "WEIGHT",
-        "default": true
-      }
-    ],
-    "searchAlias": [
-      "Frog Hip Thrust"
-    ],
-    "searchAliasPT": [
-      "Frog elevação de quadril"
-    ],
-    "imageFileId": "d3d5eeae-b0e3-47c0-babe-207ed1ecd5c4"
   },
   {
     "id": "f312802c-45ab-4229-97ef-0d17c74b7a9b",
@@ -8411,13 +7922,18 @@
       }
     ],
     "searchAlias": [
-      "Single Leg Romanian Deadlift Leg Raise"
+      "Single Leg Romanian Deadlift Leg Raise",
+      "Single leg dumbbell Romanian deadlift",
+      "Single Leg RDL"
     ],
     "searchAliasPT": [
       "Unilateral perna levantamento terra romeno elevação de pernas",
-      "Perna levantamento terra romeno elevação de pernas com halteres"
+      "Perna levantamento terra romeno elevação de pernas com halteres",
+      "Levantamento terra romeno unilateral com halteres",
+      "Terra romeno unilateral"
     ],
-    "imageFileId": "599d7c92-6001-4663-8584-aeac7fcbdb41"
+    "imageFileId": "599d7c92-6001-4663-8584-aeac7fcbdb41",
+    "legacyImageId": null
   },
   {
     "id": "4ee55f18-0041-41e2-be6b-b74913b99726",
@@ -8803,12 +8319,16 @@
       }
     ],
     "searchAlias": [
-      "Walking Lunge"
+      "Walking Lunge",
+      "Walking dumbbell lunge"
     ],
     "searchAliasPT": [
-      "Caminhando afundo"
+      "Caminhando afundo",
+      "Passada com halteres",
+      "Afundo caminhando"
     ],
-    "imageFileId": "bde13771-c706-4543-b543-43f75c7d457c"
+    "imageFileId": "164c65de-ec2f-4e8a-ab0d-dad2de8f9514",
+    "legacyImageId": null
   },
   {
     "id": "6f02b1a2-b6d7-4b4b-9c98-ca9d985bdd50",
@@ -9300,12 +8820,18 @@
       }
     ],
     "searchAlias": [
-      "Hyperextension"
+      "Hyperextension",
+      "Back Extension",
+      "Roman Chair Extension"
     ],
     "searchAliasPT": [
-      "Hiperextensão"
+      "Hiperextensão",
+      "Extensão lombar no banco romano",
+      "Banco romano",
+      "Extensão de lombar"
     ],
-    "imageFileId": "6b00a016-9759-4b88-8b27-1c303fcb5b9b"
+    "imageFileId": "98e81bd3-0be1-44d8-9438-fdc12067415f",
+    "legacyImageId": null
   },
   {
     "id": "23930cd5-ebb3-4641-ac8c-421dfb7f665b",
@@ -9390,12 +8916,21 @@
       }
     ],
     "searchAlias": [
-      "Jump Boxs"
+      "Jump Boxs",
+      "Box jump",
+      "Plyo Box Jump",
+      "Lateral Box Jump",
+      "Lateral Box Jumps"
     ],
     "searchAliasPT": [
-      "Salto caixotes"
+      "Salto caixotes",
+      "Salto na caixa",
+      "Salto no box",
+      "Lateral salto no caixote",
+      "Lateral salto no caixotes"
     ],
-    "imageFileId": "2b999221-024a-4e1a-ad17-eb55e26f4646"
+    "imageFileId": "98350838-53c3-420c-b762-15abf882c325",
+    "legacyImageId": null
   },
   {
     "id": "eaddd17e-005a-4518-b238-93275d9e512d",
@@ -9532,12 +9067,15 @@
       }
     ],
     "searchAlias": [
-      "Goblet Squat"
+      "Goblet Squat",
+      "Dumbbell Goblet Squat"
     ],
     "searchAliasPT": [
-      "Agachamento goblet"
+      "Agachamento goblet",
+      "Agachamento com halter no peito"
     ],
-    "imageFileId": "c789a216-a06a-44e2-a5ec-7723d9eb4e18"
+    "imageFileId": "ec678036-bdbd-40fd-abc0-07c0b1354f45",
+    "legacyImageId": null
   },
   {
     "id": "72077322-dae3-4150-9bba-d977cc0b1c08",
@@ -10339,14 +9877,20 @@
     "searchAlias": [
       "Lying Leg Curl",
       "Machine Lying Leg Curl",
-      "Leverage Lying Leg Curl"
+      "Leverage Lying Leg Curl",
+      "Prone Leg Curl",
+      "Lying Hamstring Curl"
     ],
     "searchAliasPT": [
       "Deitado perna rosca",
       "Perna rosca com alavanca",
-      "Deitado perna rosca com máquina"
+      "Deitado perna rosca com máquina",
+      "Flexora deitado",
+      "Mesa flexora deitado",
+      "Flexora de pernas deitado"
     ],
-    "imageFileId": "4e876ab4-5fd1-41d4-98a9-57dc2b45689c"
+    "imageFileId": "4e876ab4-5fd1-41d4-98a9-57dc2b45689c",
+    "legacyImageId": 69
   },
   {
     "id": "17d7bf62-dbf6-41c2-912a-bf6b770f5e55",
@@ -10459,13 +10003,19 @@
     "searchAlias": [
       "One Leg Extension",
       "Machine One Leg Extension",
-      "Leverage One Leg Extension"
+      "Leverage One Leg Extension",
+      "Single leg extension",
+      "Unilateral Leg Extension"
     ],
     "searchAliasPT": [
       "Um perna extensão",
-      "Um perna extensão com máquina"
+      "Um perna extensão com máquina",
+      "Cadeira extensora unilateral",
+      "Extensora unilateral",
+      "Cadeira extensora uma perna"
     ],
-    "imageFileId": "f8b2c3f8-328b-4afb-989b-44bdac526d6e"
+    "imageFileId": "37cb619a-4158-4c87-92e3-16929c0eddae",
+    "legacyImageId": 48
   },
   {
     "id": "c522af54-48b9-46fd-b0a1-204f52ab73cb",
@@ -10726,14 +10276,22 @@
       "Seated Leg Extension Version 2",
       "Machine Seated Leg Extension Version 2",
       "Leverage Seated Leg Extension Version 2",
-      "Lever Seated Leg Extension"
+      "Lever Seated Leg Extension",
+      "Lever leg extension",
+      "Leg Extension Machine",
+      "Machine Leg Extension",
+      "Quad Extension"
     ],
     "searchAliasPT": [
       "Sentado perna extensão versão 2",
       "Perna extensão versão 2 com alavanca",
-      "Sentado perna extensão versão 2 com máquina"
+      "Sentado perna extensão versão 2 com máquina",
+      "Cadeira extensora",
+      "Extensora",
+      "Mesa extensora"
     ],
-    "imageFileId": "b2b7c47f-4c59-40c2-8706-cf6afa74e74f"
+    "imageFileId": "b2b7c47f-4c59-40c2-8706-cf6afa74e74f",
+    "legacyImageId": 2
   },
   {
     "id": "933a8491-8c92-4789-9f35-b7c5d876ec48",
@@ -10753,14 +10311,21 @@
     "searchAlias": [
       "Seated Leg Press",
       "Machine Seated Leg Press",
-      "Leverage Seated Leg Press"
+      "Leverage Seated Leg Press",
+      "Horizontal leg press",
+      "Horizontal Leg Press Machine",
+      "Leg Press Horizontal"
     ],
     "searchAliasPT": [
       "Sentado leg press",
       "Leg press com alavanca",
-      "Sentado leg press com máquina"
+      "Sentado leg press com máquina",
+      "Leg horizontal",
+      "Leg press horizontal",
+      "Prensa de pernas horizontal"
     ],
-    "imageFileId": "5d08a61f-46a0-4328-b831-8166069d4adb"
+    "imageFileId": "d33bb71d-56c4-49f5-88a1-b5411e2dd2c6",
+    "legacyImageId": 53
   },
   {
     "id": "bc3be58d-b3c5-4ec1-a0a8-9d44deb0d16d",
@@ -12002,12 +11567,17 @@
       }
     ],
     "searchAlias": [
-      "Leg Squat Pistol"
+      "Leg Squat Pistol",
+      "Pistol squat",
+      "Single Leg Squat"
     ],
     "searchAliasPT": [
-      "Perna agachamento pistol"
+      "Perna agachamento pistol",
+      "Agachamento pistol",
+      "Agachamento unilateral pistol"
     ],
-    "imageFileId": "61e26fba-6cb2-4224-af3d-e27166a4303c"
+    "imageFileId": "696dc9b4-6116-4ec9-9c5e-8189d4e28b56",
+    "legacyImageId": null
   },
   {
     "id": "37cd7139-9e91-41c1-bfc5-8ca2c789093c",
@@ -12186,14 +11756,23 @@
     "searchAlias": [
       "45 Degrees Leg Press",
       "Sled 45 Leg Press",
-      "45 Leg Press"
+      "45 Leg Press",
+      "Sled 45 degrees",
+      "45 Degree Leg Press",
+      "Leg Press",
+      "Sled Leg Press"
     ],
     "searchAliasPT": [
       "45 graus leg press",
       "45 leg press com trenó",
-      "45 leg press"
+      "45 leg press",
+      "Leg press 45 graus",
+      "Leg press 45",
+      "Prensa de pernas 45 graus",
+      "Agachamento no leg press"
     ],
-    "imageFileId": "36939288-e8a9-4665-a95f-a7d6b15dd0b1"
+    "imageFileId": "dd0c9287-ae6e-40c0-ac8c-a241eb099f37",
+    "legacyImageId": 1
   },
   {
     "id": "98275e26-ee4b-4c33-841e-89216d61f164",
@@ -12234,12 +11813,18 @@
       }
     ],
     "searchAlias": [
-      "Hack Squat"
+      "Hack Squat",
+      "Machine Hack Squat",
+      "Hack Squat Machine"
     ],
     "searchAliasPT": [
-      "Hack agachamento"
+      "Hack agachamento",
+      "Agachamento na máquina hack",
+      "Hack squat",
+      "Agachamento hack"
     ],
-    "imageFileId": "99e8c84f-de40-4705-921e-8245c7303cbc"
+    "imageFileId": "1ebfebcb-c0b8-4fc2-8f15-618e138498fc",
+    "legacyImageId": 72
   },
   {
     "id": "d488c265-a909-494c-85ae-2e976763814b",
@@ -12565,15 +12150,21 @@
     "searchAlias": [
       "Squats",
       "Barbell Full Squat",
-      "Full Squat"
+      "Full Squat",
+      "Barbell back squat",
+      "Back Squat",
+      "Barbell Squat"
     ],
     "searchAliasPT": [
       "Agachamentos",
       "Completo agachamento com barra",
       "Completo agachamento",
-      "Agachamento com barra"
+      "Agachamento com barra",
+      "Agachamento livre",
+      "Agachamento livre com barra"
     ],
-    "imageFileId": "0b902acf-377a-48c9-a0df-af07c0fe24e8"
+    "imageFileId": "0b902acf-377a-48c9-a0df-af07c0fe24e8",
+    "legacyImageId": 52
   },
   {
     "id": "0e93ef46-a67b-4dc4-8c71-218f13927364",
@@ -13171,10 +12762,14 @@
       }
     ],
     "searchAlias": [
-      "Frog Pump"
+      "Frog Pump",
+      "Dumbbell Frog Hip Thrust",
+      "Frog Hip Thrust"
     ],
     "searchAliasPT": [
-      "Frog pump"
+      "Frog pump",
+      "Frog elevação de quadril com halteres",
+      "Frog elevação de quadril"
     ],
     "imageFileId": "58bc3a5a-ade1-4cba-a2bf-ff0cc0bba509"
   },
